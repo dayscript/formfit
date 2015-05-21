@@ -99,9 +99,7 @@ $content['field_product']['#label_display'] = 'hidden';
       <?php print t('Price') . render($content['product:commerce_price']);?>
     </span>
     <span class="color-product">
-      <?php
-      dpm($content['product:field_color']);
-        foreach($content['product:field_color'] as $key => $value) {
+      <?php foreach($content['product:field_color'] as $key => $value) {
          if(is_numeric($key)){
           print '<span style="background-color:' . $value['field_color_taxonomy']['#items'][0]['rgb'] . ';"></span>';
          }

@@ -76,9 +76,12 @@
 @import "../../zurb_foundation/scss/foundation/components/type";
 @import "../../zurb_foundation/scss/foundation/components/offcanvas";
 @import "../../zurb_foundation/scss/foundation/components/visibility";
+@import "../fonts/foundation-icons/foundation-icons.css";
+
+@import "theme/_menu_global";
 
 // Comment out this import if you don't want to use Bourbon, a replacement for Compass mixins.
-@import "bourbon";
+//@import "bourbon";
 
 // Import our mixins early so they can be used by other partials.
 // Optional.
@@ -90,7 +93,7 @@
 // @import "base/common";
 
 // Fix for some Drupal CSS quirks (Drupalisms).
-@import "base/drupal";
+@import "base/_drupal";
 
 // Styling for elements.
 // Optional.

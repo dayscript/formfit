@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="large-3 small-6 columns">
+  <div class="item">
     <?php print ($fields['field_image']->content);?>
     <div class="panel">
       <h5 class="title"><?php print($fields['title']->content);?></h5>

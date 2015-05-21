@@ -6,4 +6,25 @@ function formfit_block_info() {
   $blocks = array();
   return $blocks;
 }
+
+/**
+ * Implements block_view_alter
+ */
+function formfit_block_view_alter(&$data, $block) {
+  if ($block->module == 'commerce_cart' && $block->delta == 'cart') {
+    global $user;
+    if ($order = commerce_cart_order_load($user->uid)) {
+      // Count the number of product line items on the order.
+      $wrapper = entity_metadata_wrapper('commerce_order', $order);
+      $quantity = commerce_line_items_quantity($wrapper->commerce_line_items, commerce_product_line_item_types());
+
+      // If there are more than 0 product line items on the order...
+      if ($quantity > 0) {
+        // Use the dynamic menu item title.
+        $data['subject'] = $quantity;
+      }
+    }
+
+  }
+}
 ?>

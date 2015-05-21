@@ -26,7 +26,7 @@
     print $q;
   ?>
 <?php endif; ?>
-<div class="large-4 small-12 columns">
+<div class="large-3 small-12 columns">
   <?php foreach ($widgets as $id => $widget): ?>
       <div id="<?php print $widget->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
         <?php if (!empty($widget->label)): ?>
