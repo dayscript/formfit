@@ -17,3 +17,12 @@ function formfit_foundation_preprocess_page(&$variables) {
  */
 function formfit_foundation_preprocess_node(&$variables) {
 }
+
+/**
+ * Implements form_alter
+ */
+function formfit_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id = 'search_block_form') {
+    $form['actions']['submit']['#attributes']['class'][] = 'fi-magnifying-glass large';
+  }
+}

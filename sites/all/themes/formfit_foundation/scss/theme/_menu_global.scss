@@ -20,6 +20,10 @@
       a{
         color: #bfb6b8;
         font-family: 'ubunturegular';
+        font-size: 11px;
+        :hover{
+          color:#e74c3c;
+        }
       }
     }
   }
@@ -31,8 +35,53 @@
       a{
           color: #bfb6b8;
           font-family: 'ubunturegular';
-          font-size: 12px;
+          font-size: 11px;
+        :hover{
+          color:#e74c3c;
+        }
        }
     }
   }
 }
+.l-header-region{
+  margin-top:12px;
+  /*styles form*/
+  .form-item.form-type-textfield.form-item-search-block-form {
+    margin: 0;
+  }
+  /*styles form*/
+  /** form search */
+  .form-item-search-block-form{
+    input#edit-search-block-form--2 {
+      border-bottom: 1px solid #E7E7E7;
+      border-left: 1px solid #E7E7E7;
+      border-top: 1px solid #E7E7E7;
+      border-right: 0px;
+      border-radius: 7px;
+    }
+  }
+  button#edit-submit{
+      border-bottom: 1px solid #E7E7E7;
+      border-left: 0;
+      border-top: 1px solid #E7E7E7;
+      border-right: 1px solid #E7E7E7;
+      border-radius: 7px;
+      color: #a5a5a5;
+      background-color: #fff;
+      border-color: #e7e7e7 -moz-use-text-color #e7e7e7 #e7e7e7;
+      left: -7px;
+  }
+  /** form search */
+  /* car menu */
+  .car-menu{
+    background: #e74c3c none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    height: 35px;
+    padding: 5px 2px 2px;
+    text-align: center;
+    width: 32px;
+  }
+  /* car menu */
+}
+

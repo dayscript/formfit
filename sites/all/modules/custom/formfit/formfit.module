@@ -23,6 +23,10 @@ function formfit_block_view_alter(&$data, $block) {
         // Use the dynamic menu item title.
         $data['subject'] = $quantity;
       }
+      if($quantity == 0){
+        // Use the dynamic menu item title.
+        $data['subject'] = 0;
+      }
     }
 
   }
