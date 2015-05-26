@@ -1,0 +1,31 @@
+.block-views-galler-block{
+  .large-8{
+    .title-slide-home{
+      position: absolute;
+      top: 286px;
+      left: 163px;
+      a{
+        color:#f6f8fa;
+        font-family: 'SegoePrint';
+        font-size: 45px;
+      }
+    }
+  }
+  .large-4{
+    .title-slide-home{
+      position: absolute;
+      top: 105px;
+      left: 30px;
+      a{
+        color:#f6f8fa;
+        font-family: 'SegoePrint';
+        font-size: 36px;
+      }
+    }
+  }
+  .views-row-last{
+    .large-4{
+      padding-top:24px;
+    }
+  }
+}

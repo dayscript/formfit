@@ -23,8 +23,9 @@
           color: #bfb6b8;
           font-family: 'ubunturegular';
           font-size: 14px;
-          float: right;
-          padding-left: 15px;
+          float: left;
+          padding-left: 12px;
+          padding-top:10px;
         :hover{
           color:#e74c3c;
         }
@@ -32,6 +33,11 @@
        :hover{
           color:#e74c3c;
         }
+    }
+    .first{
+      a{
+        padding-left: 255px;
+      }
     }
   }
 }
@@ -73,6 +79,7 @@
     padding: 5px 2px 2px;
     text-align: center;
     width: 32px;
+    padding-top:10px;
     ul#car-sale {
       .view-commerce-cart-block{
         width: 100%;
