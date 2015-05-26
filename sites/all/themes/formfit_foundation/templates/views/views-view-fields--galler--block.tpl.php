@@ -3,11 +3,13 @@
     <div class="large-8 columns">
       <?php print render($fields['field_image']->content);?>
       <span><?php print render($fields['name']->content);?></span>
+      <span><?php print render($fields['tid']->content);?></span>
     </div>
   <?php else: ?>
     <div class="large-4 columns">
       <?php print render($fields['field_image']->content);?>
       <span><?php print render($fields['name']->content);?></span>
+      <span><?php print render($fields['tid']->content);?></span>
     </div>
   <?php endif ?>
 </div>

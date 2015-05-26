@@ -10,6 +10,16 @@
         font-size: 45px;
       }
     }
+    .view-more-slide{
+      position: absolute;
+      top: 349px;
+      left: 320px;
+      a{
+        color:#f6f8fa;
+        font-family: 'OpenSans';
+        font-size: 17px;
+      }
+    }
   }
   .large-4{
     .title-slide-home{
@@ -20,6 +30,16 @@
         color:#f6f8fa;
         font-family: 'SegoePrint';
         font-size: 36px;
+      }
+    }
+    .view-more-slide{
+      position: absolute;
+      top: 150px;
+      left: 112px;
+      a{
+        color:#f6f8fa;
+        font-family: 'OpenSans';
+        font-size: 17px;
       }
     }
   }

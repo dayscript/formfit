@@ -5,4 +5,36 @@
   .button-group{
    display:none;
   }
+  #quicktabs-catalogo_home_tabs{
+    .quicktabs-style-nostyle{
+      a{
+        color: #999999;
+        font-family: OpenSans;
+        font-size: 17px;
+      }
+    }
+  }
+  .view-catalogo-home{
+    .views-row.large-3{
+      border: 2px solid #f6f6f6;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      .views-field-title{
+        a{
+          font-family: 'OpenSans';
+          font-size: 17px;
+          color: black;
+        }
+      }
+    }
+  }
+  .panel.callout{
+    border-style: hidden;
+    border-width: 1px;
+    border-color: #b6edff;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    background: white;
+    color: #333333;
+  }
 }
