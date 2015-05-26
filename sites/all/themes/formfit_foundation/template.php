@@ -26,3 +26,22 @@ function formfit_form_alter(&$form, &$form_state, $form_id) {
     $form['actions']['submit']['#attributes']['class'][] = 'fi-magnifying-glass large';
   }
 }
+/**
+ * [formfit_foundation_process_field description]
+ * @param  [type] &$vars [description]
+ * @return [type]        [description]
+ */
+function formfit_foundation_process_field(&$vars) {
+  $element = $vars['element'];
+  // Field type image
+  if ($element['#field_type'] == 'image') {
+
+    // Reduce number of images in teaser view mode to single image
+    if ($element['#view_mode'] == 'line_item') {
+      $item = reset($vars['items']);
+      $vars['items'] = array($item);
+    }
+
+  }
+
+}

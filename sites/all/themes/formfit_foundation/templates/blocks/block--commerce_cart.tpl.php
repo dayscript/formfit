@@ -1,6 +1,7 @@
 <section class="large-1 columns">
-  <a class="button car-menu" data-dropdown="car-sale" aria-controls="car-sale" aria-expanded="false"><i class="fi-shopping-cart"></i> <?php print render($block->subject);?></a>
-  <ul id="car-sale" class="medium f-dropdown" data-dropdown-content tabindex="-1" aria-hidden="true" aria-autoclose="false" tabindex="-1">
-    <?php print render($content);?>
-  </ul>
+  <a aria-expanded="false" aria-controls="car-sale" data-dropdown="car-sale" class="button car-menu"><i class="fi-shopping-cart"></i> <?php print render($block->subject);?></a>
 </section>
+<ul aria-autoclose="false" aria-hidden="true" tabindex="-1" data-dropdown-content="" class="medium f-dropdown" id="car-sale" style="position: absolute; left: -99999px; top: 48px;">
+    <h5><?php print t('Recently added items (s)');?></h5>
+    <?php print render($content);?>
+</ul>

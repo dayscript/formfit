@@ -1,17 +1,4 @@
 // Drupal comes with CSS quirks (Drupalisms). Unravel or override them here.
-//fonts
-@font-face {
-    font-family: 'ubunturegular';
-    src: url('../../fonts/ubuntu-r-webfont.eot');
-    src: url('../../fonts/ubuntu-r-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/ubuntu-r-webfont.woff2') format('woff2'),
-         url('../../fonts/ubuntu-r-webfont.woff') format('woff'),
-         url('../../fonts/ubuntu-r-webfont.ttf') format('truetype'),
-         url('../../fonts/ubuntu-r-webfont.svg#ubunturegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 //menu top
 .user-menu{
   ul{
@@ -35,11 +22,16 @@
       a{
           color: #bfb6b8;
           font-family: 'ubunturegular';
-          font-size: 11px;
+          font-size: 14px;
+          float: right;
+          padding-left: 15px;
         :hover{
           color:#e74c3c;
         }
        }
+       :hover{
+          color:#e74c3c;
+        }
     }
   }
 }
@@ -65,7 +57,7 @@
       border-left: 0;
       border-top: 1px solid #E7E7E7;
       border-right: 1px solid #E7E7E7;
-      border-radius: 7px;
+      border-radius: 8px;
       color: #a5a5a5;
       background-color: #fff;
       border-color: #e7e7e7 -moz-use-text-color #e7e7e7 #e7e7e7;
@@ -81,6 +73,11 @@
     padding: 5px 2px 2px;
     text-align: center;
     width: 32px;
+    ul#car-sale {
+      .view-commerce-cart-block{
+        width: 100%;
+      }
+    }
   }
   /* car menu */
 }
