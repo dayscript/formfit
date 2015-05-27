@@ -5,20 +5,55 @@
   .button-group{
    display:none;
   }
-  #quicktabs-catalogo_home_tabs{
+  #quicktabs-home_catalogo{
     .quicktabs-style-nostyle{
+      border-bottom: 1px solid #dddddd;
+      li.active{
+        border-bottom:2px solid #333333;
+        a.active{
+          color:#333333;
+          font-family: OpenSans;
+          font-size: 17px;
+        }
+      }
+      .views-field-title{
+        a{
+          font-family: OpenSans;
+          font-size: 17px;
+          color:#333333;
+        }
+      }
       a{
         color: #999999;
         font-family: OpenSans;
         font-size: 17px;
       }
     }
+    .commerce-add-to-cart{
+        button{
+          width: 20%;
+          position: absolute;
+          float: left;
+          left: -18px;
+          background-color: white;
+          color: #f26667;
+          top:20px;
+        }
+      }
+    .fivestar-average-stars{
+        top: 334px;
+        position: absolute;
+    }
+    div.fivestar-widget-static .star span.on{
+      background: url(/sites/all/modules/contrib/fivestar/widgets/default/star.gif) no-repeat 0 -16px;
+    }
   }
   .view-catalogo-home{
     .views-row.large-3{
       border: 2px solid #f6f6f6;
       padding-top: 13px;
-      padding-bottom: 13px;
+      padding-bottom: 58px;
+      border-bottom: 0;
       .views-field-title{
         a{
           font-family: 'OpenSans';
