@@ -4,6 +4,35 @@
       border-top:1px #dddddd solid !important;
     }
   }
+ .commerce-add-to-cart{
+      button{
+        width: 20%;
+        position: absolute;
+        float: left;
+        left: -18px;
+        background-color: white;
+        color: #f26667;
+        top:20px;
+      }
+    }
+  .fivestar-average-stars{
+      .fivestar-summary-average-count{
+        display:none;
+      }
+  }
+  div.fivestar-widget-static .star span.on{
+    background: url(/sites/all/modules/contrib/fivestar/widgets/default/star.gif) no-repeat 0 -16px;
+  }
+  .large-5{
+    .field-content{
+      top: 10px;
+      position: absolute;
+      color: #f26667;
+      font-family: 'OpenSans-Semibold';
+      font-size: 21px;
+      right: 0px;
+    }
+  }
 }
 
 .views-widget-filter-field_category_tid, .views-widget-filter-field_type_tid,
