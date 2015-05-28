@@ -1,0 +1,41 @@
+.view-display-id-catalogo{
+  .view-filters{
+    .views-widget{
+      border-top:1px #dddddd solid !important;
+    }
+  }
+}
+
+.views-widget-filter-field_category_tid, .views-widget-filter-field_type_tid,
+.views-widget-filter-field_color_tid, .views-widget-filter-field_size_tid{
+  label{
+    font-family: 'ubunturegular';
+    font-size: 21px;
+    color: #666666;
+    border-bottom: 2px #666666 solid;
+    text-align: center;
+    left:15px;
+    width:50%;
+    padding-bottom: 4px;
+  }
+  .form-item-field-category-tid{
+    .form-type-bef-link{
+      a{
+        font-family: 'OpenSans Regular';
+        color: #7f7f7f;
+        font-size: 1.05em;
+      }
+    }
+  }
+  .form-item-field-type-tid, .form-item-field-color-tid, .form-item-field-size-tid{
+    label{
+      font-family: 'OpenSans Regular';
+      color: #7f7f7f;
+      font-size: 17px;
+      border-bottom: 0;
+      padding:0px;
+      text-align: left;
+    }
+  }
+
+}

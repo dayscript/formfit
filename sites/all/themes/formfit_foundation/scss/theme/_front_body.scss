@@ -41,11 +41,22 @@
         }
       }
     .fivestar-average-stars{
-        top: 334px;
-        position: absolute;
+        .fivestar-summary-average-count{
+          display:none;
+        }
     }
     div.fivestar-widget-static .star span.on{
       background: url(/sites/all/modules/contrib/fivestar/widgets/default/star.gif) no-repeat 0 -16px;
+    }
+    .large-5{
+      .field-content{
+        top: 10px;
+        position: absolute;
+        color: #f26667;
+        font-family: 'OpenSans-Semibold';
+        font-size: 21px;
+        right: 0px;
+      }
     }
   }
   .view-catalogo-home{

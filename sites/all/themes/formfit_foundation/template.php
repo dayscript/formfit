@@ -26,6 +26,10 @@ function formfit_form_alter(&$form, &$form_state, $form_id) {
     case 'search_block_form':
       $form['actions']['submit']['#attributes']['class'][] = 'fi-magnifying-glass large';
     break;
+    case 'webform_client_form_78':
+      $form['actions']['submit']['#attributes']['class'][] = 'fi-play medium';
+      $form['actions']['submit']['#value'] = '';
+    break;
     default:
       # code...
     break;

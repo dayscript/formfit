@@ -5,7 +5,8 @@
     <span class="large-2 columns"><?php print $fields['add_to_cart_form']->content;?></span>
   </div>
   <span clas="large-12 columns">
-    <?php print $fields['field_votes']->content;?>
+    <span class="large-7 columns"><?php print $fields['field_votes']->content;?></span>
+    <span class="large-5 columns"><?php print $fields['commerce_price']->content ?></span>
   </span>
 </div>
 

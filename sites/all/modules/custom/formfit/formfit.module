@@ -4,7 +4,50 @@
 **/
 function formfit_block_info() {
   $blocks = array();
+  $blocks['custom_footer'] = array(
+    'info'  => t('footer formfit'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
+    );
   return $blocks;
+}
+
+/**
+ * Implementation of hook_block_view().
+ */
+/**
+ * Implementation of hook_block_view().
+ * @param  string $delta [description]
+ * @return [type]        [description]
+ */
+function formfit_block_view($delta = '') {
+    $block = array();
+    switch ($delta) {
+      case'custom_footer':
+        $block['title'] = '<none>';
+        $information    = menu_tree('menu-informacion');
+        $client_services= menu_tree('menu-servicio-al-cliente');
+        $news_letter    = module_invoke('webform','block_view','client-block-78');
+        $block['content'] =array(
+                  '#theme' => 'custom_footer',
+                  '#items' => array($information, $client_services, $news_letter),
+                  );
+      break;
+    }
+  return $block;
+}
+
+/**
+ * Implementation of hook_theme().
+*/
+function formfit_theme(){
+  return array(
+  'custom_footer' => array(
+            'template' => 'theme/custom_footer',
+            'variables' => array(
+                'items' => array(),
+          )
+        ),
+    );
 }
 
 /**

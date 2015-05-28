@@ -1,0 +1,64 @@
+.l-footer{
+  background: #222222;
+  max-width: 100%;
+  margin-bottom: 0;
+  .footer{
+    .large-12{
+        margin-left:10%;
+        margin-right:10%;
+        h3{
+            font-family: ubunturegular;
+            color: white;
+            text-transform: uppercase;
+            font-size:21px;
+        }
+        ul{
+          list-style: none;
+          li{
+            a{
+              color: #cccccc;
+              font-family: 'OpenSans regular';
+              font-size: 16px;
+            }
+          }
+        }
+      .large-3{
+        color:#cccccc;
+        input{
+          border-radius: 9px;
+          width: 68%;
+          float:left;
+        }
+        button{
+          background-color: #e74c3c;
+          width: 10px;
+          border-radius: 10px;
+          height: 38px;
+          color: white;
+          margin-left: 3px;
+        }
+        .fi-play:before{
+          position: absolute;
+          top: 12px;
+          left: 28px;
+        }
+      }
+      .large-2{
+        font-family: 'OpenSans regular';
+        font-size: 13px;
+        color:#626262;
+        a{
+          color:#808080;
+        }
+        span{
+          a{
+            font-size: 20px;
+            float: right;
+            padding-left: 6px;
+            color:#626262;
+          }
+        }
+      }
+    }
+  }
+}
