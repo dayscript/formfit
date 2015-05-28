@@ -9,16 +9,24 @@
         width: 20%;
         position: absolute;
         float: left;
-        left: -18px;
+        right: 0px;
         background-color: white;
         color: #f26667;
-        top:20px;
+        top:0px;
       }
     }
   .fivestar-average-stars{
       .fivestar-summary-average-count{
         display:none;
       }
+  }
+  .content-car-title{
+    a{
+      color: #9f9f9f;
+      font-family: 'OpenSans Regular';
+      font-size: 17px;
+      right: 0px;
+    }
   }
   div.fivestar-widget-static .star span.on{
     background: url(/sites/all/modules/contrib/fivestar/widgets/default/star.gif) no-repeat 0 -16px;
