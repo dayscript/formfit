@@ -1,0 +1,56 @@
+.node-product-display.view-mode-full{
+  .title{
+    font-family: 'ubunturegular';
+    font-size: 21px;
+    color: #aeaeae;
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+  }
+  .image-product{
+    .cloud-zoom-container{
+      #wrap{
+          border: 1px solid #aeaeae;
+          padding: 15px;
+          border-bottom: 0
+      }
+    }
+    .cloud-zoom-gallery-thumbs{
+      width: 100%;
+      padding-bottom: 10px;
+      border: 1px solid #aeaeae;
+      border-top: 0;
+      img{
+        margin-left: 15px;
+      }
+    }
+  }
+  .tabs{
+    border-bottom: 1px solid #aeaeae;
+    .tab-title{
+      a{
+        font-family: 'OpenSans Regular';
+        font-size: 17px;
+        color: #aeaeae;
+        background-color: white;
+      }
+    }
+    .active{
+      a{
+        color:black;
+        border-bottom: 2px solid;
+      }
+    }
+  }
+  .tabs-content{
+    p{
+      font-family: OpenSans Regular;
+      color: #aeaeae;
+      font-size: 16px;
+    }
+  }
+  .rs-product{
+    a{
+
+    }
+  }
+}
