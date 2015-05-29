@@ -1,3 +1,4 @@
+//content
 .view-display-id-catalogo{
   .view-filters{
     .views-widget{
@@ -20,14 +21,6 @@
         display:none;
       }
   }
-  .content-car-title{
-    a{
-      color: #9f9f9f;
-      font-family: 'OpenSans Regular';
-      font-size: 17px;
-      right: 0px;
-    }
-  }
   div.fivestar-widget-static .star span.on{
     background: url(/sites/all/modules/contrib/fivestar/widgets/default/star.gif) no-repeat 0 -16px;
   }
@@ -41,8 +34,28 @@
       right: 0px;
     }
   }
+  .view-content{
+    .large-3{
+      border: 2px solid #f6f6f6;
+      padding-top: 13px;
+      border-bottom: 0;
+      margin-bottom:15px;
+      .content-car-title{
+        a{
+          color: #9f9f9f;
+          font-family: 'OpenSans Regular';
+          font-size: 17px;
+          right: 0px;
+        }
+      }
+    }
+    .large-12{
+      border-top:1px solid #f6f6f6;
+    }
+  }
 }
-
+//end content
+//Filtros
 .views-widget-filter-field_category_tid, .views-widget-filter-field_type_tid,
 .views-widget-filter-field_color_tid, .views-widget-filter-field_size_tid{
   label{
