@@ -55,6 +55,8 @@
   <!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5568a8a97b58053b" async="async"></script>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div class="skip-link">

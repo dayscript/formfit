@@ -68,7 +68,7 @@
       </div>
     <?php endif; ?>
 </div>
-<div class="large-8 columns">
+<div class="large-9 columns">
     <?php if (!empty($sort_by)): ?>
       <div class="views-exposed-widget views-widget-sort-by large-4 small-6 columns">
         <?php print $sort_by; ?>

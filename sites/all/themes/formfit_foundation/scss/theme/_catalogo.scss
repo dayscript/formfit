@@ -47,6 +47,9 @@
           font-size: 17px;
           right: 0px;
         }
+        .large-10{
+          padding-top:15px;
+        }
       }
     }
     .large-12{
@@ -87,5 +90,34 @@
       text-align: left;
     }
   }
-
+}
+.view-filters{
+  .large-9{
+    .views-widget-sort-by{
+      .form-item-sort-by{
+        label{
+          float:left;
+          padding-top: 7px;
+          padding-right: 20px;
+          font-family: 'OpenSans regular';
+          font-size: 14px;
+        }
+        .form-select{
+          width: 100px;
+          font-family: 'OpenSans Regular';
+        }
+      }
+    }
+    .views-widget-sort-order{
+      .form-item-sort-order{
+        label{
+          display:none;
+        }
+        .form-select{
+          width: 100px;
+          font-family: 'OpenSans Regular';
+        }
+      }
+    }
+  }
 }

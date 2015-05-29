@@ -113,11 +113,14 @@ $content['field_product']['#label_display'] = 'hidden';
       <?php print render($content['field_product']);?>
     </span>
     <span class="rs-product">
-      <span class='st_facebook'></span>
-      <span class='st_email'></span>
-      <span class='st_twitter'></span>
-      <span class='st_print'></span>
-      <span class='st_googleplus'></span>
+      <div class="addthis_toolbox" addthis:url="<?php print url(NULL, array('absolute' => TRUE)) . current_path();?>"
+                  addthis:title='<?php print render($content['product:title']);?>'>
+        <a class="addthis_button_facebook addthis_button_preferred_1"></a>
+        <a class="addthis_button_email"></a>
+        <a class="addthis_button_twitter"></a>
+        <a class="addthis_button_print"></a>
+        <a class="addthis_button_compact"></a>
+      </div>
     </span>
   </div>
   <div class="large-12 columns">
