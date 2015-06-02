@@ -34,10 +34,16 @@ function formfit_form_alter(&$form, &$form_state, $form_id) {
       # code...
     break;
   }
-  if(strpos($form_id, 'commerce_cart_add_to_cart_form_') !== false){
-    $form['submit']['#attributes']['class'] = array('fi-shopping-cart');
-    $form['submit']['#value'] = '';
-
+  if(strpos($form['#action'], 'catalogo')!== false){
+    if(strpos($form_id, 'commerce_cart_add_to_cart_form_') !== false){
+      $form['submit']['#attributes']['class'] = array('fi-shopping-cart');
+      $form['submit']['#value'] = t('Add to cart');
+    }
+  }else{
+    if(strpos($form_id, 'commerce_cart_add_to_cart_form_') !== false){
+      $form['submit']['#attributes']['class'] = array('fi-shopping-cart');
+      $form['submit']['#value'] = '';
+    }
   }
 }
 /**

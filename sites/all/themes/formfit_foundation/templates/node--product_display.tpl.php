@@ -86,33 +86,35 @@ $content['field_product']['#label_display'] = 'hidden';
     </div>
   </div>
   <div class="large-5 columns">
-    <div class="content">
-      <span class="votes"><?php print render($content['product:field_votes']);?></span>
-      <span class="comment-count">
-        <?php print render($node->comment_count) . ' ' . t('Coments');?>
-      </span>
+    <div class="votes"><?php print render($content['product:field_votes']);?></div>
+    <div class="comment-count">
+      <?php print render($node->comment_count) . ' ' . t('Coments');?>
     </div>
-    <span class="summary">
+    <div class="summary">
       <?php print render($node->body['und'][0]['summary']); ?>
-    </span>
-    <span class="price-product">
-      <?php print t('Price') . render($content['product:commerce_price']);?>
-    </span>
-    <span class="color-product">
+    </div>
+    <div class="price-product">
+      <?php print render($content['product:commerce_price']);?>
+    </div>
+    <div class="color-product">
+      <?php print t('Color: ');?>
       <?php foreach($content['product:field_color'] as $key => $value) {
          if(is_numeric($key)){
           print '<span style="background-color:' . $value['field_color_taxonomy']['#items'][0]['rgb'] . ';"></span>';
          }
         }
       ?>
-    </span>
-    <span class="size">
+    </div>
+    <div class="size">
       <?php print render($content['product:field_size']);?>
-    </span>
-    <span class="add-product">
+    </div>
+    <div class="add-product">
       <?php print render($content['field_product']);?>
-    </span>
-    <span class="rs-product">
+    </div>
+    <div class="compare-product">
+      <?php print render($content['commerce_product_comparison']);?>
+    </div>
+    <div class="rs-product">
       <div class="addthis_toolbox" addthis:url="<?php print url(NULL, array('absolute' => TRUE)) . current_path();?>"
                   addthis:title='<?php print render($content['product:title']);?>'>
         <a class="addthis_button_facebook addthis_button_preferred_1"></a>
@@ -121,7 +123,7 @@ $content['field_product']['#label_display'] = 'hidden';
         <a class="addthis_button_print"></a>
         <a class="addthis_button_compact"></a>
       </div>
-    </span>
+    </div>
   </div>
   <div class="large-12 columns">
     <ul class="tabs" data-tab role="tablist">
