@@ -143,4 +143,39 @@
       }
     }
   }
+  .comment-wrapper{
+    .large-12{
+      margin-top: 50px;
+      h2{
+        span{
+          color:#ff5757;
+        }
+      }
+    }
+    .title.comment-form{
+      font-family: 'ubunturegular Medium';
+      font-size:19px;
+      color:#666666;
+      border-bottom:0;
+    }
+    .field-name-comment-body{
+      fieldset.form-wrapper{
+        display:none;
+      }
+    }
+    .comment-form{
+      button{
+        background:#ff5757;
+        color:#ffffff;
+        float:right;
+        margin-left: 15px;
+      }
+    }
+  }
+  .comments{
+    .submitted{
+      font-family: 'OpenSans-Italic';
+      font-size: 17px;
+    }
+  }
 }
