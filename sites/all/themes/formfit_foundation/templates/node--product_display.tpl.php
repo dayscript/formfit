@@ -77,74 +77,77 @@
 $content['field_product']['#label_display'] = 'hidden';
 ?>
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?>>
-  <div class="large-5 columns">
-    <span class="title">
-      <?php print $node->title;?>
-    </span>
-    <div class="image-product">
-    <?php print render ($content['product:field_image']);?>
-    </div>
-  </div>
-  <div class="large-5 columns">
-    <div class="votes"><?php print render($content['product:field_votes']);?></div>
-    <div class="comment-count">
-      <?php print render($node->comment_count) . ' ' . t('Coments');?>
-    </div>
-    <div class="summary">
-      <?php print render($node->body['und'][0]['summary']); ?>
-    </div>
-    <div class="price-product">
-      <?php print render($content['product:commerce_price']);?>
-    </div>
-    <div class="color-product">
-      <?php print t('Color: ');?>
-      <?php foreach($content['product:field_color'] as $key => $value) {
-         if(is_numeric($key)){
-          print '<span style="background-color:' . $value['field_color_taxonomy']['#items'][0]['rgb'] . ';"></span>';
-         }
-        }
-      ?>
-    </div>
-    <div class="size">
-      <?php print render($content['product:field_size']);?>
-    </div>
-    <div class="add-product">
-      <?php print render($content['field_product']);?>
-    </div>
-    <div class="compare-product">
-      <?php print render($content['commerce_product_comparison']);?>
-    </div>
-    <div class="rs-product">
-      <div class="addthis_toolbox" addthis:url="<?php print url(NULL, array('absolute' => TRUE)) . current_path();?>"
-                  addthis:title='<?php print render($content['product:title']);?>'>
-        <a class="addthis_button_facebook addthis_button_preferred_1"></a>
-        <a class="addthis_button_email"></a>
-        <a class="addthis_button_twitter"></a>
-        <a class="addthis_button_print"></a>
-        <a class="addthis_button_compact"></a>
+  <span class="title large-7 columns">
+    <?php print $node->title;?>
+  </span>
+  <hr></hr>
+  <div class="large-12 columns body-product-container">
+    <div class="large-7 columns">
+      <div class="image-product">
+      <?php print render ($content['product:field_image']);?>
       </div>
     </div>
-  </div>
-  <div class="large-12 columns">
-    <ul class="tabs" data-tab role="tablist">
-      <li class="tab-title active" role="presentational" >
-        <a href="#panel2-1" role="tab" tabindex="0" aria-selected="true" controls="panel2-1">
-          <?php print t('Description'); ?>
-        </a>
-      </li>
-      <li class="tab-title" role="presentational" >
-        <a href="#panel2-2" role="tab" tabindex="0" aria-selected="false" controls="panel2-2">
-          <?php print t('Comments');?>
-        </a>
-      </li>
-    </ul>
-    <div class="tabs-content">
-      <section role="tabpanel" aria-hidden="false" class="content active" id="panel2-1">
-        <h2><?php print render($node->body['und'][0]['value']); ?></h2>
-      </section>
-      <section role="tabpanel" aria-hidden="true" class="content" id="panel2-2">
-        <h2><?php print render($content['comments']); ?></h2>
-      </section>
+    <div class="large-5 columns">
+      <div class="votes"><?php print render($content['product:field_votes']);?></div>
+      <div class="comment-count">
+        <?php print render($node->comment_count) . ' ' . t('Coments');?>
+      </div>
+      <div class="summary">
+        <?php print render($node->body['und'][0]['summary']); ?>
+      </div>
+      <div class="price-product">
+        <?php print render($content['product:commerce_price']);?>
+      </div>
+      <div class="color-product">
+        <?php print t('Color: ');?>
+        <?php foreach($content['product:field_color'] as $key => $value) {
+           if(is_numeric($key)){
+            print '<span style="background-color:' . $value['field_color_taxonomy']['#items'][0]['rgb'] . ';"></span>';
+           }
+          }
+        ?>
+      </div>
+      <div class="size">
+        <?php print render($content['product:field_size']);?>
+      </div>
+      <div class="add-product">
+        <?php print render($content['field_product']);?>
+      </div>
+      <div class="compare-product">
+        <?php print render($content['commerce_product_comparison']);?>
+      </div>
+      <div class="rs-product">
+        <div class="addthis_toolbox" addthis:url="<?php print url(NULL, array('absolute' => TRUE)) . current_path();?>"
+                    addthis:title='<?php print render($content['product:title']);?>'>
+          <a class="addthis_button_facebook addthis_button_preferred_1"></a>
+          <a class="addthis_button_email"></a>
+          <a class="addthis_button_twitter"></a>
+          <a class="addthis_button_print"></a>
+          <a class="addthis_button_compact"></a>
+        </div>
+      </div>
+    </div>
+    <div class="large-12 columns">
+      <ul class="tabs" data-tab role="tablist">
+        <li class="tab-title active" role="presentational" >
+          <a href="#panel2-1" role="tab" tabindex="0" aria-selected="true" controls="panel2-1">
+            <?php print t('Description'); ?>
+          </a>
+        </li>
+        <li class="tab-title" role="presentational" >
+          <a href="#panel2-2" role="tab" tabindex="0" aria-selected="false" controls="panel2-2">
+            <?php print t('Comments');?>
+          </a>
+        </li>
+      </ul>
+      <div class="tabs-content">
+        <section role="tabpanel" aria-hidden="false" class="content active" id="panel2-1">
+          <h2><?php print render($node->body['und'][0]['value']); ?></h2>
+        </section>
+        <section role="tabpanel" aria-hidden="true" class="content" id="panel2-2">
+          <h2><?php print render($content['comments']); ?></h2>
+        </section>
+      </div>
     </div>
   </div>
 </article>

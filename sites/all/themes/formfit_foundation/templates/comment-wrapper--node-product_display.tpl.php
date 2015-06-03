@@ -33,7 +33,6 @@
  *
  * @see template_preprocess_comment_wrapper()
  */
-dpm($content);
 ?>
 <div id="comments" class="<?php print $classes; ?>"<?php print $attributes; ?>>
   <?php if ($content['comment_form']): ?>
@@ -45,7 +44,9 @@ dpm($content);
   <?php if ($content['comments'] && $node->type != 'forum'): ?>
     <div class="large-12">
       <?php print render($title_prefix); ?>
-      <?php foreach ($content['comments'] as $key => $value) {
+      <?php
+      $count=0;
+      foreach ($content['comments'] as $key => $value) {
         if(is_numeric($key)){
           $count = $count + 1;
         }
