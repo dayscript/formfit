@@ -64,8 +64,7 @@
       position: absolute;
       display:none
     }
-
-
+  }
   .image-hover:hover{
     .large-12.columns.none{
       display:block;
@@ -74,12 +73,15 @@
         background: #ff5757!important;
         span.fi-x.large {
           color:#fff;
+          padding-top: 3px;
+          padding-bottom: 5px;
         }
       }
       .ver{
         background: #fff!important;
         a.fi-zoom-in.large.none{
           color: #ff5757!important;
+          padding:3px;
         }
       }
     }
@@ -109,5 +111,4 @@
     background: white;
     color: #333333;
   }
-}
 }
