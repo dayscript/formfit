@@ -64,29 +64,29 @@
       position: absolute;
       display:none
     }
-  }
-  .image-hover:hover{
-    .large-12.columns.none{
-      display:block;
-      left:0px;
-      .comparar{
-        background: #ff5757!important;
-        span.fi-x.large {
-          color:#fff;
-          padding-top: 3px;
-          padding-bottom: 5px;
+    .image-hover:hover{
+      .large-12.columns.none{
+        display:block;
+        left:0px;
+        .comparar{
+          background: #ff5757!important;
+          height: 26px;
+          span.fi-x.large {
+            color:#fff;
+            padding-top: 3px;
+            padding-bottom: 5px;
+          }
         }
-      }
-      .ver{
-        background: #fff!important;
-        a.fi-zoom-in.large.none{
-          color: #ff5757!important;
-          padding:3px;
+        .ver{
+          background: #fff!important;
+          a.fi-zoom-in.large.none{
+            color: #ff5757!important;
+            padding:3px;
+          }
         }
       }
     }
   }
-
   .view-catalogo-home{
     .views-row.large-3{
       border: 2px solid #f6f6f6;
