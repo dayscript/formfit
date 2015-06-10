@@ -58,7 +58,33 @@
         right: 0px;
       }
     }
+
+    .large-12.columns.none {
+      top: 199px;
+      position: absolute;
+      display:none
+    }
+
+
+  .image-hover:hover{
+    .large-12.columns.none{
+      display:block;
+      left:0px;
+      .comparar{
+        background: #ff5757!important;
+        span.fi-x.large {
+          color:#fff;
+        }
+      }
+      .ver{
+        background: #fff!important;
+        a.fi-zoom-in.large.none{
+          color: #ff5757!important;
+        }
+      }
+    }
   }
+
   .view-catalogo-home{
     .views-row.large-3{
       border: 2px solid #f6f6f6;
@@ -83,4 +109,5 @@
     background: white;
     color: #333333;
   }
+}
 }
