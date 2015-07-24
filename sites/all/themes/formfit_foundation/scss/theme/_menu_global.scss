@@ -9,7 +9,7 @@
         font-family: 'ubunturegular';
         font-size: 11px;
         :hover{
-          color:#e74c3c;
+          color:#E94C3D;
         }
       }
     }
@@ -28,16 +28,16 @@
           padding-left: 25px;
           padding-top:10px;
         :hover{
-          color:#e74c3c;
+          color:#E94C3D;
         }
        }
        :hover{
-          color:#e74c3c;
+          color:#E94C3D;
         }
     }
     .first{
       a{
-        padding-left: 300px;
+        padding-left: 333px;
       }
     }
   }
@@ -123,4 +123,8 @@ section.block.block-system.large-9.columns.menu-principal.contextual-links-regio
 
 ul.menu {
   margin: 0;
+}
+
+.page{
+  background-color:#F6F6F6;
 }

@@ -12,6 +12,21 @@ function formfit_block_info() {
 }
 
 /**
+ * Implementation of hook_menu().
+ */
+function formfit_menu(){
+  $items['compare'] = array(
+    'title'            => t('Compare'),
+    'description'      => t('Form config video home'),
+    'page callback'    => '_formfit_compare',
+    'access arguments' => array('access content'),
+    'file'             => 'inc/formfit.pages.inc',
+    'type'             => MENU_NORMAL_ITEM,
+    );
+    return $items;
+}
+
+/**
  * Implementation of hook_block_view().
  */
 /**
@@ -43,6 +58,12 @@ function formfit_theme(){
   return array(
   'custom_footer' => array(
             'template' => 'theme/custom_footer',
+            'variables' => array(
+                'items' => array(),
+          )
+        ),
+  'formfit_compare'=> array(
+            'template' => 'theme/formfit_compare',
             'variables' => array(
                 'items' => array(),
           )

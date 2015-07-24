@@ -24,7 +24,6 @@
  * - http://smacss.com/
  */
 //fonts
-
 @font-face {
     font-family: 'ubunturegular';
     src: url('../fonts/ubuntu-r/ubuntu-r-webfont.eot');
@@ -217,7 +216,6 @@
 
 // Fix for some Drupal CSS quirks (Drupalisms).
 @import "base/_drupal";
-
 // Styling for elements.
 // Optional.
 // @import "base/elements";
