@@ -159,7 +159,15 @@
     </section>
     <!--/.triptych -->
   <?php endif; ?>
-
+  <?php if (!empty($page['footer_onecolumn'])): ?>
+    <!--.footer-columns -->
+    <section class="row l-footer-columns">
+     <div class="footer-first medium-9 columns">
+          <?php print render($page['footer_onecolumn']); ?>
+      </div>
+    </section>
+    <!--/.footer-columns-->
+  <?php endif; ?>
   <?php if (!empty($page['footer_firstcolumn']) || !empty($page['footer_secondcolumn']) || !empty($page['footer_thirdcolumn']) || !empty($page['footer_fourthcolumn'])): ?>
     <!--.footer-columns -->
     <section class="row l-footer-columns">

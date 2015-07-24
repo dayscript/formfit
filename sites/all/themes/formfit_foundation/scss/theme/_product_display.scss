@@ -3,37 +3,56 @@
     padding-left: 0;
     padding-right: 0;
     left: 20%;
-  }
-  .body-product-container{
-    border:1px solid #e4e4e4;
-    margin-bottom: 15px;
-  }
-  .node-product-display.view-mode-full{
+    article.node-product-display.view-mode-full{
+      display:inline-block;
+
     .title{
       font-family: 'ubunturegular';
       font-size: 21px;
       color: #aeaeae;
-      border-bottom: 1px solid #e4e4e4;
+      margin-bottom: 20px;
+      &:after { content: ""; position: absolute; bottom: -3px; left: -3px; }
+      //&:before { top: -3px; width: 3px; background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#000), to(transparent)); background-image: -webkit-linear-gradient(transparent, #000); background-image: -moz-linear-gradient(transparent, #000); background-image: -o-linear-gradient(transparent, #000); }*/
+      &:after {
+        right: -3px;
+        height: 2px;
+            background: linear-gradient(to right, #E5E5E5 2%, black 3%, black 19%, #E5E5E5 15%, #E5E5E5 10%);
+        /*background-image: -webkit-gradient(linear, 16% 67%, 17% 11%, from(#000), to(transparent));
+        background-image: -moz-linear-gradient(left, #000, transparent);
+        background-image: -o-linear-gradient(left, #000, transparent);*/
+      }
     }
-    hr{
-      color: black;
-      background: black;
-      display: block;
-      width: 37%;
-      height: 2px;
-      margin-left: 14px;
-      }
-    .image-product{
-      .cloud-zoom-container{
-        #wrap{
-            padding: 15px;
-        }
-      }
-      .cloud-zoom-gallery-thumbs{
-        width: 100%;
-        padding-bottom: 10px;
-        img{
-          margin-left: 15px;
+    .body-product-container{
+      padding: 0;
+      .large-7.columns{
+        .image-product{
+          display:inline-block;
+          width:100%;
+          .cloud-zoom-container{
+            display:inline-block;
+            width: 100%;
+            #wrap{
+              display: inline-block;
+              padding-bottom: 15px;
+              padding-top: 15px;
+              width: 100%;
+            }
+          }
+          .cloud-zoom-gallery-thumbs{
+            width: 100%;
+            padding-bottom: 10px;
+            a{
+              img{
+                margin-left: 5px;
+              }
+              &:nth-child(1){
+                img{
+                  margin-left:0px;
+                }
+              }
+            }
+
+          }
         }
       }
     }
@@ -90,6 +109,7 @@
     .price-product{
       width: 100%;
       font-family:'Open Sans Semibold';
+      display:inline-block;
       font-size:32px;
       color:#ff5757;
       .field-label{
@@ -219,6 +239,11 @@
         }
       }
     }
+    }
+  }
+  .body-product-container{
+    border:1px solid #e4e4e4;
+    margin-bottom: 15px;
   }
   /**
    * Menu left

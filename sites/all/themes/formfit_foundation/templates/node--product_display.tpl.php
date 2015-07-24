@@ -80,7 +80,6 @@ $content['field_product']['#label_display'] = 'hidden';
   <span class="title large-7 columns">
     <?php print $node->title;?>
   </span>
-  <hr></hr>
   <div class="large-12 columns body-product-container">
     <div class="large-7 columns">
       <div class="image-product">
