@@ -1,0 +1,25 @@
+.category{
+  margin-bottom:15px;
+  .block-title{
+    border-bottom: 2px solid #666666;
+    color: #666666;
+    font-family: "ubunturegular";
+    font-size: 21px;
+    left: 15px;
+    padding-bottom: 4px;
+    text-align: left;
+    width: 46%;
+    margin-bottom: 0;
+  }
+  ul.menu{
+    border-top: 1px solid #E5E5E5;
+    li{
+      list-style:none;
+      a{
+        color: #7f7f7f;
+        font-size: 1.05em;
+        font-family: "ubunturegular";
+      }
+    }
+  }
+}
