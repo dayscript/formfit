@@ -13,5 +13,4 @@
       <span class="large-5 columns"><?php print $fields['commerce_price']->content ?></span>
     <?php endif?>
   </span>
-
 </div>
