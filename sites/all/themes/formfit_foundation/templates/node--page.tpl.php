@@ -109,5 +109,14 @@
 
   <?php print render($content['links']); ?>
   <?php print render($content['comments']); ?>
-
+  <div class="rs-page">
+    <div class="addthis_toolbox addthis_default_style addthis_16x16_style" addthis:url="<?php print url(NULL, array('absolute' => TRUE)) . current_path();?>"
+                addthis:title='<?php print render($content['product:title']);?>'>
+      <a class="addthis_button_facebook addthis_button_preferred_1"></a>
+      <a class="addthis_button_email"></a>
+      <a class="addthis_button_twitter"></a>
+      <a class="addthis_button_print"></a>
+      <a class="addthis_button_compact"></a>
+    </div>
+  </div>
 </article>
