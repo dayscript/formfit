@@ -1,0 +1,153 @@
+.block-views-mas-vendido-block{
+  .block-title{
+    border-bottom: 2px solid #666666;
+    color: #666666;
+    font-family: "ubunturegular";
+    font-size: 21px;
+    left: 15px;
+    padding-bottom: 4px;
+    text-align: center;
+    width: 77%;
+    margin-bottom: 0;
+  }
+  .view-display-id-block{
+    border-top: 1px solid #dddddd !important;
+    .view-content{
+      .views-row{
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        border: 2px solid #f6f6f6;
+        padding: 13px 11px 58px;
+        .image-hover{
+          .field-content{
+          }
+          .none{
+            top: 199px;
+            position: absolute;
+            display:none
+          }
+          .content-car-title{
+            span{
+              .field-content{
+                .commerce-add-to-cart{
+                  button{
+                    width: 15%;
+                    position: absolute;
+                    float: left;
+                    left: -18px;
+                    background-color: white;
+                    color: #f26667;
+                    top:0px;
+                    border-right: 2px solid #f6f6f6;
+                  }
+                }
+                a{
+                  color: #999999;
+                  font-family: OpenSans;
+                  font-size: 17px;
+                }
+              }
+            }
+          }
+          span{
+            span{
+              .field-content{
+                .fivestar-average-text{
+                  .fivestar-static-item{
+                    .form-type-item{
+                      .fivestar-default{
+                        .fivestar-widget-static{
+                          .start{
+                            background: rgba(0, 0, 0, 0) url("../widgets/default/star.gif") no-repeat scroll 0 0;
+                            float: left;
+                            height: 15px;
+                            overflow: hidden;
+                            text-indent: -999em;
+                            width: 17px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          span.large-5.columns{
+            .field-content{
+              top: 10px;
+              position: absolute;
+              color: #f26667;
+              font-family: 'OpenSans-Semibold';
+              font-size: 21px;
+              right: 0px;
+            }
+          }
+        }
+        .views-field-title{
+          a{
+            font-family: 'OpenSans';
+            font-size: 17px;
+            color: black;
+          }
+        }
+        .image-hover:hover{
+          img{
+            -webkit-box-shadow: 2px 2px 5px #999;
+            -moz-box-shadow: 2px 2px 5px #999;
+            opacity: 0.4;
+            filter: shadow(color=#999999, direction=135, strength=2);
+          }
+          .large-12.columns.none{
+            display:block;
+            left:0px;
+            height: 33px;
+            padding: 5px;
+            .comparar{
+              background: #ff5757 !important;
+              height: 33px;
+              float: left;
+              margin-left: 12%;
+              width: 101px;
+              padding: 0;
+              padding-left: 14px;
+              padding-top: 5px;
+              span.fi-x.large {
+                color:#fff;
+                padding-top: 3px;
+                padding-bottom: 5px;
+                font-family: 'OpenSans', regular;
+                font-size:13px;
+              }
+            }
+            .ver{
+              background: #fff !important;
+              left: 10%;
+              height: 33px;
+              padding: 5px;
+              padding-left: 20px;
+              a{
+                color: #ff5757!important;
+                padding:3px;
+                font-family: 'OpenSans', regular;
+                padding-left:0px;
+                padding-right:0px;
+                font-size:13px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .pagination-centered{
+      display:none;
+    }
+  }
+  .fivestar-average-stars{
+        .fivestar-summary-average-count{
+          display:none;
+        }
+    }
+}
