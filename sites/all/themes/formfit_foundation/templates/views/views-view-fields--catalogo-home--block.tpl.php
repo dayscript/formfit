@@ -3,7 +3,7 @@
   <?php print $fields['field_image']->content;?>
   <div class="large-12 columns none">
     <div class="large-4 columns ver"><?php print $fields['view_node']->content;?></div>
-    <div class="large-6 columns comparar"><?php print $fields['nothing']->content;?></div>
+    <div class="large-7 columns comparar"><?php print $fields['nothing']->content;?></div>
   </div>
   <div class="content-car-title">
     <span class="large-10 columns"><?php print $fields['title']->content;?></span>
