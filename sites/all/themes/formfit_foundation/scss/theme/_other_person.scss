@@ -27,6 +27,13 @@
         border: 1px solid #f6f6f6;
         padding: 13px 11px 58px;
         div{
+          .container{
+            position: relative;
+            border: 1px solid #E9E9E9;
+            padding: 10px;
+            background-color: white;
+            display: inline-block;
+          }
           .field-content{
           }
           .none{
