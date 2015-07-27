@@ -1,0 +1,150 @@
+//Actualización: 01/05/2015
+
+//-----------------------------------
+//Mixin
+//-----------------------------------
+//Text
+@mixin texto($alineacion: left, $decoracion: none, $transformacion: none){
+  text:{
+    align      : $alineacion;
+    decoration : $decoracion;
+    transform  : $transformacion;
+  }
+}
+
+//Background
+@mixin fondo($ruta, $repetir: no-repeat, $posicion: center, $color: transparent, $tamano: auto){
+  background: {
+    image    : url($ruta);
+    repeat   : $repetir;
+    position : $posicion;
+    color    : $color;
+    size     : $tamano;
+  }
+}
+
+//Position
+@mixin posicion($tipo: relative, $valor1: 0, $valor2: 0, $pos1: top, $pos2: left){
+  position : #{$tipo};
+  #{$pos1} : $valor1;
+  #{$pos2} : $valor2;
+}
+
+//Width Height
+@mixin aa($ancho: auto, $alto: auto){
+  width  : $ancho;
+  height : $alto;
+}
+
+//Font
+@mixin fuente ($size: 1em, $family: $font1, $weight: normal, $style: normal, $line-height: "none", $variant: normal){
+  font:{
+    size   : $size;
+    family : $family;
+    weight : $weight;
+    style  : $style;
+    variant: $variant
+  }
+  
+  @if $line-height != "none" {
+    line-height: $line-height;
+  }
+}
+
+//Columns constructor
+@mixin constructor_columnas($num_columnas, $margin, $padding: 0, $ancho_total: 100%) {
+    width: ((($ancho_total) - (($num_columnas - 1) * $margin)) / $num_columnas) - (2 * $padding);
+    display: block;
+    float: left;
+    margin-right: $margin;
+    padding: {
+        left: $padding;
+        right: $padding;
+    }
+
+    &:nth-of-type(#{$num_columnas}n) {margin-right: 0;}
+}
+
+//Builder linear gradients
+@mixin grad_lt($color1, $color2) {
+  @include background-image(linear-gradient($color1, $color2));
+}
+
+//background opacity
+@mixin background_opacity($color: $color1, $opacity: 0.8) {
+    background-color: $color;
+    background-color: rgba($color, $opacity);
+}
+
+//Imagen remplace
+@mixin img_remplace($imagen, $ancho: 100px, $alto: 100px){
+    @include fondo($imagen);
+    @include aa($ancho, $alto);
+    @extend %ht2;
+}
+
+//Include sprite
+@mixin icon_sprite($icon_name, $folder_name: "sprite") {
+    @extend .#{$folder_name}-#{$icon_name};
+}
+//-----------------------------------
+//Fin Mixin
+//-----------------------------------
+
+
+//-----------------------------------
+//Extend comunes
+//-----------------------------------
+%sin_margenes {
+    margin  : 0;
+    margin: {
+        top    : 0;
+        bottom : 0;
+        left   : 0;
+        right  : 0;
+    }
+    padding : 0;
+    padding: {
+        top    : 0;
+        bottom : 0;
+        left   : 0;
+        right  : 0;
+    }
+}
+
+%sin_border   { 
+    border : 0 none transparent;
+    border: {
+        top    : 0 none transparent;
+        bottom : 0 none transparent;
+        left   : 0 none transparent;
+    }
+}
+
+//hide text
+%ht2 {
+    @include hide-text();
+    @extend %sin_margenes;
+    font        : 0/0 a;
+    text-shadow : none;
+    color       : transparent;
+}
+
+//Clearfix
+%cf  { @include clearfix(); }
+%cfp { @include pie-clearfix();}
+%cfl { @include legacy-pie-clearfix();}
+
+//Center position absolute or fixed
+%center_fijo {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: {
+        right: auto;
+        left : auto;
+    }
+}
+//-----------------------------------
+//Fin Extend comunes
+//-----------------------------------

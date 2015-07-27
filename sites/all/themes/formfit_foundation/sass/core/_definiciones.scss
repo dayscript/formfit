@@ -1,0 +1,33 @@
+//-----------------------------------
+//Definiciones
+//-----------------------------------
+//Colores
+$color1  : #FFF;     // Blanco
+$color2  : #000;     // Negro
+
+//Fuentes Arial
+$font1 : "Arial", "sans-serif";
+$font2 : "Ubuntu", "Arial", "sans-serif";
+$font3 : "Segoe", "Arial", "sans-serif";
+$font4 : "Opensans", "Arial", "sans-serif";
+
+//Generales
+$img           : "../img/";
+$img_interfaz  : "../img/interfaz/";
+$img_sprite    : "../img/sprite/";
+
+//Breakpoint
+$brp_desktop     : 1200;
+$brp_tablet      : 1024;
+$brp_portrait    : 993;
+$brp_movil       : 768;
+$brp_landscape_m : 480;
+$brp_portrait_m  : 320;
+
+//Rem
+@function szrem($value_px, $base: 16) {
+    @return ($value_px  / $base) + rem;
+}
+//-----------------------------------
+//Fin Definiciones
+//-----------------------------------

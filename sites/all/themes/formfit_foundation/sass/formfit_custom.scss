@@ -1,0 +1,150 @@
+@import "compass/css3";
+
+@import "compass/utilities";
+@import "compass/typography";
+
+@import "core/_definiciones";
+@import "core/_fuentes";
+@import "core/_mediaqueries";
+@import "core/_base";
+
+@import "core/_silence_class";
+@import "core/_mixin";
+
+//Nombre de la carpeta: sprite
+$sprite-layout: smart;
+$sprite-sprite-dimensions: true;
+@import "sprite/*.png";
+@include all-sprite-sprites;
+
+/* =======
+* COMPASS 
+* ========*/
+
+.l-header-region {
+
+	.car-menu{
+		//@extend %ht2;
+		overflow: hidden;
+	}
+
+	button#edit-submit{
+		@include icon-sprite(icon-buscar);
+		@extend %ht2;
+		border: none;
+		left: 3px;
+	}
+
+	.block-search {
+	
+		#search-block-form {
+			
+			.small-4{
+				@include border-radius(0 8px 8px 0);
+				padding: 6px;
+				background-color: #fff;
+				left: -8px;
+				border-top: 1px solid #E7E7E7;
+				border-right: 1px solid #E7E7E7;
+				border-bottom: 1px solid #E7E7E7;
+				top: 1px;
+			}		
+		}
+	}
+}
+
+.block-views-galler-block { 
+	
+	.large-8 {
+		
+		.title-slide-home {
+				
+			a {					
+			} // END a
+		} // END .title-slide-home
+	} // END large-8
+} // END block-views-galler-block
+
+.front{
+
+	.panel.callout {
+		padding: 0;
+	}
+
+	.view-catalogo-home {
+
+		.views-row.large-3 {
+			padding-bottom: 0;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.view-catalogo-home {
+	
+	.view-content {
+
+		.views-row {
+			
+			.content-car-title {
+				line-height: 1em;
+				
+				.large-10 {
+					padding: 3px 0;
+
+					.field-content {
+
+						a{
+							font-size: szrem(13) !important;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.specials_off_block{
+	overflow: hidden;
+    display: block;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.l-footer {
+
+	.footer {
+
+		.large-12 {
+			
+			ul {
+
+				li {
+
+					a {
+						font:{
+							family : $font4;
+							size : szrem(12);
+						}
+					}
+				} 
+			}
+			
+			.large-2{
+
+				font:{
+					family: $font4;
+					size: szrem(13);
+				}
+				
+				a {
+					font:{
+						family: $font4;
+						size: szrem(13);
+					}
+				}
+			}
+		}
+	}
+} // END .l-footer

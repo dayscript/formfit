@@ -28,6 +28,7 @@ base theme = zurb_foundation
 
 ; For CSS users, load the formfit_foundation.css file:
 stylesheets[all][] = css/formfit_foundation.css
+stylesheets[all][] = css/formfit_custom.css
 
 ; Block loading of foundation.min.css from the base theme. This file should either
 ; not exist or be blank in your subtheme. See https://drupal.org/node/263967
