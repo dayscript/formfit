@@ -65,6 +65,12 @@
           font-size: 17px;
           color: #aeaeae;
           background-color: white;
+          font-size: 17px;
+          font-family: OpenSans regular;
+          font-weight: normal;
+          text-transform: uppercase;
+          border-bottom: 2px solid;
+          background-color: #f8f8f8;
         }
       }
       .active{
@@ -208,6 +214,7 @@
     .size{
       border-bottom: 1px solid #e0e0e0;
       font-weight: normal;
+      margin-top:10px;
       .field-name-field-size{
         h2{
           font-family: 'Open Sans Regular';
