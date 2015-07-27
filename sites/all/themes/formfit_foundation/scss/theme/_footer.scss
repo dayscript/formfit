@@ -22,8 +22,22 @@
             }
           }
         }
+      .large-4{
+        .menu{
+          li{
+            max-width: 150px;
+            float: left;
+            width: 150px;
+            a{
+              font-family: OpenSans regular;
+              font-size: 15px;
+            }
+          }
+        }
+      }
       .large-3{
         color:#cccccc;
+        padding:0;
         input{
           border-radius: 9px;
           width: 68%;

@@ -1,9 +1,6 @@
 //content
 .view-display-id-catalogo{
   .view-filters{
-    .views-widget{
-      border-top:1px #dddddd solid !important;
-    }
   }
  .commerce-add-to-cart{
       button{
@@ -29,12 +26,27 @@
       top: 10px;
       position: absolute;
       color: #f26667;
-      font-family: 'OpenSans-Semibold';
+      font-family: 'OpenSans' Semibold;
       font-size: 21px;
       right: 0px;
     }
   }
   .view-content{
+    .views-row{
+      .principal{
+        .container{
+          position: relative;
+          border: 1px solid #E9E9E9;
+          padding: 10px;
+          background-color: white;
+          display: inline-block;
+        }
+        .large-7.columns{
+          padding:0px!important;
+
+        }
+      }
+    }
     .large-3{
       border: 2px solid #f6f6f6;
       padding-top: 13px;
@@ -59,8 +71,7 @@
 }
 //end content
 //Filtros
-.views-widget-filter-field_category_tid, .views-widget-filter-field_type_tid,
-.views-widget-filter-field_color_tid, .views-widget-filter-field_size_tid{
+.views-widget-filter-field_category_tid{
   label{
     font-family: 'ubunturegular';
     font-size: 21px;
@@ -70,6 +81,9 @@
     left:15px;
     width:50%;
     padding-bottom: 4px;
+  }
+  .views-widget{
+    border-top:1px #dddddd solid !important;
   }
   .form-item-field-category-tid{
     .form-type-bef-link{
@@ -91,10 +105,50 @@
     }
   }
 }
+.views-widget-filter-field_type_tid,
+.views-widget-filter-field_color_tid, .views-widget-filter-field_size_tid{
+  label{
+    font-family: OpenSans regular;
+    font-size:17px;
+    color:#FE585C;
+    margin-bottom:12px;
+  }
+  .views-widget{
+    border-top:0px!important;
+    border-bottom: 1px solid #dddddd;
+  }
+  .form-item-field-type-tid, .form-item-field-color-tid, .form-item-field-size-tid{
+    label{
+      font-family: 'OpenSans Regular';
+      color: #7f7f7f;
+      font-size: 17px;
+      border-bottom: 0;
+      padding:0px;
+      text-align: left;
+    }
+  }
+}
 .view-filters{
   .large-9{
+    .title-catalogo{
+      font-family:ubunturegular;
+      font-size: 21px;
+      position:relative;
+      color: #666666;
+      &:after { content: ""; position: absolute; bottom: -3px; left: -3px; }
+      &:after {
+        right: -3px;
+        height: 1px;
+        background: linear-gradient(to right, #E5E5E5 2%, black 3%, black 19%, #E5E5E5 15%, #E5E5E5 10%);
+      }
+    }
     .views-widget-sort-by{
+      margin-top: 12px;
+      margin-bottom: 0;
+      padding: 0;
       .form-item-sort-by{
+        margin-top: 0;
+        margin-bottom: 0;
         label{
           float:left;
           padding-top: 7px;
@@ -104,7 +158,11 @@
         }
         .form-select{
           width: 100px;
-          font-family: 'OpenSans Regular';
+          font-family: 'OpenSans' Regular;
+          font-size: 17px;
+          height: 25px;
+          padding: 0;
+          margin-top: 4px;
         }
       }
     }
