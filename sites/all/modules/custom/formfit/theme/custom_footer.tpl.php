@@ -14,8 +14,8 @@
   </div>
   <div class="large-2 columns">
     <?php print t('Powered by ');?> <a href="">Dayscript</a>
-    <span><a class="fi-social-facebook large" href="#"></a></span>
     <span><a class="fi-social-twitter large" href="#"></a></span>
+    <span><a class="fi-social-facebook large" href="#"></a></span>
   </div>
 </div>
 

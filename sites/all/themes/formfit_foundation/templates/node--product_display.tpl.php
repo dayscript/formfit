@@ -94,6 +94,13 @@ $content['field_product']['#label_display'] = 'hidden';
       <div class="summary">
         <?php print render($node->body['und'][0]['summary']); ?>
       </div>
+      <div class="services">
+        <div><?php print t('Services:');?></div>
+        <?php foreach ($content['product:field_servicios']['#items'] as $key => $value) {?>
+          <?php $term = taxonomy_term_load($value['tid']);?>
+          <span data-tooltip aria-haspopup="true" class="has-tip" data-options="show_on:large" title="<?php print $term->name;?>" style="background-color:<?php print $term->field_color_taxonomy['und'][0]['rgb']?>"><?php print $term->field_abreviacion['und'][0]['value'];?></span>
+        <?php }?>
+      </div>
       <div class="price-product">
         <?php print render($content['product:commerce_price']);?>
       </div>
