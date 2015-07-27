@@ -120,7 +120,7 @@ $content['field_product']['#label_display'] = 'hidden';
         <?php print render($content['field_product']);?>
       </div>
       <div class="compare-product">
-        <?php print render($content['commerce_product_comparison']);?>
+        <?php  print l(t('›‹ comparar'), 'formfit-compare/add/'. arg(1) . '', array('attributes' => array('class' => array('link-compare', 'active', 'use-ajax'))));?>
       </div>
       <div class="rs-product">
         <div class="addthis_toolbox" addthis:url="<?php print url(NULL, array('absolute' => TRUE)) . current_path();?>"

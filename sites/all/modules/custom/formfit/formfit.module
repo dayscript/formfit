@@ -1,4 +1,9 @@
 <?php
+function formfit_init() {
+
+    drupal_add_library( 'system', 'drupal.ajax' );
+
+  }
 /**
  * Implementation of hook_block_info().
 **/
@@ -6,6 +11,10 @@ function formfit_block_info() {
   $blocks = array();
   $blocks['custom_footer'] = array(
     'info'  => t('footer formfit'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
+    );
+  $blocks['compare'] = array(
+    'info'  => t('Compare-custom'),
     'cache' => DRUPAL_CACHE_GLOBAL,
     );
   return $blocks;
@@ -18,11 +27,28 @@ function formfit_menu(){
   $items['compare'] = array(
     'title'            => t('Compare'),
     'description'      => t('Form config video home'),
-    'page callback'    => '_formfit_compare',
+    'page callback'    => '_formfit',
     'access arguments' => array('access content'),
     'file'             => 'inc/formfit.pages.inc',
     'type'             => MENU_NORMAL_ITEM,
     );
+  $items['formfit-compare/add/%'] = array(
+    'access arguments' => array('access content'),
+    'page arguments'   => array(2),
+    'page callback'    => 'formfit_product_add',
+    'file'             => 'inc/formfit.pages.inc',
+    'title'            => t('Adicionar Proyecto'),
+    'type'             => MENU_CALLBACK,
+  );
+
+  $items['formfit-compare/remove/%'] = array(
+    'access arguments' => array('access content'),
+    'page arguments'   => array(2),
+    'page callback'    => 'formfit_product_remove',
+    'file'             => 'inc/formfit.pages.inc',
+    'title'            => t('Adicionar Proyecto'),
+    'type'             => MENU_CALLBACK,
+  );
     return $items;
 }
 
@@ -37,7 +63,7 @@ function formfit_menu(){
 function formfit_block_view($delta = '') {
     $block = array();
     switch ($delta) {
-      case'custom_footer':
+      case 'custom_footer':
         $block['title'] = '<none>';
         $information    = menu_tree('menu-informacion');
         $client_services= menu_tree('menu-servicio-al-cliente');
@@ -46,6 +72,10 @@ function formfit_block_view($delta = '') {
                   '#theme' => 'custom_footer',
                   '#items' => array($information, $client_services, $news_letter),
                   );
+      break;
+      case 'compare':
+        $block['subject'] = t('Comparar-custom');
+        $block['content'] = formfit_bottons_render();
       break;
     }
   return $block;
@@ -62,8 +92,8 @@ function formfit_theme(){
                 'items' => array(),
           )
         ),
-  'formfit_compare'=> array(
-            'template' => 'theme/formfit_compare',
+  'formfit'=> array(
+            'template' => 'theme/formfit',
             'variables' => array(
                 'items' => array(),
           )
@@ -94,4 +124,48 @@ function formfit_block_view_alter(&$data, $block) {
 
   }
 }
+/**
+   *
+   * formfit_bottons_render().
+   *
+   * function to render 2 bottons ...
+   *
+   * @return string $output width content from block.
+   *
+   */
+
+  function formfit_bottons_render() {
+
+    if ( !isset($_SESSION) ) { session_start(); }
+
+    $productCompare = isset($_SESSION['productCompare']) ? $_SESSION['productCompare'] : array();
+    $nId             = is_numeric( arg(1) ) ? arg(1) : null;
+    $output          = '';
+
+    if ( count($productCompare) === 4 || in_array(arg(1), $productCompare) ) {
+      $linkCompare = l(t('›‹ comparar'), 'formfit-compare/add/'. $nId . '', array('attributes' => array('class' => array('link-compare', 'disable'))));
+    } else {
+      $linkCompare = l(t('›‹ comparar'), 'formfit-compare/add/'. $nId . '', array('attributes' => array('class' => array('link-compare', 'active', 'use-ajax'))));
+    }
+
+    $output .= '<div class="content-compare">';
+    $output .=  $linkCompare;
+    $output .= '</div>';
+
+    $output .= '<div class="content-link-redirect">';
+    $output .=  l(t('Lista de comparación (@count) ›', array('@count' => count($productCompare))), 'comparar', array('attributes' => array('class' => array('link-list-compare'))));
+    $output .= '</div>';
+
+    return $output;
+
+  }
+
+  function formfit_views_api() {
+
+    return array(
+        'api'  => 3,
+        'path' => drupal_get_path( 'module',  'formfit' )
+    );
+
+  }
 ?>
