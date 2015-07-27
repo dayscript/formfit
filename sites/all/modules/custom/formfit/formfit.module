@@ -24,14 +24,14 @@ function formfit_block_info() {
  * Implementation of hook_menu().
  */
 function formfit_menu(){
-  $items['compare'] = array(
+  /*$items['compare'] = array(
     'title'            => t('Compare'),
     'description'      => t('Form config video home'),
     'page callback'    => '_formfit',
     'access arguments' => array('access content'),
     'file'             => 'inc/formfit.pages.inc',
     'type'             => MENU_NORMAL_ITEM,
-    );
+    );*/
   $items['formfit-compare/add/%'] = array(
     'access arguments' => array('access content'),
     'page arguments'   => array(2),

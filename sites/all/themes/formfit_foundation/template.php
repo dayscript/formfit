@@ -61,6 +61,10 @@ function formfit_form_alter(&$form, &$form_state, $form_id) {
       $form['submit']['#attributes']['class'] = array('fi-shopping-cart');
       $form['submit']['#value'] = '';
     }
+    if(strpos($form['#action'], 'comparar')!== false){
+      $form['submit']['#attributes']['class'] = array('fi-shopping-cart');
+      $form['submit']['#value'] = ' Agregar a carro';
+    }
   }
 }
 /**

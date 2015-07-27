@@ -1,0 +1,106 @@
+.page-comparar{
+  .view-id-comparar{
+    .container{
+      .add-to-cart{
+        .content-cart{
+          text-align: center;
+          font-family: OpenSans regular;
+          font-size:17px;
+          color:#666666;
+          form{
+            button{
+              background: #ff5757 none repeat scroll 0 0;
+              font-family: ubunturegular;
+              font-size:17px;
+              text-transform: uppercase;
+              &:hover{
+
+              }
+            }
+          }
+        }
+      }
+      .image-container{
+        .field-image{
+          text-align:center;
+          font-size:16px;
+          color:#666666;
+          .field-contain {
+            float: none;
+            margin: 0 auto;
+            width: 90px;
+            padding: 20px;
+          }
+        }
+      }
+      .title-container{
+        .field-title{
+          text-align:center;
+          font-family: OpenSans regular;
+          font-size:16px;
+          color:#666666;
+          padding: 20px;
+        }
+      }
+      .body-container{
+        .field-body{
+          text-align:center;
+          font-family: OpenSans regular;
+          font-size:16px;
+          color:#666666;
+          padding: 20px;
+        }
+      }
+      .price-container{
+        .field-price:nth-child(1){
+          font-family: OpenSans regular;
+          font-size:16px;
+          color:#666666;
+        }
+        .field-price{
+          padding: 20px;
+          color:#ff5757;
+          text-align:center;
+          font-family: OpenSans semibold;
+          font-size:24px;
+        }
+      }
+      .price-prom-container{
+        .field-price-prom{
+          text-align:center;
+          font-family: OpenSans regular;
+          font-size:16px;
+          color:#ff5757;
+          padding: 20px;
+        }
+      }
+      .sku-container{
+        .field-sku{
+          text-align:center;
+          font-family: OpenSans regular;
+          font-size:16px;
+          color:#666666;
+          padding: 20px;
+        }
+      }
+      .servicios-container{
+        .field-servicios{
+          text-align:center;
+          font-family: OpenSans regular;
+          font-size:16px;
+          color:#666666;
+          padding: 20px;
+        }
+      }
+      .remove-container{
+        .field-remove{
+          text-align:center;
+          font-family: OpenSans regular;
+          font-size:16px;
+          color:#666666;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
