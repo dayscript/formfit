@@ -54,7 +54,8 @@ $sprite-sprite-dimensions: true;
 }
 
 .block-views-galler-block { 
-	
+margin-bottom: 30px;
+
 	.large-8 {
 		
 		.title-slide-home {
@@ -69,6 +70,18 @@ $sprite-sprite-dimensions: true;
 
 	.panel.callout {
 		padding: 0;
+	}
+
+	#quicktabs-home_catalogo {
+
+		.quicktabs-style-nostyle {
+
+			li.active{
+				padding: 10px 0 6px;
+				display: inline-block;
+				margin-bottom: 0;
+			}
+		}
 	}
 
 	.view-catalogo-home {
@@ -143,6 +156,14 @@ $sprite-sprite-dimensions: true;
 						family: $font4;
 						size: szrem(13);
 					}
+				}
+			}
+
+			.large-3{ 
+
+				button{
+					@extend %ht2;
+					width: 45px;
 				}
 			}
 		}
