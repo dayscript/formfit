@@ -136,3 +136,12 @@ ul.menu {
 .page{
   background-color:#F6F6F6;
 }
+.top-bar{
+  .block-system-user-menu{
+    .menu{
+      margin: 0 auto;
+      width:100%;
+      max-width: 1140px;
+    }
+  }
+}
