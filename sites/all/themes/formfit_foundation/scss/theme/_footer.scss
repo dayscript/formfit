@@ -13,7 +13,7 @@
         float:none;
         margin:0 auto;
         h3{
-            font-family: ubunturegular;
+            font-family: 'ubunturegular';
             color: white;
             text-transform: uppercase;
             font-size:21px;
@@ -23,7 +23,7 @@
           li{
             a{
               color: #cccccc;
-              font-family: 'OpenSans regular';
+              font-family: 'OpenSans', sans-serif;
               font-size: 16px;
             }
           }
@@ -31,23 +31,24 @@
       .large-4{
         padding-left:0px!important;
         h3{
-          font-family: ubunturegular;
+          font-family: 'ubunturegular', sans-serif;
           color: white;
           text-transform: uppercase;
           font-size: 15px;
           padding-left: 3px;
           padding-top: 3px;
+          margin-bottom: 19px;
         }
         .menu{
           li{
             max-width: 170px;
             float: left;
             width: 170px;
-            padding-top: 10px;
             padding-left: 3px;
             a{
-              font-family: OpenSans regular !important;
-              font-size: 14px;
+              font-family: 'OpenSans', sans-serif !important;
+              font-size: 13px;
+              word-spacing: -1px;
             }
           }
         }
@@ -55,7 +56,7 @@
       .large-3{
         color:#cccccc;
         padding:0;
-        font-family: opensans regular !important;
+        font-family: 'opensans', sans-serif!important;
         font-size: 14px;
         input{
           border-radius: 9px;
@@ -78,14 +79,14 @@
         ul.menu{
           li{
            a{
-              font-family: OpenSans regular !important;
+              font-family: 'OpenSans', sans-serif !important;
               font-size: 14px;
             }
           }
         }
       }
       .large-2{
-        font-family: 'OpenSans regular';
+        font-family: 'OpenSans', sans-serif;
         font-size: 13px;
         color:#626262;
         text-align: right;
