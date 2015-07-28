@@ -114,17 +114,26 @@
       }
     }
     .services{
-      font-family:OpenSans regular;
-      font-size:17px;
-      color:#666666;
       border-bottom: 1px solid #e0e0e0;
-      padding-bottom: 10px;
+      color: #666666;
+      font-family: OpenSans regular;
+      font-size: 17px;
       font-weight: normal;
+      margin-bottom: 10px;
+      padding-bottom: 30px;
+      display:inline-block;
       span{
         color:white;
-        border-radius: 13px 13px 13px 13px;
+        border-radius: 18px;
         font-family: 'ubunturegular' medium;
         font-size:16px;
+        padding:6px;
+      }
+      div{
+        margin-bottom:11px;
+      }
+      span.has-tip.open{
+        margin:0;
       }
     }
     .price-product{
@@ -311,7 +320,9 @@
     }
   }
   span.tooltip{
+    margin:0;
     color:white;
     background:#ff5757;
+    top:0;
   }
 }
