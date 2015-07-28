@@ -144,12 +144,16 @@ ul.menu {
   background-color:#F6F6F6;
 }
 .top-bar{
+  margin-bottom: 40px;
   .block-system-user-menu{
     .menu{
       margin: 0 auto;
-      width:100%;
+      width: 100%;
       max-width: 1140px;
       padding: 0 10px;
+      margin-top: 10px;
+      text-transform: uppercase;
+      padding-left: 22px;
     }
   }
 }
