@@ -5,6 +5,7 @@
   .footer{
     .block-formfit{
       width:100%;
+      padding-top: 23px;
     }
     .large-12{
         width:100%;
@@ -28,11 +29,22 @@
           }
         }
       .large-4{
+        padding-left:0px!important;
+        h3{
+          font-family: ubunturegular;
+          color: white;
+          text-transform: uppercase;
+          font-size: 15px;
+          padding-left: 3px;
+          padding-top: 3px;
+        }
         .menu{
           li{
             max-width: 170px;
             float: left;
             width: 170px;
+            padding-top: 10px;
+            padding-left: 3px;
             a{
               font-family: OpenSans regular !important;
               font-size: 14px;
