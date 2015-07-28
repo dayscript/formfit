@@ -55,6 +55,9 @@
     section.block-search{
       width: 11.667%!important;
       float:right;
+      button.secondary, .button.secondary{
+        background-color: transparent;
+      }
     }
   }
   /*styles form*/
