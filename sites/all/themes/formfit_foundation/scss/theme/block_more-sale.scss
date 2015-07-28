@@ -1,15 +1,17 @@
 .block-views-mas-vendido-block{
   .block-title{
-    border-bottom: 2px solid #666666;
+    border-bottom: 1px solid #666666;
     color: #666666;
     font-family: "ubunturegular";
     font-size: 19px;
     left: 15px;
     margin-bottom: 0;
     padding-bottom: 4px;
-    text-align: center;
     text-transform: uppercase;
     width: 77%;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
   }
   .view-display-id-block{
     border-top: 1px solid #dddddd !important;
@@ -19,8 +21,9 @@
         -moz-border-left-colors: none;
         -moz-border-right-colors: none;
         -moz-border-top-colors: none;
-        border: 2px solid #f6f6f6;
+        border: 1px solid #f6f6f6;
         padding: 13px 11px 58px;
+        background-color: white;
         .image-hover{
           .field-content{
           }
