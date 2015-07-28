@@ -122,6 +122,7 @@
       margin-bottom: 10px;
       padding-bottom: 30px;
       display:inline-block;
+      width:100%;
       span{
         color:white;
         border-radius: 18px;
@@ -131,9 +132,6 @@
       }
       div{
         margin-bottom:11px;
-      }
-      span.has-tip.open{
-        margin:0;
       }
     }
     .price-product{
@@ -320,9 +318,9 @@
     }
   }
   span.tooltip{
-    margin:0;
+    margin:0!important;
     color:white;
     background:#ff5757;
-    top:0;
+    margin-bottom:0;
   }
 }

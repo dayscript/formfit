@@ -8,28 +8,55 @@
   .button-group{
    display:none;
   }
+  .main.columns{
+    padding: 0!important;
+    width: 100%;
+  }
   #quicktabs-home_catalogo{
     .quicktabs-style-nostyle{
+      padding:0;
       border-bottom: 1px solid #dddddd;
+      .quicktabs-tabpage {
+        .view-id-catalogo_home{
+          .view-content{
+            .views-row {
+              padding: 0;
+              width: 265px;
+              padding-top: 15px;
+              margin-right: 27px;
+              &.views-row-even + .views-row-odd + .views-row-even{
+                margin-right: 0;
+              }
+              .image-hover{
+
+              }
+            }
+          }
+        }
+      }
       li{
+        padding-left: 17px;
         a{
-          color: #333333;
-          font-family: OpenSans regular;
-          font-size: 17px;
+          color: #666666;
+          font-family: OpenSans, sans-serif;
+          font-size: 13px;
           text-transform: uppercase;
         }
       }
       li.active{
-        border-bottom:2px solid #333333;
+        border-bottom: 2px solid #333333;
+        padding: 16px 14px 3px !important;
+        margin-bottom: 0;
+        margin-left: 13px;
         a.active{
           color:#333333;
-          font-family: OpenSans;
-          font-size: 17px;
+          font-family: OpenSans, sans-serif;
+          font-size: 13px;
         }
       }
       .views-field-title{
         a{
-          font-family: OpenSans regular;
+          font-family: OpenSans;
           font-size: 17px;
           color:#333333;
         }
@@ -61,11 +88,11 @@
     }
     .large-5{
       .field-content{
-        top: 10px;
+        top: 5px;
         position: absolute;
         color: #f26667;
-        font-family: 'OpenSans-Semibold';
-        font-size: 21px;
+        font-family: 'OpenSans-Semibold' sans-serif;
+        font-size: 20px;
         right: 0px;
       }
     }
@@ -84,67 +111,71 @@
 
       }
       .large-12.columns.none{
-        display:inline-block;
-        left:0px;
-        height:auto;
-        padding: 5px;
+        display: inline-block;
+        left: 0px;
+        height: auto;
+        padding: 19px;
+        padding-top: 31px;
         .comparar{
           background: #ff5757 !important;
-          display:inline-block;
-          //height: 33px;
-          float: none;
-          //margin-left: 12%;
-          //width: 101px;
-          //padding: 0;
-          //padding-left: 14px;
-         // padding-top: 5px;
-         span.field-content{
-          padding: 6px 0;
           display: inline-block;
-         }
+          padding: 0px 10px;
+          float: none;
+          width: 112px;
+          height: 50px;
+          top: 0px;
+         span.field-content{
+          display:inline-block;
+          padding:5px 0px 4px 0;
           span.fi-x.large {
-            color:#fff;
-            padding-top: 3px;
-            padding-bottom: 5px;
-            font-family: 'OpenSans', regular;
-            font-size:13px;
+            color: #fff !important;
+            font-family: 'OpenSans', sans-serif;
+            font-size: 10px;
+            height: 100%;
+            &:before{
+              font-size: 40px !important;
+            }
             span{
               position: relative;
-              top: -3px;
-              left: 3px;
+              top: -10px;
+              left: 1px;
               text-transform: uppercase;
             }
           }
+         }
         }
         .ver{
           background: #fff !important;
-          //left: 10%;
-          //height: 33px;
           padding: 0px 8px;
-          width:64px;
+          width: 71px;
           float: none;
           display: inline-block;
-          margin-left:15px;
-          //padding-left: 20px;
-          //
+          margin-left: 15px;
+          height: 50px;
           span{
             display:inline-block;
             padding:7px 0px 4px 0;
+            a{
+              &:before{
+                font-size: 38px;
+              }
+            }
             span{
               padding-top: 0;
               position: relative;
-              top: -4px;
-              left: 4px;
+              top: -11px;
+              left: 2px;
               text-transform: uppercase;
+              font-size: 11px;
             }
           }
           a.fi-zoom-in.large.none{
             color: #ff5757!important;
             padding:3px;
-            font-family: 'OpenSans', regular;
+            font-family: 'OpenSans' sans-serif;
             padding-left:0px;
             padding-right:0px;
-            font-size:13px;
+            font-size:11px;
           }
         }
       }
@@ -171,17 +202,22 @@
                 .field-content{
                   height:40px;
                   a{
-                    font-family:OpenSans regular;
+                    font-family:OpenSans, sans-serif;
                     font-size: 17px!important;
                   }
                 }
               }
             }
           }
+          span{
+            span.large-7{
+              padding:0px!important;
+              top: -7px;
+              left: -3px;
+            }
+          }
         }
       }
-
-
     }
     .views-row.large-3{
       border: 2px solid #f6f6f6;
