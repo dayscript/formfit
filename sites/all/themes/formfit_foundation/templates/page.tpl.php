@@ -60,6 +60,9 @@
           <?php print render($page['header']); ?>
         </div>
       </section>
+      <div class="breadcrumb-custom">
+        <?php if ($breadcrumb): print $breadcrumb; endif; ?>
+      </div>
       <!--/.l-header-region -->
     <?php endif; ?>
 
@@ -99,7 +102,6 @@
   <!--.l-main -->
   <main role="main" class="row l-main">
     <!-- .l-main region -->
-    <?php if ($breadcrumb): print $breadcrumb; endif; ?>
     <div class="<?php print $main_grid; ?> main columns">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlight panel callout">

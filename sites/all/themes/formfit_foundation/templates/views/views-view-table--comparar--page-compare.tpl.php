@@ -1,3 +1,9 @@
+<?php if ( empty($title) ): ?>
+    <?php $title = $view->get_title(); ?>
+  <?php endif; ?>
+  <?php if ($title): ?>
+    <h1 class="views-title"><?php print t($title)?></h1>
+  <?php endif; ?>
 <div class="container">
   <div class="add-to-cart large-12 columns">
     <div class="content-cart large-3 columns">
