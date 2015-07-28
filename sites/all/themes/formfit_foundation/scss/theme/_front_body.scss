@@ -132,6 +132,10 @@
             font-family: 'OpenSans', sans-serif;
             font-size: 10px;
             height: 100%;
+            position: relative;
+            top: -10px;
+            left: 1px;
+            text-transform: uppercase;
             &:before{
               font-size: 40px !important;
             }
