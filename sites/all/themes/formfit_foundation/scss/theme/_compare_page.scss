@@ -1,12 +1,16 @@
+$background-header: #e9e9e9;
 .page-comparar{
   .view-id-comparar{
     .container{
+      background:$background-header;
       .add-to-cart{
+        background:white;
         .content-cart{
           text-align: center;
           font-family: OpenSans regular;
           font-size:17px;
           color:#666666;
+          margin-top: 13px;
           form{
             button{
               background: #ff5757 none repeat scroll 0 0;
@@ -21,84 +25,148 @@
         }
       }
       .image-container{
+        border: 1px solid #dddddd;
         .field-image{
           text-align:center;
           font-size:16px;
           color:#666666;
+          padding: 20px;
+          background:white;
+          &:nth-child(1){
+            text-align:left;
+            background:transparent;
+          }
           .field-contain {
             float: none;
             margin: 0 auto;
             width: 90px;
-            padding: 20px;
+            background:white;
           }
         }
       }
       .title-container{
+        border: 1px solid #dddddd;
+        border-top: none;
         .field-title{
           text-align:center;
           font-family: OpenSans regular;
           font-size:16px;
           color:#666666;
           padding: 20px;
+          background:white;
+          min-height: 90px;
+          &:nth-child(1){
+            text-align:left;
+            background:transparent;
+          }
         }
       }
       .body-container{
+        border: 1px solid #dddddd;
+        border-top: none;
         .field-body{
           text-align:center;
           font-family: OpenSans regular;
           font-size:16px;
           color:#666666;
           padding: 20px;
+          background:white;
+          min-height: 290px;
+          &:nth-child(1){
+            text-align:left;
+            background:transparent;
+          }
         }
       }
       .price-container{
+        border: 1px solid #dddddd;
+        border-top: none;
         .field-price:nth-child(1){
           font-family: OpenSans regular;
           font-size:16px;
           color:#666666;
+          text-align:left;
+          background:transparent;
         }
         .field-price{
+          min-height: 65px;
           padding: 20px;
           color:#ff5757;
           text-align:center;
           font-family: OpenSans semibold;
           font-size:24px;
+          background:white;
         }
       }
       .price-prom-container{
+        border: 1px solid #dddddd;
+        border-top: none;
         .field-price-prom{
+          min-height: 65px;
           text-align:center;
           font-family: OpenSans regular;
           font-size:16px;
           color:#ff5757;
           padding: 20px;
+          background:white;
+          &:nth-child(1){
+            text-align:left;
+            background:transparent;
+          }
         }
       }
       .sku-container{
+        border: 1px solid #dddddd;
+        border-top: none;
         .field-sku{
+          min-height: 65px;
           text-align:center;
           font-family: OpenSans regular;
           font-size:16px;
           color:#666666;
           padding: 20px;
+          background:white;
+          &:nth-child(1){
+            text-align:left;
+            background:transparent;
+          }
         }
       }
       .servicios-container{
+        border: 1px solid #dddddd;
+        border-top: none;
         .field-servicios{
+          min-height: 65px;
           text-align:center;
           font-family: OpenSans regular;
           font-size:16px;
           color:#666666;
           padding: 20px;
+          background:white;
+          &:nth-child(1){
+            text-align:left;
+            background:transparent;
+          }
         }
       }
       .remove-container{
+        border: 1px solid #dddddd;
+        border-top: none;
         .field-remove{
+          min-height: 65px;
           text-align:center;
           font-family: OpenSans regular;
           font-size:16px;
           color:#666666;
           padding: 20px;
+          background:white;
+          &:nth-child(1){
+            text-align:left;
+            background:transparent;
+          }
+          a{
+            color:black;
+          }
         }
       }
     }
