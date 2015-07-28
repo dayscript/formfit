@@ -55,33 +55,49 @@
       }
       .large-3{
         color:#cccccc;
-        padding:0;
-        font-family: 'opensans', sans-serif!important;
-        font-size: 14px;
+        font-family: 'OpenSans', sans-serif !important;
+        font-size: 13px;
+        word-spacing: -1px;
+        padding-top: 1px;
+        h3{
+          font-family: 'ubunturegular', sans-serif;
+          color: white;
+          text-transform: uppercase;
+          font-size: 15px;
+          padding-top: 3px;
+          margin-bottom: 19px;
+        }
         input{
           border-radius: 9px;
-          width: 68%;
-          float:left;
+          width: 64%;
+          float: left;
+          height: 32px;
         }
         button{
           background-color: #e74c3c;
-          width: 10px;
+          width: 43px!important;
+          margin-left: 3px!important;
+          height: 31px;
           border-radius: 10px;
-          height: 38px;
-          color: white;
-          margin-left: 3px;
+          color: white!important;
+          text-indent: 0!important;
+          text-align: center!important;
+          font-size: 18px!important;
+          font-family: OpenSans!important;
         }
         .fi-play:before{
           position: absolute;
-          top: 12px;
-          left: 28px;
+          top: 5px;
+          left: 17px;
+          content: "›" !important;
         }
         ul.menu{
           li{
-           a{
+            padding-top: 2px;
+             a{
               font-family: 'OpenSans', sans-serif !important;
-              font-size: 14px;
-            }
+              font-size: 12px;
+              }
           }
         }
       }
