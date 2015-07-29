@@ -56,11 +56,15 @@
     section.block-search{
       width: 7.667%!important;
       float:right;
+      .small-4.columns {
+        height: 36px!important;
+      }
       button.secondary, .button.secondary{
         background-color: transparent;
         top: 1px;
-        height: 36px;
+        height: 37px;
         font: 0/0 a;
+        left:0px!important;
       }
     }
   }
