@@ -122,58 +122,98 @@
               }
             }
           }
+          &:hover{
+            img{
+              -webkit-box-shadow: 2px 2px 5px #999;
+              -moz-box-shadow: 2px 2px 5px #999;
+              opacity: 0.4;
+              filter: shadow(color=#999999, direction=135, strength=2);
+
+            }
+            .large-12.columns.none{
+              display: inline-block;
+              left: 0px;
+              height: auto;
+              padding: 19px;
+              padding-top: 31px;
+              .comparar{
+                background: #ff5757 !important;
+                display: inline-block;
+                padding: 0px 10px;
+                float: none;
+                width: 112px;
+                height: 50px;
+                top: -4px;
+               span.field-content{
+                display:inline-block;
+                padding:5px 0px 11px 0;
+                span.fi-x.large {
+                  color: #fff !important;
+                  font-family: 'OpenSans', sans-serif;
+                  font-size: 10px;
+                  height: 100%;
+                  &:before{
+                    font-size: 40px !important;
+                    content: "›‹" !important;
+                    margin-top: 0;
+                    padding-top: 0;
+                    position: relative;
+                    top: -6px;
+                    left:3px;
+                  }
+                  span{
+                    position: relative;
+                    top: -10px;
+                    left: 6px;
+                    text-transform: uppercase;
+                  }
+                }
+               }
+              }
+              .ver{
+                background: #fff !important;
+                padding: 0px 8px;
+                width: 71px;
+                float: none;
+                display: inline-block;
+                margin-left: 15px;
+                height: 50px;
+                span{
+                  display:inline-block;
+                  padding:7px 0px 4px 0;
+                  a.none{
+                    position:inherit!important;
+                    display:block;
+                    &:before{
+                      font-size: 38px;
+                    }
+                  }
+                  span{
+                    padding-top: 0;
+                    position: relative;
+                    top: -11px;
+                    left: 2px;
+                    text-transform: uppercase;
+                    font-size: 11px;
+                  }
+                }
+                a.fi-zoom-in.large.none{
+                  color: #ff5757!important;
+                  padding:3px;
+                  font-family: 'OpenSans' sans-serif;
+                  padding-left:0px;
+                  padding-right:0px;
+                  font-size:11px;
+                }
+              }
+            }
+          }
         }
         .views-field-title{
           a{
             font-family: 'OpenSans';
             font-size: 17px;
             color: black;
-          }
-        }
-        .image-hover:hover{
-          img{
-            -webkit-box-shadow: 2px 2px 5px #999;
-            -moz-box-shadow: 2px 2px 5px #999;
-            opacity: 0.4;
-            filter: shadow(color=#999999, direction=135, strength=2);
-          }
-          .large-12.columns.none{
-            display:block;
-            left:0px;
-            height: 33px;
-            padding: 5px;
-            .comparar{
-              background: #ff5757 !important;
-              height: 33px;
-              float: left;
-              margin-left: 12%;
-              width: 101px;
-              padding: 0;
-              padding-left: 14px;
-              padding-top: 5px;
-              span.fi-x.large {
-                color:#fff;
-                padding-top: 3px;
-                padding-bottom: 5px;
-                font-family: 'OpenSans', regular;
-                font-size:13px;
-              }
-            }
-            .ver{
-              background: #fff !important;
-              left: 10%;
-              height: 33px;
-              padding: 5px;
-              padding-left: 20px;
-              a{
-                color: #ff5757!important;
-                padding:3px;
-                font-family: 'OpenSans', regular;
-                padding-left:0px;
-                padding-right:0px;
-                font-size:13px;
-              }
-            }
           }
         }
       }
