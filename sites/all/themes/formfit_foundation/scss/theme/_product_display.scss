@@ -1,28 +1,173 @@
 .node-type-product-display{
-  .medium-9{
-    padding-left: 0;
-    padding-right: 0;
-    left: 20%;
-    article.node-product-display.view-mode-full{
-      display:inline-block;
-
-    .title{
-      font-family: 'ubunturegular' medium;
-      font-size: 21px;
-      color: #666666;
-      margin-bottom: 20px;
-      text-transform: uppercase;
-      &:after { content: ""; position: absolute; bottom: -3px; left: -3px; }
-      //&:before { top: -3px; width: 3px; background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#000), to(transparent)); background-image: -webkit-linear-gradient(transparent, #000); background-image: -moz-linear-gradient(transparent, #000); background-image: -o-linear-gradient(transparent, #000); }*/
-      &:after {
-        right: -3px;
-        height: 2px;
-            background: linear-gradient(to right, #E5E5E5 2%, black 3%, black 19%, #E5E5E5 15%, #E5E5E5 10%);
-        /*background-image: -webkit-gradient(linear, 16% 67%, 17% 11%, from(#000), to(transparent));
-        background-image: -moz-linear-gradient(left, #000, transparent);
-        background-image: -o-linear-gradient(left, #000, transparent);*/
+  aside.medium-3.medium-pull-9.sidebar-first.columns.sidebar{
+    padding:0;
+    .block-menu-menu-category{
+      .block-title{
+        color: #666666;
+        font-family: ubunturegular medium, sans-serif;
+        font-size: 14px;
+        width: 100%;
+        text-transform: uppercase;
+        padding-bottom: 8px;
+        border: none!important;
+      }
+      .menu{
+        li{
+          a{
+            font-size: 13px;
+          }
+        }
       }
     }
+  }
+  .medium-9.medium-push-3.main.columns{
+    padding-right: 0;
+
+    article.node-product-display.view-mode-full{
+      display:inline-block;
+      .title{
+        padding:0;
+        font-family: 'ubunturegular', sans-serif;
+        text-transform: uppercase;
+        color: #7f7f7f;
+        margin-bottom: 3px;
+        margin-top: 5px;
+        padding-bottom: 6px;
+        position: relative;
+        font-size: 15px;
+        font-weight: bold;
+        &:after { content: ""; position: absolute; bottom: -3px; left: -3px; }
+        &:after {
+          right: -3px;
+          height: 1px;
+          background: linear-gradient(to right, #E5E5E5 2%, black 3%, black 19%, #E5E5E5 15%, #E5E5E5 10%);
+        }
+      }
+      .large-12.columns.body-product-container{
+        .large-7.columns{
+          .image-product{
+            display: inline-block;
+            width: 100%;
+            .cloud-zoom-container{
+              display: inline-block;
+              width: 100%;
+              #wrap{
+
+              }
+              .cloud-zoom-gallery-thumbs{
+                width: 100%;
+                padding-bottom: 10px;
+              }
+            }
+          }
+        }
+        .large-5.columns{
+          padding: 0;
+          .votes{
+            width: 86%;
+            .field-name-field-votes{
+              width: 32%;
+              float: left;
+            }
+          }
+          .comment-count{
+            padding-top:3px;
+            width: 77%;
+            margin-top: 13px;
+            font-family: 'ubunturegular', sans-serif;
+            font-size: 12px;
+            color:#999999;
+            position: relative;
+            left: 2px;
+            line-height: 16px;
+            margin-bottom: 17px;
+          }
+          .summary{
+            border-bottom: 1px solid #e0e0e0;
+            p{
+              font-family: 'OpenSans', sans-serif;
+              font-size: 13px;
+              color: #999999;
+              line-height: 17px;
+            }
+          }
+          .services{
+            border-bottom: 1px solid #e0e0e0;
+            color: #666666;
+            font-weight: normal;
+            margin-bottom: 10px;
+            padding-bottom: 30px;
+            display: inline-block;
+            width: 100%;
+            margin-top: 10px;
+            div{
+              font-family: 'OpenSans', sans-serif;
+              font-size: 13px;
+              margin-bottom: 15px;
+            }
+            span{
+              padding: 3px;
+              font-family:'ubunturegular', sans-serif;
+              font-size: 13px;
+            }
+          }
+          .price-product{
+            width: 100%;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 8px;
+            .field-name-commerce-price{
+              font-family:'OpenSans-Semibold', sans-serif;
+              display:inline-block;
+              font-size:23px;
+              color:#ff5757;
+              margin-top:0px;
+              width: 100%;
+              margin-top: -4px;
+              .field-label{
+                color: #666666;
+                font-family: 'OpenSans', sans-serif;
+                font-size: 12px;
+                font-weight: normal;
+                margin-top: 10px;
+                margin-right: 39px;
+              }
+            }
+          }
+          .color-product{
+            span{
+              width: 17px;
+              height: 17px;
+              display: inline-block;
+              border: solid 1px #e4e4e4;
+              margin-top: 9px;
+              margin-right: 8px;
+              &:nth-child(1){
+                margin-left: 35px;
+              }
+            }
+            border-bottom: 1px solid #e0e0e0;
+            margin-top: 2px;
+            padding-bottom: 10px;
+            font-family: 'OpenSans', sans-serif;
+            font-size:13px;
+            color:#666666;
+            font-weight: normal;
+          }
+          .size{
+            border-bottom: 1px solid #e0e0e0;
+            font-weight: normal;
+            margin-top:10px;
+            .field-name-field-size{
+              h2{
+                font-family: OpenSans, sans-serif;
+                font-size: 13px;
+                color: #666666;
+                font-weight: normal;
+              }
+            }
+          }
+        }
+      }
     .body-product-container{
       padding: 0;
       .large-7.columns{
@@ -96,23 +241,6 @@
         display:none;
       }
     }
-    .comment-count{
-      width: 77%;
-      margin-top: 13px;
-      font-family: 'ubunturegular';
-      font-size: 16px;
-      color:#999999;
-    }
-    .summary{
-      position: relative;
-      float: left;
-      border-bottom: 1px solid #e0e0e0;
-      p{
-        font-family: 'OpenSans Regular';
-        font-size:16px;
-        color:#999999;
-      }
-    }
     .services{
       border-bottom: 1px solid #e0e0e0;
       color: #666666;
@@ -134,21 +262,6 @@
         margin-bottom:11px;
       }
     }
-    .price-product{
-      width: 100%;
-      font-family:'Open Sans Semibold';
-      display:inline-block;
-      font-size:32px;
-      color:#ff5757;
-      .field-label{
-        color:#666666;
-        font-family: 'OpenSans Regular';
-        font-size:16px;
-        font-weight: normal;
-        margin-top:13px;
-      }
-      border-bottom: 1px solid #e0e0e0;
-    }
     .rs-product{
       a{
         span{
@@ -156,22 +269,6 @@
           margin-left: 5px;
         }
       }
-    }
-    .color-product{
-      span{
-        width: 25px;
-        height: 25px;
-        display: inline-block;
-        margin-right: 5px;
-        border: solid 1px #e4e4e4;
-      }
-      border-bottom: 1px solid #e0e0e0;
-      margin-top: 10px;
-      padding-bottom: 10px;
-      font-family: 'Open Sans Regular';
-      font-size:17px;
-      color:#666666;
-      font-weight: normal;
     }
     .add-product{
       width: 50%;
@@ -220,19 +317,6 @@
     .rs-product {
       display: inline-block;
       width:100%;
-    }
-    .size{
-      border-bottom: 1px solid #e0e0e0;
-      font-weight: normal;
-      margin-top:10px;
-      .field-name-field-size{
-        h2{
-          font-family: 'Open Sans Regular';
-          font-size:17px;
-          color:#666666;
-          font-weight: normal;
-        }
-      }
     }
     .comment-wrapper{
       .large-12{
@@ -322,5 +406,10 @@
     color:white;
     background:#ff5757;
     margin-bottom:0;
+    height: 25px;
+    padding: 3px;
+    font-family:'OpenSans', sans-serif;
+    font-size:9px;
+    line-height:19px;
   }
 }

@@ -104,18 +104,6 @@ $content['field_product']['#label_display'] = 'hidden';
       <div class="price-product">
         <?php print render($content['product:commerce_price']);?>
       </div>
-      <div class="color-product">
-        <?php print t('Color: ');?>
-        <?php foreach($content['product:field_color'] as $key => $value) {
-           if(is_numeric($key)){
-            print '<span style="background-color:' . $value['field_color_taxonomy']['#items'][0]['rgb'] . ';"></span>';
-           }
-          }
-        ?>
-      </div>
-      <div class="size">
-        <?php print render($content['product:field_size']);?>
-      </div>
       <div class="add-product">
         <?php print render($content['field_product']);?>
       </div>
