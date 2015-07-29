@@ -2,19 +2,21 @@
   .block-title{
     border-bottom: 1px solid #666666;
     color: #666666;
-    font-family: "ubunturegular";
-    font-size: 19px;
-    left: 15px;
+    font-family: ubunturegular, sans-serif;
+    font-size: 15px;
     margin-bottom: 0;
-    padding-bottom: 4px;
+    padding-bottom: 9px;
     text-transform: uppercase;
-    width: 77%;
+    width: 100%;
     margin-left: 0;
     padding-left: 0;
     text-align: left;
+    margin-top: 9px;
+    padding-left: 3px;
   }
   .view-display-id-block{
-    border-top: 1px solid #dddddd !important;
+    //border-top: 1px solid #dddddd !important;
+    margin-top: 25px;
     .view-content{
       .views-row{
         -moz-border-bottom-colors: none;
@@ -22,45 +24,73 @@
         -moz-border-right-colors: none;
         -moz-border-top-colors: none;
         border: 1px solid #f6f6f6;
-        padding: 13px 11px 58px;
-        background-color: white;
+        padding: 0px 11px 58px;
+        width: 97%;
         .image-hover{
-          .field-content{
-          }
-          .none{
-            top: 199px;
-            position: absolute;
-            display:none
-          }
-          .content-car-title{
-            span{
-              .field-content{
-                .commerce-add-to-cart{
-                  button{
-                    width: 15%;
-                    position: absolute;
-                    float: left;
-                    left: -18px;
-                    background-color: white;
-                    color: #f26667;
-                    top:0px;
-                    border-right: 2px solid #f6f6f6;
+          .container{
+            position: relative;
+            border: 1px solid #E9E9E9;
+            padding: 10px;
+            background-color: white;
+            display: inline-block;
+            height: 350px;
+            .field-content{
+              img{
+                width:100%;
+              }
+            }
+            .none{
+              position: absolute;
+              display:none;
+              bottom: 175px;
+            }
+            .content-car-title{
+              .large-10{
+                padding: 0;
+                margin: 0;
+                padding-top:9px;
+                .field-content{
+                  height:40px;
+                  a{
+                    color: #999999;
+                    font-family: OpenSans,sans-serif;
+                    font-size: 13px;
+                    line-height:16px;
                   }
                 }
-                a{
-                  color: #999999;
-                  font-family: OpenSans;
-                  font-size: 17px;
+              }
+              .large-2{
+                .field-content{
+                  .commerce-add-to-cart{
+                    div{
+                      button{
+                        width: 15%;
+                        position: absolute;
+                        float: left;
+                        left: -18px;
+                        background-color: white;
+                        color: #f26667;
+                        top:7px;
+                        border-right: 2px solid #f6f6f6;
+                      }
+                    }
+                  }
                 }
               }
             }
           }
-          span{
-            span{
+          span.large-12{
+            display: inline-block;
+            margin: 0;
+            padding:0;
+            width: 100%;
+            span.large-7{
+              padding:0;
               .field-content{
-                .fivestar-average-text{
+                .fivestar-average-stars{
                   .fivestar-static-item{
                     .form-type-item{
+                      margin-top: 8px;
                       .fivestar-default{
                         .fivestar-widget-static{
                           .start{
@@ -70,6 +100,9 @@
                             overflow: hidden;
                             text-indent: -999em;
                             width: 17px;
+                            span.on{
+                              background: url(/sites/all/modules/contrib/fivestar/widgets/default/star.gif) no-repeat 0 -16px;
+                            }
                           }
                         }
                       }
@@ -78,15 +111,15 @@
                 }
               }
             }
-          }
-          span.large-5.columns{
-            .field-content{
-              top: 10px;
-              position: absolute;
-              color: #f26667;
-              font-family: 'OpenSans-Semibold';
-              font-size: 21px;
-              right: 0px;
+            span.large-5{
+              .field-content{
+                color: #f26667;
+                font-family: OpenSans-Semibold, sans-serif;
+                font-size: 18px;
+                right: 0px;
+                padding-top: 7px;
+                padding-left: 14px;
+              }
             }
           }
         }
