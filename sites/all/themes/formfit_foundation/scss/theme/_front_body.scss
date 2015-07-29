@@ -205,11 +205,14 @@
             }
             .content-car-title{
               .large-10{
+                padding-top:9px;
                 .field-content{
                   height:40px;
                   a{
-                    font-family:OpenSans, sans-serif;
-                    font-size: 17px!important;
+                    color: #999999;
+                    font-family: OpenSans, sans-serif!important;
+                    font-size: 13px!important;
+                    line-height:16px;
                   }
                 }
               }
