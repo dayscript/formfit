@@ -1,181 +1,412 @@
 //content
-.view-display-id-catalogo{
-  .view-filters{
+//
+//
+.page-catalogo{
+  .main.columns{
+    padding: 0;
+    width: 100%;
   }
- .commerce-add-to-cart{
-      button{
-        width: 20%;
-        position: absolute;
-        float: left;
-        right: 0px;
-        background-color: white;
-        color: #f26667;
-        top:0px;
-      }
-    }
-  .fivestar-average-stars{
-      .fivestar-summary-average-count{
-        display:none;
-      }
-  }
-  div.fivestar-widget-static .star span.on{
-    background: url(/sites/all/modules/contrib/fivestar/widgets/default/star.gif) no-repeat 0 -16px;
-  }
-  .large-5{
-    .field-content{
-      top: 10px;
-      position: absolute;
-      color: #f26667;
-      font-family: 'OpenSans' Semibold;
-      font-size: 21px;
-      right: 0px;
-    }
-  }
-  .view-content{
-    .views-row{
-      .principal{
-        .container{
-          position: relative;
-          border: 1px solid #E9E9E9;
-          padding: 10px;
-          background-color: white;
-          display: inline-block;
+  .view-display-id-catalogo{
+    .view-filters{
+      form{
+        div{
+          .large-3.small-12.columns{
+            padding:0!important;
+            .views-widget-filter-field_category_tid{
+              label{
+                font-family: 'ubunturegular';
+                font-size: 14px;
+                color: #666666;
+                border-bottom: 2px #666666 solid;
+                text-align: left;
+                width:50%;
+                padding-bottom: 9px;
+                text-transform:uppercase;
+                padding-top:6px;
+              }
+              .views-widget{
+                border-top:1px #dddddd solid !important;
+                .form-item{
+                  margin-top: 13px;
+                  .bef-select-as-links{
+                    .form-item{
+                      .form-type-bef-link{
+                          padding: 1px 0 5px;
+                          margin: 0;
+                          a{
+                            font-family: 'OpenSans',sans-serif !important;
+                            color: #7f7f7f;
+                            font-size: 13px !important;
+                            margin-top: 0;
+                            padding-top: 0;
+                          }
+                      }
+                      .description{
+                        font-size: 14px;
+                        font-family: ubunturegular, sans-serif;
+                        position: relative;
+                        padding-bottom: 6px;
+                        &:after { content: ""; position: absolute; bottom: -3px; left: -3px; }
+                        &:after {
+                          right: -3px;
+                          height: 1px;
+                          background: linear-gradient(to right, #E5E5E5 2%, black 3%, black 19%, #E5E5E5 15%, #E5E5E5 10%);
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .views-widget-filter-field_type_tid{
+              label{
+                font-family: 'OpenSans', sans-serif!important;
+                font-size: 15px;
+                color: #FE585C;
+                margin-bottom: 12px;
+                padding-top: 4px;
+                margin: 0 0 9px;
+              }
+              .views-widget{
+                .form-type-select{
+                  .bef-select-as-checkboxes{
+                    .bef-checkboxes{
+                      margin-top: 13px;
+                      .form-type-bef-checkbox{
+                        padding: 1px 0 5px;
+                        margin: 0;
+                        label{
+                          font-family: 'OpenSans', sans-serif!important;
+                          font-size: 15px;
+                          color: #666666;
+                          padding-top:0;
+                          margin:0;
+                          line-height: 1.3;
+                        }
+                        input{
+                          margin: 0;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .views-widget-filter-field_color_tid{
+              label{
+                font-family: 'OpenSans', sans-serif!important;
+                font-size: 15px;
+                color: #FE585C;
+                margin-bottom: 12px;
+                padding-top: 4px;
+                margin: 0 0 9px;
+              }
+              .views-widget{
+                .form-type-select{
+                  .bef-select-as-checkboxes{
+                    .bef-checkboxes{
+                      margin-top: 13px;
+                      .form-type-bef-checkbox{
+                        padding: 1px 0 5px;
+                        margin: 0;
+                        label{
+                          font-family: 'OpenSans', sans-serif!important;
+                          font-size: 15px;
+                          color: #666666;
+                          padding-top:0;
+                          margin:0;
+                          line-height: 1.3;
+                        }
+                        input{
+                          margin: 0;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .views-widget-filter-field_size_tid{
+              label{
+                font-family: 'OpenSans', sans-serif!important;
+                font-size: 15px;
+                color: #FE585C;
+                margin-bottom: 12px;
+                padding-top: 4px;
+                margin: 0 0 9px;
+              }
+              .views-widget{
+                .form-type-select{
+                  .bef-select-as-checkboxes{
+                    .bef-checkboxes{
+                      margin-top: 13px;
+                      .form-type-bef-checkbox{
+                        padding: 1px 0 5px;
+                        margin: 0;
+                        label{
+                          font-family: 'OpenSans', sans-serif!important;
+                          font-size: 15px;
+                          color: #666666;
+                          padding-top:0;
+                          margin:0;
+                          line-height: 1.3;
+                        }
+                        input{
+                          margin: 0;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .large-9.columns{
+            padding-left: 8px;
+            .title-catalogo{
+              font-family: ubunturegular,sans-serif;
+              font-size: 14px;
+              position: relative;
+              color: #666666;
+              text-transform: uppercase;
+              padding-top: 6px;
+              padding-left: 3px;
+              padding-bottom: 7px;
+            }
+            .views-exposed-widget.views-widget-sort-by.large-5.small-6.columns{
+              margin-top: 6px;
+              margin-bottom: 0;
+              padding: 0;
+              .form-item.form-type-select.form-item-sort-by{
+                label{
+                  float: left;
+                  padding-top: 0px;
+                  padding-right: 13px;
+                  font-family: OpenSans, sans-serif;
+                  font-size: 13px;
+                }
+                select{
+                  width: 43%;
+                  font-family: 'OpenSans', sans-serif;
+                  font-size: 12px;
+                  height: 25px;
+                  padding: 0;
+                  margin:0!important;
+                  padding-top: 0;
+                }
+              }
+            }
+          }
         }
-        .large-7.columns{
-          padding:0px!important;
+      }
+    }
+    .view-content{
+      .views-row{
+        padding:0px;
+        width: 268px;
+        padding-left: 6px;
+        margin-right: 25px;
+        margin-bottom: 38px;
+        &.views-row-odd + .views-row-even + .views-row-odd{
+          margin-right: 0;
+        }
+        .principal{
+          .container{
+            position: relative;
+            border: 1px solid #E9E9E9;
+            padding: 10px;
+            background-color: white;
+            display: inline-block;
+            padding-left: 15px;
+            padding-right: 12px;
+            height: 347px;
+            .field-content{
+              img{
+                width:100%;
+              }
+            }
+            .content-car-title{
+              .large-10{
+                padding-top:10px;
+                padding-left: 0;
+                .field-content{
+                  a{
+                    color: #9f9f9f;
+                    font-family: 'OpenSans', sans-serif;
+                    font-size: 13px;
+                    right: 0px;
+                  }
+                }
+              }
+              .large-2.columns{
+                .field-content{
+                  .commerce-add-to-cart{
+                    button{
+                      width: 20%;
+                      position: absolute;
+                      float: left;
+                      right: -14px;
+                      background-color: white;
+                      color: #f26667;
+                      top: 5px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          span{
+            .large-7{
+              .field-content{
+                .fivestar-average-stars{
+                  .fivestar-static-item{
+                    .form-type-item{
+                      .fivestar-default{
+                        .fivestar-widget-static-vote{
+                          .star{
+                            span.on{
+                              background: url(/sites/all/modules/contrib/fivestar/widgets/default/star.gif) no-repeat 0 -16px;
+                            }
+                          }
+                        }
+                      }
+                      .descrition{
+                        display:none;
+                      }
+                    }
+                  }
+                  .fivestar-summary-average-count{
+                    display:none;
+                  }
+                }
+              }
+            }
+            .large-5{
+              .field-content{
+                top: 10px;
+                position: absolute;
+                color: #f26667;
+                font-family: 'OpenSans' Semibold, sans-serif;
+                font-size: 17px;
+                right: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+    /*.view-content{
+      .views-row{
+        .principal{
+          .container{
+            position: relative;
+            border: 1px solid #E9E9E9;
+            padding: 10px;
+            background-color: white;
+            display: inline-block;
+          }
+          .large-7.columns{
+            padding:0px!important;
 
+          }
         }
       }
-    }
-    .large-3{
-      border: 2px solid #f6f6f6;
-      padding-top: 13px;
-      border-bottom: 0;
-      margin-bottom:15px;
-      .content-car-title{
-        a{
-          color: #9f9f9f;
-          font-family: 'OpenSans Regular';
-          font-size: 17px;
-          right: 0px;
-        }
-        .large-10{
-          padding-top:15px;
+      .large-3{
+        border: 2px solid #f6f6f6;
+        border-bottom: 0;
+        margin-bottom:15px;
+        .content-car-title{
+          a{
+            color: #9f9f9f;
+            font-family: 'OpenSans Regular';
+            font-size: 17px;
+            right: 0px;
+          }
+          .large-10{
+            padding-top:15px;
+          }
         }
       }
+      .large-12{
+        border-top:1px solid #f6f6f6;
+      }
+    }*/
+  }
+  //end content
+  //Filtros
+  .views-widget-filter-field_type_tid,
+  .views-widget-filter-field_color_tid, .views-widget-filter-field_size_tid{
+    label{
+      font-family: OpenSans regular;
+      font-size:17px;
+      color:#FE585C;
+      margin-bottom:12px;
     }
-    .large-12{
-      border-top:1px solid #f6f6f6;
+    .views-widget{
+      border-top:0px!important;
+      border-bottom: 1px solid #dddddd;
     }
-  }
-}
-//end content
-//Filtros
-.views-widget-filter-field_category_tid{
-  label{
-    font-family: 'ubunturegular';
-    font-size: 21px;
-    color: #666666;
-    border-bottom: 2px #666666 solid;
-    text-align: center;
-    left:15px;
-    width:50%;
-    padding-bottom: 4px;
-  }
-  .views-widget{
-    border-top:1px #dddddd solid !important;
-  }
-  .form-item-field-category-tid{
-    .form-type-bef-link{
-      a{
+    .form-item-field-type-tid, .form-item-field-color-tid, .form-item-field-size-tid{
+      label{
         font-family: 'OpenSans Regular';
         color: #7f7f7f;
-        font-size: 1.05em;
+        font-size: 17px;
+        border-bottom: 0;
+        padding:0px;
+        text-align: left;
       }
     }
   }
-  .form-item-field-type-tid, .form-item-field-color-tid, .form-item-field-size-tid{
-    label{
-      font-family: 'OpenSans Regular';
-      color: #7f7f7f;
-      font-size: 17px;
-      border-bottom: 0;
-      padding:0px;
-      text-align: left;
-    }
-  }
-}
-.views-widget-filter-field_type_tid,
-.views-widget-filter-field_color_tid, .views-widget-filter-field_size_tid{
-  label{
-    font-family: OpenSans regular;
-    font-size:17px;
-    color:#FE585C;
-    margin-bottom:12px;
-  }
-  .views-widget{
-    border-top:0px!important;
-    border-bottom: 1px solid #dddddd;
-  }
-  .form-item-field-type-tid, .form-item-field-color-tid, .form-item-field-size-tid{
-    label{
-      font-family: 'OpenSans Regular';
-      color: #7f7f7f;
-      font-size: 17px;
-      border-bottom: 0;
-      padding:0px;
-      text-align: left;
-    }
-  }
-}
-.view-filters{
-  .large-9{
-    .title-catalogo{
-      font-family:ubunturegular;
-      font-size: 21px;
-      position:relative;
-      color: #666666;
-      &:after { content: ""; position: absolute; bottom: -3px; left: -3px; }
-      &:after {
-        right: -3px;
-        height: 1px;
-        background: linear-gradient(to right, #E5E5E5 2%, black 3%, black 19%, #E5E5E5 15%, #E5E5E5 10%);
+  /*.view-filters{
+    .large-9{
+      .title-catalogo{
+        font-family:ubunturegular;
+        font-size: 21px;
+        position:relative;
+        color: #666666;
+        &:after { content: ""; position: absolute; bottom: -3px; left: -3px; }
+        &:after {
+          right: -3px;
+          height: 1px;
+          background: linear-gradient(to right, #E5E5E5 2%, black 3%, black 19%, #E5E5E5 15%, #E5E5E5 10%);
+        }
       }
-    }
-    .views-widget-sort-by{
-      margin-top: 12px;
-      margin-bottom: 0;
-      padding: 0;
-      .form-item-sort-by{
-        margin-top: 0;
+      .views-widget-sort-by{
+        margin-top: 12px;
         margin-bottom: 0;
-        label{
-          float:left;
-          padding-top: 7px;
-          padding-right: 20px;
-          font-family: 'OpenSans regular';
-          font-size: 14px;
+        padding: 0;
+        .form-item-sort-by{
+          margin-top: 0;
+          margin-bottom: 0;
+          label{
+            float:left;
+            padding-top: 7px;
+            padding-right: 20px;
+            font-family: 'OpenSans regular';
+            font-size: 14px;
+          }
+          .form-select{
+            width: 100px;
+            font-family: 'OpenSans' Regular;
+            font-size: 17px;
+            height: 25px;
+            padding: 0;
+            margin-top: 4px;
+          }
         }
-        .form-select{
-          width: 100px;
-          font-family: 'OpenSans' Regular;
-          font-size: 17px;
-          height: 25px;
-          padding: 0;
-          margin-top: 4px;
+      }
+      .views-widget-sort-order{
+        .form-item-sort-order{
+          label{
+            display:none;
+          }
+          .form-select{
+            width: 100px;
+            font-family: 'OpenSans Regular';
+          }
         }
       }
     }
-    .views-widget-sort-order{
-      .form-item-sort-order{
-        label{
-          display:none;
-        }
-        .form-select{
-          width: 100px;
-          font-family: 'OpenSans Regular';
-        }
-      }
-    }
-  }
+  }*/
+
 }
