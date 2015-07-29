@@ -1,4 +1,7 @@
 .front{
+  .breadcrumb-custom{
+    height:0px;
+  }
   .rs-page,.title-node-page{
     display:none;
   }
@@ -267,3 +270,4 @@
   content:"›‹"!important;
   font-size: 25px!important;
 }
+
