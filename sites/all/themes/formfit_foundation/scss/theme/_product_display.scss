@@ -114,7 +114,7 @@
           .price-product{
             width: 100%;
             border-bottom: 1px solid #e0e0e0;
-            padding-bottom: 8px;
+            padding-bottom: 5px;
             .field-name-commerce-price{
               font-family:'OpenSans-Semibold', sans-serif;
               display:inline-block;
@@ -133,6 +133,55 @@
               }
             }
           }
+          .add-product{
+            width: 100%;
+            .field-name-field-product{
+              .commerce-add-to-cart{
+                div{
+                  .attribute-widgets{
+                    .form-item-attributes-field-color{
+                      label{
+                        border-bottom: 1px solid #e0e0e0;
+                        margin-top: 2px;
+                        padding-bottom: 10px;
+                        font-family: 'OpenSans', sans-serif;
+                        font-size:13px;
+                        color:#666666;
+                        font-weight: normal;
+                        .form-radios{
+
+                        }
+                      }
+                    }
+                    .form-item-attributes-field-size{
+                      margin: 0px 1px;
+                      display: block;
+                      label{
+                        border-bottom: 1px solid #e0e0e0;
+                        margin-top: 2px;
+                        padding-bottom: 10px;
+                        font-family: 'OpenSans', sans-serif;
+                        font-size:13px;
+                        color:#666666;
+                        font-weight: normal;
+                        display: inline-block;
+                        float: left;
+                        text-align: left;
+                        width: 76px;
+                      }
+                      select{
+                        display: inline-block;
+                        width: 90px;
+                        height: 27px;
+                        font-size: 12px;
+                        padding: 0;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
           .color-product{
             span{
               width: 17px;
@@ -145,13 +194,7 @@
                 margin-left: 35px;
               }
             }
-            border-bottom: 1px solid #e0e0e0;
-            margin-top: 2px;
-            padding-bottom: 10px;
-            font-family: 'OpenSans', sans-serif;
-            font-size:13px;
-            color:#666666;
-            font-weight: normal;
+
           }
           .size{
             border-bottom: 1px solid #e0e0e0;
@@ -206,12 +249,11 @@
       border-bottom: 0.5px solid #e4e4e4;
       .tab-title{
         a{
-          font-family: 'OpenSans Regular';
-          font-size: 17px;
+          font-family: 'OpenSans', sans-serif;
+          font-size: 13px;
           color: #aeaeae;
           background-color: white;
           font-size: 17px;
-          font-family: OpenSans regular;
           font-weight: normal;
           text-transform: uppercase;
           border-bottom: 2px solid;
@@ -227,9 +269,9 @@
     }
     .tabs-content{
       p{
-        font-family: 'OpenSans Regular';
+        font-family: 'OpenSans', sans-serif;
         color: #aeaeae;
-        font-size: 16px;
+        font-size: 12px;
       }
     }
     .votes{
