@@ -210,8 +210,40 @@
             }
           }
         }
+        .large-12.columns{
+          .tabs{
+            border-bottom: 0.5px solid #e4e4e4;
+            li{
+              position: relative;
+              margin-bottom: 0 !important;
+              list-style: none;
+              float: left;
+              a{
+                font-family: 'OpenSans',sans-serif;
+                font-size: 13px;
+                color: #aeaeae;
+                background-color: white;
+                font-weight: normal;
+                text-transform: uppercase;
+                background-color: #f8f8f8;
+              }
+              &.active{
+                a{
+                  color: black;
+                }
+              }
+            }
+          }
+          .tabs-content{
+            p{
+              font-family: 'OpenSans', sans-serif;
+              color: #aeaeae;
+              font-size: 12px;
+            }
+          }
+        }
       }
-    .body-product-container{
+    /*.body-product-container{
       padding: 0;
       .large-7.columns{
         .image-product{
@@ -244,36 +276,7 @@
           }
         }
       }
-    }
-    .tabs{
-      border-bottom: 0.5px solid #e4e4e4;
-      .tab-title{
-        a{
-          font-family: 'OpenSans', sans-serif;
-          font-size: 13px;
-          color: #aeaeae;
-          background-color: white;
-          font-size: 17px;
-          font-weight: normal;
-          text-transform: uppercase;
-          border-bottom: 2px solid;
-          background-color: #f8f8f8;
-        }
-      }
-      .active{
-        a{
-          color:black;
-          border-bottom: 2px solid;
-        }
-      }
-    }
-    .tabs-content{
-      p{
-        font-family: 'OpenSans', sans-serif;
-        color: #aeaeae;
-        font-size: 12px;
-      }
-    }
+    }*/
     .votes{
       .field-name-field-votes{
         width: 32%;
@@ -283,7 +286,7 @@
         display:none;
       }
     }
-    .services{
+    /*.services{
       border-bottom: 1px solid #e0e0e0;
       color: #666666;
       font-family: OpenSans regular;
@@ -303,7 +306,7 @@
       div{
         margin-bottom:11px;
       }
-    }
+    }*/
     .rs-product{
       a{
         span{
@@ -419,7 +422,7 @@
   /**
    * Menu left
    */
-  .block-menu-menu-category{
+  /*.block-menu-menu-category{
     .menu{
       list-style:none;
       li{
@@ -442,7 +445,7 @@
       width:35%;
       text-transform: uppercase;
     }
-  }
+  }*/
   span.tooltip{
     margin:0!important;
     color:white;
