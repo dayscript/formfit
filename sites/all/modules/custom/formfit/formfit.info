@@ -1,8 +1,0 @@
-; $Id$
-name = formfit module
-description = Module custom for formfit
-dependencies[] = views
-package = formfit
-version = 0.01
-core = 7.x
-files[] = formfit.module
