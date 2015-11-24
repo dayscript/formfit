@@ -1,26 +1,26 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
-/* line 4, ../scss/global.scss */
+
 body {
   font-family: "open_sansregular";
-  font-size: "normal";
+  font-size: "normal"
 }
 
-/* line 9, ../scss/global.scss */
 .region-user-full {
   background-color: #272727;
   color: #a29d9d;
-}
-/* line 12, ../scss/global.scss */
-.region-user-full a {
-  color: #a29d9d;
-}
-/* line 16, ../scss/global.scss */
-.region-user-full .menu li {
-  list-style: none;
+  a {
+    color: #a29d9d;
+  }
+  .menu {
+    li {
+      list-style: none;
+    }
+  }
 }
 
-/* line 23, ../scss/global.scss */
-.zone-menu .block-blockify-blockify-logo {
-  float: left;
+.zone-menu {
+  .block-blockify-blockify-logo {
+    float: left;
+  }
 }
