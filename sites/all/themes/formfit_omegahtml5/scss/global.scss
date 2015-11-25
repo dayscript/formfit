@@ -3,24 +3,28 @@
 
 body {
   font-family: "open_sansregular";
-  font-size: "normal"
+  font-size: "normal";
+  background-color: #f6f6f6;
 }
 
-.region-user-full {
-  background-color: #272727;
-  color: #a29d9d;
-  a {
-    color: #a29d9d;
-  }
-  .menu {
-    li {
-      list-style: none;
-    }
-  }
-}
-
-.zone-menu {
-  .block-blockify-blockify-logo {
-    float: left;
-  }
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+  -webkit-appearance: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid;
+  border-color: #DBDBDB;
+  color: #000;
+  outline: 0;
+  padding: 2px 3px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  height: 1.8em;
 }
