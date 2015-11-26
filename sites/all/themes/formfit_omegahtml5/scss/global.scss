@@ -7,7 +7,10 @@ body {
   background-color: #f6f6f6;
 }
 
-textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+textarea, select, 
+input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], 
+input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], 
+input[type="time"], input[type="url"], input[type="week"] {
   -webkit-appearance: none;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -27,6 +30,22 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
   font-size: 13px;
   font-family: Arial, sans-serif;
   height: 1.8em;
+}
+
+form {
+  margin-top: 5px;
+  .form-submit {
+    background-image: none;
+    background-color: #FF5757;
+    color: #fff;
+    border: none;
+    border-color: transparent;
+    border-radius: 0;
+    text-shadow: none;
+    font-size: 10px;
+    font-family: "open_sansregular";
+    text-transform: uppercase;
+  }
 }
 
 .region-user-full {
@@ -164,16 +183,6 @@ ul.quicktabs-tabs {
       form {
         margin-top: 5px;
         .form-submit {
-          background-image: none;
-          background-color: #FF5757;
-          color: #fff;
-          border: none;
-          border-color: transparent;
-          border-radius: 0;
-          text-shadow: none;
-          font-size: 10px;
-          font-family: "open_sansregular";
-          text-transform: uppercase;
           float: right;
         }
       }
@@ -352,5 +361,124 @@ footer {
       border-bottom: none;
       padding-bottom: 0;
     }
+  }
+}
+
+.breadcrumb {
+  background-color: #e9e9e9;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  color: #fb5757;
+  font-size: 13px;
+  font-family: "open_sansregular";
+  a {
+    color: #c5bcbc;
+    text-decoration: none;
+  }
+}
+
+.field-name-field-servicios {
+  .field {
+    border-bottom: none !important;
+  }
+  .field-label {
+    margin-bottom: 10px;
+  }
+  .field-items {
+    overflow: hidden;
+    .field-item {
+      float: left;
+      .field-name-field-apocope {
+        padding-bottom: 0;
+        .field-items {
+          width: auto;
+          margin-right: 5px;
+          .field-item {
+            a {
+              width: 30px;
+              height: 12px;
+              display: block;
+              text-align: center;
+              background-color: #ff787f;
+              color: white;
+              border-radius: 100%;
+              padding: 14px 5px;
+              font-family: "open_sansregular";
+              font-size: 13px;
+              text-decoration: none;
+              text-transform: uppercase;
+            }
+            a:hover, a:focus, a:active, a.active {
+              background-color: #9cb6b9;
+            }
+            a:hover + div.field-name-title {
+              display: inline-block;
+            }
+          }
+        }
+      }
+      .field-name-title {
+        display: none;
+        background-color: #ff5757;
+        color: white;
+        padding: 3px;
+        font-family: "open_sansregular";
+        font-size: 10px;
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+.commerce-product-field-commerce-price {
+  .field-items {
+    margin-left: 50px;
+    font-size: 24px;
+    font-family: "open_sanssemibold";
+    color: #ff5757;
+  }
+}
+
+.field-name-field-linea {
+  .field-label {
+    margin-bottom: 10px;
+  }
+  .field-items {
+    .field-item {
+      .field {
+        padding-bottom: 0;
+        border-bottom: none !important;
+        a {
+          color: #ff5757;
+          text-decoration: none;
+          font-weight: normal;
+          font-family: "open_sansregular";
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+
+.form-type-commerce-fancy-attributes-ajax {
+  overflow: hidden;
+  border-bottom: 1px solid #e0e0e0;
+  .form-item {
+    float: left;
+    .description {
+      .field {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+
+.form-type-select {
+  label {
+    float: left;
+  }
+  select {
+    margin-left: 68px;
   }
 }
