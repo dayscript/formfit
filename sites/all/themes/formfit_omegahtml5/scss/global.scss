@@ -48,6 +48,13 @@ form {
   }
 }
 
+.img_filter_grey {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: #000000;
+  filter: brightness(40%);
+  -webkit-filter: brightness(40%);
+}
+
 .region-user-full {
   background-color: #272727;
   color: #a29d9d;
@@ -103,40 +110,59 @@ form {
 .block-banner-home-lineas {
   margin-bottom: 8px;
   .views-field-name {
+    z-index: 100;
     position: absolute;
-    top: calc(50% - 16px);
+    height: 100%;
     width: 100%;
     text-align: center;
     font-size: 13px;
     text-transform: uppercase;
-    img {
+    .field-content {
+      position: absolute;
       width: 100%;
-    }
-    a {
-      color: #f8f8f8;
-      text-decoration: none;
-      .linea {
-        font-family: "segoepr";
-        font-size: 30px;
-        text-transform: capitalize;
-        margin-bottom: 20px;
-      }
-      .linea::after {
-        content: '';
+      height: 100%;
+      left: 0;
+      a {
+        color: transparent;
+        text-decoration: none;
         display: block;
-        height: 2px;
-        position: absolute;
-        -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        transform: translateX(-50%);
-        background-color: #f8f8f8;
-        -webkit-transition: all 0.3s;
-        transition: all 0.3s;
-        left: 50%;
-        width: 40%;
-        margin-top: 8px;
+        padding-top: 32%;
+        height: 58%;
+        .linea {
+          font-family: "segoepr";
+          font-size: 30px;
+          text-transform: capitalize;
+          margin-bottom: 20px;
+        }
+        .linea::after {
+          content: '';
+          display: block;
+          height: 2px;
+          position: absolute;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+          background-color: transparent;
+          -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+          left: 50%;
+          width: 40%;
+          margin-top: 8px;
+        }
       }
     }
+    .field-content.color_display {
+      a {
+        color: #f8f8f8;
+        .linea::after {
+          background-color: #f8f8f8;
+        }
+      }
+    }
+  }
+  .views-field-field-image {
+    z-index: 1;
+    display: block;
   }
 }
 
@@ -481,4 +507,7 @@ footer {
   select {
     margin-left: 68px;
   }
+}
+.front #first-time {
+  display: none;
 }
