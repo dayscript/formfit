@@ -364,6 +364,7 @@ footer {
 }
 
 .block-facetapi {
+  border-bottom: 1px solid #dddddd;
   ul {
     li {
       list-style: none;
@@ -562,4 +563,40 @@ footer {
 }
 .front #first-time {
   display: none;
+}
+
+.region-content {
+  h1 {
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    font-family: "ubunturegular";
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #666;
+    border-bottom: 1px solid #dddddd;
+  }
+  h1:after {
+    content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #000;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    left: 8%;
+    width: 10%;
+    margin-top: 8px;
+  }
+  .node-page {
+    font-family: "open_sansregular";
+    font-size: 14px;
+    color: #999999;
+    text-align: justify;
+    margin-bottom: 47px;
+  }
 }

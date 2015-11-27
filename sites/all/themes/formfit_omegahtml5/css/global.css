@@ -394,19 +394,23 @@ footer .block-menu ul.menu li a {
   display: none;
 }
 
-/* line 368, ../scss/global.scss */
+/* line 366, ../scss/global.scss */
+.block-facetapi {
+  border-bottom: 1px solid #dddddd;
+}
+/* line 369, ../scss/global.scss */
 .block-facetapi ul li {
   list-style: none;
   margin-left: 0;
 }
-/* line 371, ../scss/global.scss */
+/* line 372, ../scss/global.scss */
 .block-facetapi ul li a {
   text-decoration: none;
   color: #666;
   font-family: "open_sansregular";
   font-size: 13px;
 }
-/* line 379, ../scss/global.scss */
+/* line 380, ../scss/global.scss */
 .block-facetapi h2 {
   margin-top: 20px;
   font-family: "open_sansregular";
@@ -416,11 +420,11 @@ footer .block-menu ul.menu li a {
   padding-bottom: 20px;
 }
 
-/* line 390, ../scss/global.scss */
+/* line 391, ../scss/global.scss */
 .node-product-type-full .group-header {
   padding-bottom: 8px;
 }
-/* line 392, ../scss/global.scss */
+/* line 393, ../scss/global.scss */
 .node-product-type-full .group-header a {
   font-family: "ubunturegular";
   font-size: 15px;
@@ -429,7 +433,7 @@ footer .block-menu ul.menu li a {
   text-transform: uppercase;
   color: #666;
 }
-/* line 400, ../scss/global.scss */
+/* line 401, ../scss/global.scss */
 .node-product-type-full .group-header a:after {
   content: '';
   display: block;
@@ -445,7 +449,7 @@ footer .block-menu ul.menu li a {
   width: 10%;
   margin-top: 8px;
 }
-/* line 416, ../scss/global.scss */
+/* line 417, ../scss/global.scss */
 .node-product-type-full .group-left, .node-product-type-full .group-right {
   background-color: #f8f8f8;
   padding: 5px;
@@ -455,30 +459,30 @@ footer .block-menu ul.menu li a {
   margin-bottom: 20px;
   display: inline-block;
 }
-/* line 425, ../scss/global.scss */
+/* line 426, ../scss/global.scss */
 .node-product-type-full .group-left {
   border-right: none;
 }
-/* line 428, ../scss/global.scss */
+/* line 429, ../scss/global.scss */
 .node-product-type-full .group-right {
   border-left: none;
   color: #999;
   font-family: "open_sansregular";
   font-size: 13px;
 }
-/* line 433, ../scss/global.scss */
+/* line 434, ../scss/global.scss */
 .node-product-type-full .group-right .field {
   margin-bottom: 10px;
   border-bottom: 1px solid #e0e0e0;
   padding: 0 0 20px;
 }
-/* line 438, ../scss/global.scss */
+/* line 439, ../scss/global.scss */
 .node-product-type-full .group-right .commerce-product-field-field-vote {
   border-bottom: none;
   padding-bottom: 0;
 }
 
-/* line 445, ../scss/global.scss */
+/* line 446, ../scss/global.scss */
 .zone-breadcrumb-wrapper {
   background-color: #e9e9e9;
   padding: 20px 0;
@@ -487,38 +491,38 @@ footer .block-menu ul.menu li a {
   font-size: 13px;
   font-family: "open_sansregular";
 }
-/* line 452, ../scss/global.scss */
+/* line 453, ../scss/global.scss */
 .zone-breadcrumb-wrapper a {
   color: #c5bcbc;
   text-decoration: none;
 }
 
-/* line 459, ../scss/global.scss */
+/* line 460, ../scss/global.scss */
 .field-name-field-servicios .field {
   border-bottom: none !important;
 }
-/* line 462, ../scss/global.scss */
+/* line 463, ../scss/global.scss */
 .field-name-field-servicios .field-label {
   margin-bottom: 10px;
 }
-/* line 465, ../scss/global.scss */
+/* line 466, ../scss/global.scss */
 .field-name-field-servicios .field-items {
   overflow: hidden;
 }
-/* line 467, ../scss/global.scss */
+/* line 468, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item {
   float: left;
 }
-/* line 469, ../scss/global.scss */
+/* line 470, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-field-apocope {
   padding-bottom: 0;
 }
-/* line 471, ../scss/global.scss */
+/* line 472, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items {
   width: auto;
   margin-right: 5px;
 }
-/* line 475, ../scss/global.scss */
+/* line 476, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a {
   width: 30px;
   height: 12px;
@@ -533,15 +537,15 @@ footer .block-menu ul.menu li a {
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 489, ../scss/global.scss */
+/* line 490, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a:hover, .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a:focus, .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a:active, .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a.active {
   background-color: #9cb6b9;
 }
-/* line 492, ../scss/global.scss */
+/* line 493, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a:hover + div.field-name-title {
   display: inline-block;
 }
-/* line 498, ../scss/global.scss */
+/* line 499, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-title {
   display: none;
   background-color: #ff5757;
@@ -552,7 +556,7 @@ footer .block-menu ul.menu li a {
   font-weight: normal;
 }
 
-/* line 512, ../scss/global.scss */
+/* line 513, ../scss/global.scss */
 .commerce-product-field-commerce-price .field-items {
   margin-left: 50px;
   font-size: 24px;
@@ -560,16 +564,16 @@ footer .block-menu ul.menu li a {
   color: #ff5757;
 }
 
-/* line 521, ../scss/global.scss */
+/* line 522, ../scss/global.scss */
 .field-name-field-linea .field-label {
   margin-bottom: 10px;
 }
-/* line 526, ../scss/global.scss */
+/* line 527, ../scss/global.scss */
 .field-name-field-linea .field-items .field-item .field {
   padding-bottom: 0;
   border-bottom: none !important;
 }
-/* line 529, ../scss/global.scss */
+/* line 530, ../scss/global.scss */
 .field-name-field-linea .field-items .field-item .field a {
   color: #ff5757;
   text-decoration: none;
@@ -578,31 +582,68 @@ footer .block-menu ul.menu li a {
   font-size: 13px;
 }
 
-/* line 541, ../scss/global.scss */
+/* line 542, ../scss/global.scss */
 .form-type-commerce-fancy-attributes-ajax {
   overflow: hidden;
   border-bottom: 1px solid #e0e0e0;
 }
-/* line 544, ../scss/global.scss */
+/* line 545, ../scss/global.scss */
 .form-type-commerce-fancy-attributes-ajax .form-item {
   float: left;
 }
-/* line 547, ../scss/global.scss */
+/* line 548, ../scss/global.scss */
 .form-type-commerce-fancy-attributes-ajax .form-item .description .field {
   border-bottom: none;
   padding-bottom: 0;
 }
 
-/* line 556, ../scss/global.scss */
+/* line 557, ../scss/global.scss */
 .form-type-select label {
   float: left;
 }
-/* line 559, ../scss/global.scss */
+/* line 560, ../scss/global.scss */
 .form-type-select select {
   margin-left: 68px;
 }
 
-/* line 563, ../scss/global.scss */
+/* line 564, ../scss/global.scss */
 .front #first-time {
   display: none;
+}
+
+/* line 569, ../scss/global.scss */
+.region-content h1 {
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  font-family: "ubunturegular";
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #666;
+  border-bottom: 1px solid #dddddd;
+}
+/* line 580, ../scss/global.scss */
+.region-content h1:after {
+  content: '';
+  display: block;
+  height: 1px;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  left: 8%;
+  width: 10%;
+  margin-top: 8px;
+}
+/* line 595, ../scss/global.scss */
+.region-content .node-page {
+  font-family: "open_sansregular";
+  font-size: 14px;
+  color: #999999;
+  text-align: justify;
+  margin-bottom: 47px;
 }
