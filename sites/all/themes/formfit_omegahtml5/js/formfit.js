@@ -14,6 +14,13 @@
                     }
     			});
     		}
+
+            if(jQuery(".block-commerce-product-comparison") .length > 0) {
+                var num = jQuery(".block-commerce-product-comparison").find("ul li").size();
+                var text = jQuery(".block-commerce-product-comparison").find(".num-compare").text();
+                text = text.replace("%", num);
+                jQuery(".block-commerce-product-comparison").find(".num-compare").text(text);
+            }
     	});
     } // End Attach
   }; // End Behaviors

@@ -64,12 +64,20 @@ form {
 .zone-fullmenu-wrapper {
   background-color: #272727;
   color: #a29d9d;
+  padding: 15px 0;
+  font-family: "open_sansregular";
+  font-size: 13px;
   a {
     color: #a29d9d;
   }
   .menu {
     li {
       list-style: none;
+    }
+  }
+  .block-commerce-product-comparison {
+    .num-compare {
+      color: #e74c3c;
     }
   }
 }
@@ -235,13 +243,14 @@ ul.quicktabs-tabs {
 }
 
 .block-promociones-home-block {
-  margin-top: 50px;
+  margin-top: 47px;
+  margin-bottom: 42px;
 }
 
 footer {
   background-color: #222;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 45px;
+  padding-bottom: 76px;
   .block-menu {
     h2 {
       font-family: "ubunturegular";
