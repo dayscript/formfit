@@ -30,6 +30,12 @@ input[type="time"], input[type="url"], input[type="week"] {
   font-size: 13px;
   font-family: Arial, sans-serif;
   height: 1.8em;
+  padding: 16px;
+}
+
+label {
+  color: #272822;
+  margin-bottom: 20px;
 }
 
 form {
@@ -45,6 +51,9 @@ form {
     font-size: 10px;
     font-family: "open_sansregular";
     text-transform: uppercase;
+  }
+  .form-submit:hover {
+    background-color: #9cb6b9;
   }
 }
 
@@ -247,7 +256,7 @@ ul.quicktabs-tabs {
   margin-bottom: 42px;
 }
 
-footer {
+footer.section-footer {
   background-color: #222;
   padding-top: 45px;
   padding-bottom: 76px;
