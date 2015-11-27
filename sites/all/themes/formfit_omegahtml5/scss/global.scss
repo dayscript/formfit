@@ -61,7 +61,7 @@ form {
   -webkit-filter: brightness(40%);
 }
 
-.region-user-full {
+.zone-fullmenu-wrapper {
   background-color: #272727;
   color: #a29d9d;
   a {
@@ -75,6 +75,7 @@ form {
 }
 
 .zone-menu-wrapper {
+  margin: 41px 0;
   .zone-menu {
     .block-nice-menus {
       ul.nice-menu-down {
