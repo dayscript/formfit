@@ -659,3 +659,15 @@ footer.section-footer .block-menu ul.menu li a {
   text-align: justify;
   margin-bottom: 47px;
 }
+
+/* line 616, ../scss/global.scss */
+.block-bloque-lineas-block ul li {
+  margin-left: 0;
+}
+/* line 618, ../scss/global.scss */
+.block-bloque-lineas-block ul li a {
+  text-decoration: none;
+  color: #666;
+  font-family: "open_sansregular";
+  font-size: 13px;
+}
