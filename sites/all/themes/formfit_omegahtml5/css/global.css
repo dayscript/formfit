@@ -381,7 +381,7 @@ footer.section-footer .block-menu ul.menu li a {
   font-family: "ubunturegular";
   font-size: 15px;
   color: #666;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   font-weight: normal;
   text-transform: uppercase;
   border-bottom: 1px solid #ddd;
@@ -400,7 +400,7 @@ footer.section-footer .block-menu ul.menu li a {
   transition: all 0.3s;
   left: 30%;
   width: 40%;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 /* line 372, ../scss/global.scss */
 .text-reduce-search div.content {
@@ -626,7 +626,7 @@ footer.section-footer .block-menu ul.menu li a {
 
 /* line 580, ../scss/global.scss */
 .region-content h1 {
-  padding-bottom: 8px;
+  padding-bottom: 15px;
   margin-bottom: 8px;
   font-family: "ubunturegular";
   font-size: 15px;
@@ -650,7 +650,7 @@ footer.section-footer .block-menu ul.menu li a {
   transition: all 0.3s;
   left: 8%;
   width: 10%;
-  margin-top: 8px;
+  margin-top: 15px;
 }
 /* line 606, ../scss/global.scss */
 .region-content .node-page {
