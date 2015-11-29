@@ -692,3 +692,26 @@ footer.section-footer .block-menu ul.menu li a {
   color: #fb5757;
   text-decoration: none;
 }
+
+/* line 646, ../scss/global.scss */
+.node-webform form .webform-component {
+  width: calc(50% - 2px);
+}
+/* line 648, ../scss/global.scss */
+.node-webform form .webform-component input[type="text"] {
+  width: 100%;
+}
+/* line 652, ../scss/global.scss */
+.node-webform form .webform-component-email {
+  margin-left: 4px;
+}
+/* line 655, ../scss/global.scss */
+.node-webform form .form-actions {
+  clear: both;
+  text-align: right;
+}
+/* line 658, ../scss/global.scss */
+.node-webform form .form-actions input[type="submit"] {
+  font-size: "14px";
+  padding: 10px 20px;
+}

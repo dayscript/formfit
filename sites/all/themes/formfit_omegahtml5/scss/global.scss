@@ -640,3 +640,25 @@ footer.section-footer {
     text-decoration: none;
   }
 }
+
+.node-webform {
+  form {
+    .webform-component{
+      width: calc(50% - 2px);
+      input[type="text"] {
+        width: 100%;
+      }
+    }
+    .webform-component-email {
+      margin-left: 4px;
+    }
+    .form-actions {
+      clear: both;
+      text-align: right;
+      input[type="submit"] {
+        font-size: "14px";
+        padding: 10px 20px;
+      }
+    }
+  }
+}
