@@ -687,3 +687,8 @@ footer.section-footer .block-menu ul.menu li a {
   font-size: 13px;
   margin: 20px 0;
 }
+/* line 638, ../scss/global.scss */
+.text-block-sidebar-first a {
+  color: #fb5757;
+  text-decoration: none;
+}
