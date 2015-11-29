@@ -728,8 +728,9 @@ footer.section-footer .block-menu ul.menu li a {
 /* line 674, ../scss/global.scss */
 #properties-compare-table thead tr th {
   text-align: center;
+  padding: 20px;
 }
-/* line 681, ../scss/global.scss */
+/* line 682, ../scss/global.scss */
 #properties-compare-table tbody tr td {
   background-color: #f6f6f6;
   font-family: "open_sansregular";
@@ -740,12 +741,12 @@ footer.section-footer .block-menu ul.menu li a {
   text-align: center;
   padding: 20px;
 }
-/* line 691, ../scss/global.scss */
+/* line 692, ../scss/global.scss */
 #properties-compare-table tbody tr td form .form-submit {
   font-size: "13px";
   padding: 18px 22px;
 }
-/* line 697, ../scss/global.scss */
+/* line 698, ../scss/global.scss */
 #properties-compare-table tbody tr td:nth-child(1) {
   background-color: #E9E9E9;
 }
