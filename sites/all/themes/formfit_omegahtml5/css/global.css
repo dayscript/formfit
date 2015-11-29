@@ -724,3 +724,16 @@ footer.section-footer .block-menu ul.menu li a {
   font-size: "14px";
   padding: 10px 20px;
 }
+
+/* line 674, ../scss/global.scss */
+#properties-compare-table tbody tr td:nth-child(0) {
+  background-color: #E9E9E9;
+}
+/* line 677, ../scss/global.scss */
+#properties-compare-table tbody tr td {
+  font-family: "open_sansregular";
+  font-size: "13px";
+  color: #666;
+  border: 1px solid #DDDDDD;
+  border-collapse: collapse;
+}
