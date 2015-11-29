@@ -671,15 +671,16 @@ footer.section-footer {
 #properties-compare-table {
   tbody {
     tr{
-      td:nth-child(0) {
-        background-color: #E9E9E9;
-      }
       td {
+        background-color: #f6f6f6;
         font-family: "open_sansregular";
         font-size: "13px";
         color: #666;
         border: 1px solid #DDDDDD;
         border-collapse: collapse;
+      }
+      td:nth-child(1) {
+        background-color: #E9E9E9;
       }
     }
   }

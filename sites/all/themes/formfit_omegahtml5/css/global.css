@@ -726,14 +726,15 @@ footer.section-footer .block-menu ul.menu li a {
 }
 
 /* line 674, ../scss/global.scss */
-#properties-compare-table tbody tr td:nth-child(0) {
-  background-color: #E9E9E9;
-}
-/* line 677, ../scss/global.scss */
 #properties-compare-table tbody tr td {
+  background-color: #f6f6f6;
   font-family: "open_sansregular";
   font-size: "13px";
   color: #666;
   border: 1px solid #DDDDDD;
   border-collapse: collapse;
+}
+/* line 682, ../scss/global.scss */
+#properties-compare-table tbody tr td:nth-child(1) {
+  background-color: #E9E9E9;
 }
