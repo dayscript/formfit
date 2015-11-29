@@ -185,7 +185,7 @@ form .form-submit:hover {
 }
 /* line 171, ../scss/global.scss */
 .banner-lineas .views-field-name .field-content a .linea::after {
-  color: #f8f8f8;
+  background-color: #f8f8f8;
   content: '';
   display: block;
   height: 2px;
