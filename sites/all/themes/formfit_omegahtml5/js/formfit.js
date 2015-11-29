@@ -4,12 +4,12 @@
     	$(document).ready(function(){
     		/* Over images lines in home */
     		if(jQuery(".banner-lineas").length > 0) {
+                jQuery(".banner-lineas").find(".views-field-name").find(".field-content").addClass('color_display');
     			jQuery(".banner-lineas").find(".views-field-name").on({
     				mouseenter: function() {
-                        jQuery(this).find(".field-content").addClass('color_display');
                         jQuery(this).next(".field-name-field-image").addClass( "img_filter_grey" );
                     }, mouseleave: function() {
-                        jQuery(this).find(".field-content").removeClass('color_display');
+                        //jQuery(this).find(".field-content").removeClass('color_display');
                         jQuery(this).next(".field-name-field-image").removeClass( "img_filter_grey" );
                     }
     			});

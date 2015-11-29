@@ -201,11 +201,11 @@ form .form-submit:hover {
   margin-top: 8px;
 }
 /* line 190, ../scss/global.scss */
-.banner-lineas .views-field-name .field-content a {
+.banner-lineas .views-field-name .field-content.color_display a {
   color: #f8f8f8;
 }
 /* line 192, ../scss/global.scss */
-.banner-lineas .views-field-name .field-content a .linea::after {
+.banner-lineas .views-field-name .field-content.color_display a .linea::after {
   background-color: #f8f8f8;
 }
 /* line 198, ../scss/global.scss */
