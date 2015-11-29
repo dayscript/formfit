@@ -3,8 +3,8 @@
     attach: function(context, settings) {
     	$(document).ready(function(){
     		/* Over images lines in home */
-    		if(jQuery(".block-banner-home-lineas").length > 0) {
-    			jQuery(".block-banner-home-lineas").find(".views-field-name").on({
+    		if(jQuery(".banner-lineas").length > 0) {
+    			jQuery(".banner-lineas").find(".views-field-name").on({
     				mouseenter: function() {
                         jQuery(this).find(".field-content").addClass('color_display');
                         jQuery(this).next(".views-field-field-image").addClass( "img_filter_grey" );

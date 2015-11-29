@@ -147,11 +147,11 @@ form .form-submit:hover {
 }
 
 /* line 143, ../scss/global.scss */
-.block-banner-home-lineas {
+.banner-lineas {
   margin-bottom: 8px;
 }
 /* line 145, ../scss/global.scss */
-.block-banner-home-lineas .views-field-name {
+.banner-lineas .views-field-name {
   z-index: 100;
   position: absolute;
   height: 100%;
@@ -161,14 +161,14 @@ form .form-submit:hover {
   text-transform: uppercase;
 }
 /* line 153, ../scss/global.scss */
-.block-banner-home-lineas .views-field-name .field-content {
+.banner-lineas .views-field-name .field-content {
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
 }
 /* line 158, ../scss/global.scss */
-.block-banner-home-lineas .views-field-name .field-content a {
+.banner-lineas .views-field-name .field-content a {
   color: transparent;
   text-decoration: none;
   display: block;
@@ -176,14 +176,14 @@ form .form-submit:hover {
   height: 58%;
 }
 /* line 164, ../scss/global.scss */
-.block-banner-home-lineas .views-field-name .field-content a .linea {
+.banner-lineas .views-field-name .field-content a .linea {
   font-family: "segoepr";
   font-size: 30px;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
 /* line 170, ../scss/global.scss */
-.block-banner-home-lineas .views-field-name .field-content a .linea::after {
+.banner-lineas .views-field-name .field-content a .linea::after {
   content: '';
   display: block;
   height: 2px;
@@ -199,15 +199,15 @@ form .form-submit:hover {
   margin-top: 8px;
 }
 /* line 188, ../scss/global.scss */
-.block-banner-home-lineas .views-field-name .field-content.color_display a {
+.banner-lineas .views-field-name .field-content.color_display a {
   color: #f8f8f8;
 }
 /* line 190, ../scss/global.scss */
-.block-banner-home-lineas .views-field-name .field-content.color_display a .linea::after {
+.banner-lineas .views-field-name .field-content.color_display a .linea::after {
   background-color: #f8f8f8;
 }
 /* line 196, ../scss/global.scss */
-.block-banner-home-lineas .views-field-field-image {
+.banner-lineas .views-field-field-image {
   z-index: 1;
   display: block;
 }
