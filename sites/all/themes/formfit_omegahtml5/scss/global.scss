@@ -643,7 +643,8 @@ footer.section-footer {
 
 .node-webform {
   form {
-    .webform-component{
+    .webform-component-email, .webform-component-textfield {
+      float: left;
       width: calc(50% - 2px);
       input[type="text"] {
         width: 100%;

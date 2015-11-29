@@ -694,23 +694,24 @@ footer.section-footer .block-menu ul.menu li a {
 }
 
 /* line 646, ../scss/global.scss */
-.node-webform form .webform-component {
+.node-webform form .webform-component-email, .node-webform form .webform-component-textfield {
+  float: left;
   width: calc(50% - 2px);
 }
-/* line 648, ../scss/global.scss */
-.node-webform form .webform-component input[type="text"] {
+/* line 649, ../scss/global.scss */
+.node-webform form .webform-component-email input[type="text"], .node-webform form .webform-component-textfield input[type="text"] {
   width: 100%;
 }
-/* line 652, ../scss/global.scss */
+/* line 653, ../scss/global.scss */
 .node-webform form .webform-component-email {
   margin-left: 4px;
 }
-/* line 655, ../scss/global.scss */
+/* line 656, ../scss/global.scss */
 .node-webform form .form-actions {
   clear: both;
   text-align: right;
 }
-/* line 658, ../scss/global.scss */
+/* line 659, ../scss/global.scss */
 .node-webform form .form-actions input[type="submit"] {
   font-size: "14px";
   padding: 10px 20px;
