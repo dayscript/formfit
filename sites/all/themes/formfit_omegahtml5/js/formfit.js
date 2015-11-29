@@ -7,10 +7,10 @@
     			jQuery(".banner-lineas").find(".views-field-name").on({
     				mouseenter: function() {
                         jQuery(this).find(".field-content").addClass('color_display');
-                        jQuery(this).next(".views-field-field-image").addClass( "img_filter_grey" );
+                        jQuery(this).next(".field-name-field-image").addClass( "img_filter_grey" );
                     }, mouseleave: function() {
                         jQuery(this).find(".field-content").removeClass('color_display');
-                        jQuery(this).next(".views-field-field-image").removeClass( "img_filter_grey" );
+                        jQuery(this).next(".field-name-field-image").removeClass( "img_filter_grey" );
                     }
     			});
     		}
