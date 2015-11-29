@@ -733,8 +733,14 @@ footer.section-footer .block-menu ul.menu li a {
   color: #666;
   border: 1px solid #DDDDDD;
   border-collapse: collapse;
+  text-align: center;
 }
-/* line 682, ../scss/global.scss */
+/* line 683, ../scss/global.scss */
+#properties-compare-table tbody tr td form .form-submit {
+  font-size: "13px";
+  padding: 18px 22px;
+}
+/* line 689, ../scss/global.scss */
 #properties-compare-table tbody tr td:nth-child(1) {
   background-color: #E9E9E9;
 }
