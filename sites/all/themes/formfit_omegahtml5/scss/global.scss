@@ -669,6 +669,13 @@ footer.section-footer {
 }
 
 #properties-compare-table {
+  thead {
+    tr {
+      th {
+        text-align: center;
+      }
+    }
+  }
   tbody {
     tr{
       td {
@@ -679,6 +686,7 @@ footer.section-footer {
         border: 1px solid #DDDDDD;
         border-collapse: collapse;
         text-align: center;
+        padding: 20px;
         form {
           .form-submit {
             font-size: "13px";
