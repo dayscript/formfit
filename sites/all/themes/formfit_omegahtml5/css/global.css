@@ -678,3 +678,12 @@ footer.section-footer .block-menu ul.menu li a {
   font-family: "open_sansregular";
   font-size: 13px;
 }
+
+/* line 632, ../scss/global.scss */
+.text-block-sidebar-first {
+  text-decoration: none;
+  color: #666;
+  font-family: "open_sansregular";
+  font-size: 13px;
+  margin: 20px 0;
+}
