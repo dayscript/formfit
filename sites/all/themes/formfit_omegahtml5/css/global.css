@@ -693,25 +693,33 @@ footer.section-footer .block-menu ul.menu li a {
   text-decoration: none;
 }
 
+/* line 644, ../scss/global.scss */
+.node-webform {
+  min-height: 340px;
+}
 /* line 646, ../scss/global.scss */
+.node-webform footer {
+  display: none;
+}
+/* line 650, ../scss/global.scss */
 .node-webform form .webform-component-email, .node-webform form .webform-component-textfield {
   float: left;
   width: calc(50% - 2px);
 }
-/* line 649, ../scss/global.scss */
+/* line 653, ../scss/global.scss */
 .node-webform form .webform-component-email input[type="text"], .node-webform form .webform-component-textfield input[type="text"] {
   width: 100%;
 }
-/* line 653, ../scss/global.scss */
+/* line 657, ../scss/global.scss */
 .node-webform form .webform-component-email {
   margin-left: 4px;
 }
-/* line 656, ../scss/global.scss */
+/* line 660, ../scss/global.scss */
 .node-webform form .form-actions {
   clear: both;
   text-align: right;
 }
-/* line 659, ../scss/global.scss */
+/* line 663, ../scss/global.scss */
 .node-webform form .form-actions input[type="submit"] {
   font-size: "14px";
   padding: 10px 20px;

@@ -642,6 +642,10 @@ footer.section-footer {
 }
 
 .node-webform {
+  min-height: 340px;
+  footer {
+    display: none;
+  }
   form {
     .webform-component-email, .webform-component-textfield {
       float: left;
