@@ -420,8 +420,8 @@ footer.section-footer .region-footer-six p a {
   color: #999;
   text-decoration: none;
 }
-/* line 385, ../scss/global.scss */
-footer.section-footer .region-footer-six p .facebook, footer.section-footer .region-footer-six p .twitter {
+/* line 386, ../scss/global.scss */
+footer.section-footer .region-footer-six .facebook, footer.section-footer .region-footer-six .twitter {
   margin-top: 9px;
   float: right;
   display: inline-block;
@@ -431,12 +431,12 @@ footer.section-footer .region-footer-six p .facebook, footer.section-footer .reg
   background-position: center;
   margin-left: 8px;
 }
-/* line 395, ../scss/global.scss */
-footer.section-footer .region-footer-six p .facebook {
+/* line 396, ../scss/global.scss */
+footer.section-footer .region-footer-six .facebook {
   background-image: url("images/facebook.png");
 }
-/* line 398, ../scss/global.scss */
-footer.section-footer .region-footer-six p .twitter {
+/* line 399, ../scss/global.scss */
+footer.section-footer .region-footer-six .twitter {
   background-image: url("images/twitter.png");
 }
 

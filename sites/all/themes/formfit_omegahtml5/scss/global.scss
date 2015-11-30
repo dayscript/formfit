@@ -382,22 +382,22 @@ footer.section-footer {
         color: #999;
         text-decoration: none;
       }
-      .facebook, .twitter {
-        margin-top: 9px;
-        float: right;
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        color: transparent;
-        background-position: center;
-        margin-left: 8px;
-      }
-      .facebook {
-        background-image: url("images/facebook.png");
-      }
-      .twitter {
-        background-image: url("images/twitter.png");
-      }
+    }
+    .facebook, .twitter {
+      margin-top: 9px;
+      float: right;
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      color: transparent;
+      background-position: center;
+      margin-left: 8px;
+    }
+    .facebook {
+      background-image: url("images/facebook.png");
+    }
+    .twitter {
+      background-image: url("images/twitter.png");
     }
   }
 }
