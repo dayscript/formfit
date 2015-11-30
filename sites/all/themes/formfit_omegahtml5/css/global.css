@@ -112,7 +112,7 @@ form .form-submit:hover {
 }
 /* line 104, ../scss/global.scss */
 .zone-menu-wrapper .zone-menu .block-nice-menus ul.nice-menu-down li a {
-  color: #989898;
+  color: #999;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
@@ -120,7 +120,7 @@ form .form-submit:hover {
 }
 /* line 111, ../scss/global.scss */
 .zone-menu-wrapper .zone-menu .block-nice-menus ul.nice-menu-down li a:hover, .zone-menu-wrapper .zone-menu .block-nice-menus ul.nice-menu-down li a:focus, .zone-menu-wrapper .zone-menu .block-nice-menus ul.nice-menu-down li a:active, .zone-menu-wrapper .zone-menu .block-nice-menus ul.nice-menu-down li a.active {
-  color: #d16055;
+  color: #e74c3c;
   text-decoration: none;
 }
 /* line 116, ../scss/global.scss */
@@ -790,4 +790,9 @@ footer.section-footer .block-menu ul.menu li a {
 /* line 735, ../scss/global.scss */
 #properties-compare-table tbody tr td:nth-child(1) {
   background-color: #E9E9E9;
+}
+
+/* line 743, ../scss/global.scss */
+.menu-no-title {
+  margin-top: 45px;
 }
