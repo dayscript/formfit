@@ -141,7 +141,7 @@ form .form-submit:hover {
   font-family: "open_sansregular";
   font-size: "13px";
   text-transform: lowercase;
-  padding: 11px 6px;
+  padding: 15px;
 }
 /* line 132, ../scss/global.scss */
 .zone-menu-wrapper .zone-menu .block-nice-menus ul.nice-menu-down li.even ul li a:first-letter {
