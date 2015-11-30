@@ -115,6 +115,38 @@ form {
         }
         li.even {
           margin: 0 40px;
+          ul {
+            background-color: #fff;
+            border: 0;
+            border-top: 9px solid #222;
+            li {
+              a {
+                color: #666;
+                font-family: "open_sansregular";
+                font-size: "13px";
+                text-transform: lowercase;
+                padding: 11px 6px;
+              }
+              a:first-letter {
+                text-transform: uppercase;
+              }
+              a:hover, a:focus, a:active, a.active {
+                background-color: #ff5757;
+                color: #fff;
+              }
+            }
+          }
+          ul:before {
+            content: "";
+            position: absolute;
+            top: -3px;
+            right: 10%;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 8px 8px 8px;
+            border-color: transparent transparent #222 transparent;
+          }
         }
       }
     }
