@@ -498,7 +498,7 @@ footer.section-footer {
   }
 }
 
-.text-reduce-search {
+.text-reduce-search, .text-reduce-search2 {
   h2 {
     font-family: "ubunturegular";
     font-size: 15px;
@@ -523,6 +523,9 @@ footer.section-footer {
     width: 40%;
     margin-top: 15px;
   }
+}
+
+.text-reduce-search {
   div.content {
     display: none;
   }
