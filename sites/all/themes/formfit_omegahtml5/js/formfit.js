@@ -20,6 +20,14 @@
                 var text = jQuery(".block-commerce-product-comparison").find(".num-compare").text();
                 text = text.replace("%", num);
                 jQuery(".block-commerce-product-comparison").find(".num-compare").text(text);
+                jQuery(".block-commerce-product-comparison").on({
+                    mouseenter: function() {
+                        $( this ).find(".content").show();
+                    }, mouseleave: function() {
+                        $( this ).find(".content").hide();
+                    }
+
+                });
             }
 
             if(jQuery(".all-products").length > 0) {

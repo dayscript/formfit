@@ -5,6 +5,11 @@ body {
   font-family: "open_sansregular";
   font-size: "normal";
   background-color: #f6f6f6;
+  line-height: 20px;
+}
+
+p {
+  line-height: 20px
 }
 
 textarea, select, 
@@ -87,6 +92,16 @@ form {
   .block-commerce-product-comparison {
     .num-compare {
       color: #e74c3c;
+    }
+    .delete-from-comparison {
+      float: left;
+      margin-right: 10px;
+    }
+    .content {
+      display: none;
+    }
+    h2 {
+      cursor: pointer;
     }
   }
 }
