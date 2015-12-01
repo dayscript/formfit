@@ -21,6 +21,30 @@
                 text = text.replace("%", num);
                 jQuery(".block-commerce-product-comparison").find(".num-compare").text(text);
             }
+
+            if(jQuery(".all-products").length > 0) {
+                jQuery(".all-products").find("form").on({
+                    mouseenter: function() {
+                        jQuery(this).find(".form-submit").show();
+                        jQuery(this).prev(".commerce-product-field-field-imagenes").addClass( "img_filter_white" );
+                    }, mouseleave: function() {
+                        jQuery(this).find(".form-submit").hide();
+                        jQuery(this).prev(".commerce-product-field-field-imagenes").removeClass( "img_filter_white" );
+                    }
+                });
+            }
+
+            if(jQuery(".all-products-home").length > 0) {
+                jQuery(".all-products-home").find("form").on({
+                    mouseenter: function() {
+                        jQuery(this).find(".form-submit").show();
+                        jQuery(this).prev(".commerce-product-field-field-imagenes").addClass( "img_filter_white" );
+                    }, mouseleave: function() {
+                        jQuery(this).find(".form-submit").hide();
+                        jQuery(this).prev(".commerce-product-field-field-imagenes").removeClass( "img_filter_white" );
+                    }
+                });
+            }
     	});
     } // End Attach
   }; // End Behaviors
