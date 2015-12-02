@@ -722,6 +722,10 @@ footer.section-footer {
   color: #fb5757;
   font-size: 13px;
   font-family: "open_sansregular";
+  .easy-breadcrumb_segment-separator {
+    color: #c5bcbc;
+    margin: 0 10px;
+  }
   a {
     color: #c5bcbc;
     text-decoration: none;
