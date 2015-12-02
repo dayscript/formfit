@@ -321,6 +321,9 @@ ul.quicktabs-tabs {
   margin-top: 47px;
   margin-bottom: 42px;
   height: 100%;
+  .field-content.grid-4.alpha {
+    margin-right: 13px;
+  }
   .views-row-1 {
     .promo-textos {
       position: absolute;
@@ -352,6 +355,17 @@ ul.quicktabs-tabs {
       }
       .promotexto1:before {
         content: ' ';
+        display: block;
+        height: 1px;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(10%);
+        background-color: #fff;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10px;
       }
     }
   }
@@ -967,6 +981,6 @@ footer.section-footer {
   .block-sharethis {
     position: absolute;
     margin-top: -50px;
-    right: 10px;
+    left: 10px;
   }
 }
