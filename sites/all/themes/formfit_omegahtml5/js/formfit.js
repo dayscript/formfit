@@ -53,6 +53,17 @@
                     }
                 });
             }
+
+            if(jQuery(".field-name-field-apocope").length > 0) {
+                jQuery(".field-name-field-apocope").find("a").on({
+                    mouseenter: function() {
+                        jQuery(this).closest(".field-name-field-apocope").next(".field-name-title").show();
+                    },
+                    mouseleave: function() {
+                        jQuery(this).closest(".field-name-field-apocope").next(".field-name-title").hide();
+                    }
+                });
+            }
     	});
     } // End Attach
   }; // End Behaviors
