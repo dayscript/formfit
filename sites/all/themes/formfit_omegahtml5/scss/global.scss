@@ -413,7 +413,7 @@ footer.section-footer {
       font-size: 14px;
       text-transform: uppercase;
       color: white;
-      margin-bottom: 32px;
+      margin-bottom: 19px;
     }
     ul.menu {
       list-style: none;
@@ -429,6 +429,9 @@ footer.section-footer {
     }
   }
   .block-simplenews {
+    h2 {
+      margin-bottom: 34px;
+    }
     p {
       font-family: "open_sansregular";
       font-size: 12px;
