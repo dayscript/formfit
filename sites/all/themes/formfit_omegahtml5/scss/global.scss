@@ -715,6 +715,20 @@ footer.section-footer {
       border-bottom: none;
       padding-bottom: 0;
     }
+    .field-name-field-color {
+      div {
+        display: inline-block;
+        padding: 0;
+        .field {
+          border-bottom: none;
+          margin: 0;
+          .commerce-fancy-attributes-color {
+            margin-top: 2px;
+            margin-right: 2px;
+          }
+        }
+      }
+    }
     form {
       label {
         color: #999;
