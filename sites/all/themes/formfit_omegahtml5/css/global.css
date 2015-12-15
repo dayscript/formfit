@@ -1095,3 +1095,7 @@ footer.section-footer .region-footer-six .twitter {
 .results-texts h3 {
   font-weight: normal;
 }
+/* line 1022, ../scss/global.scss */
+.results-texts .item-list ul li {
+  font-size: 13px;
+}
