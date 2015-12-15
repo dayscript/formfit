@@ -703,7 +703,11 @@ footer.section-footer {
       padding: 0 0 20px;
     }
     .field-name-field-product {
-      display: none;
+      form {
+        .form-submit {
+          display: none;
+        }
+      }
     }
     .commerce-product-field-field-vote {
       border-bottom: none;
