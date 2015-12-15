@@ -1084,3 +1084,14 @@ footer.section-footer .region-footer-six .twitter {
   margin-top: -50px;
   left: 10px;
 }
+
+/* line 1013, ../scss/global.scss */
+.results-texts {
+  font-family: "open_sansregular";
+  font-size: 13px;
+  color: #666;
+}
+/* line 1017, ../scss/global.scss */
+.results-texts h3 {
+  font-weight: normal;
+}
