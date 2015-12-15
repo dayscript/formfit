@@ -1021,6 +1021,18 @@ footer.section-footer {
     ul {
       li {
         font-size: 13px;
+        a {
+          color: transparent;
+          display: inline-block;
+          width: 12px;
+          span {
+            display: none;
+          }
+        }
+        a:before {
+          content: "\00D7";
+          color: #666;
+        }
       }
     }
   }

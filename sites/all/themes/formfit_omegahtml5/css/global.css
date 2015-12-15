@@ -1099,3 +1099,18 @@ footer.section-footer .region-footer-six .twitter {
 .results-texts .item-list ul li {
   font-size: 13px;
 }
+/* line 1024, ../scss/global.scss */
+.results-texts .item-list ul li a {
+  color: transparent;
+  display: inline-block;
+  width: 12px;
+}
+/* line 1028, ../scss/global.scss */
+.results-texts .item-list ul li a span {
+  display: none;
+}
+/* line 1032, ../scss/global.scss */
+.results-texts .item-list ul li a:before {
+  content: "\00D7";
+  color: #666;
+}
