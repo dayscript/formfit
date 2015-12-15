@@ -996,6 +996,9 @@ footer.section-footer {
         background-color: #E9E9E9;
       }
     }
+    tr:last-child {
+      display: none;
+    }
   }
 }
 

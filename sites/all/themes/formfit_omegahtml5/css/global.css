@@ -1074,58 +1074,62 @@ footer.section-footer .region-footer-six .twitter {
 #properties-compare-table tbody tr td:nth-child(1) {
   background-color: #E9E9E9;
 }
+/* line 999, ../scss/global.scss */
+#properties-compare-table tbody tr:last-child {
+  display: none;
+}
 
-/* line 1003, ../scss/global.scss */
+/* line 1006, ../scss/global.scss */
 .menu-no-title {
   margin-top: 45px;
 }
 
-/* line 1007, ../scss/global.scss */
+/* line 1010, ../scss/global.scss */
 .cloud-zoom-gallery-thumbs {
   margin-top: 6px;
 }
 
-/* line 1012, ../scss/global.scss */
+/* line 1015, ../scss/global.scss */
 .cloud-zoom-gallery-thumbs a:nth-child(2), .cloud-zoom-gallery-thumbs a:nth-child(3) {
   margin: 6px 3px;
 }
 
-/* line 1017, ../scss/global.scss */
+/* line 1020, ../scss/global.scss */
 .grid-9.region-pre-postscript {
   float: right;
 }
-/* line 1019, ../scss/global.scss */
+/* line 1022, ../scss/global.scss */
 .grid-9.region-pre-postscript .block-sharethis {
   position: absolute;
   margin-top: -50px;
   left: 10px;
 }
 
-/* line 1026, ../scss/global.scss */
+/* line 1029, ../scss/global.scss */
 .results-texts {
   font-family: "open_sansregular";
   font-size: 13px;
   color: #666;
 }
-/* line 1030, ../scss/global.scss */
+/* line 1033, ../scss/global.scss */
 .results-texts h3 {
   font-weight: normal;
 }
-/* line 1035, ../scss/global.scss */
+/* line 1038, ../scss/global.scss */
 .results-texts .item-list ul li {
   font-size: 13px;
 }
-/* line 1037, ../scss/global.scss */
+/* line 1040, ../scss/global.scss */
 .results-texts .item-list ul li a {
   color: transparent;
   display: inline-block;
   width: 12px;
 }
-/* line 1041, ../scss/global.scss */
+/* line 1044, ../scss/global.scss */
 .results-texts .item-list ul li a span {
   display: none;
 }
-/* line 1045, ../scss/global.scss */
+/* line 1048, ../scss/global.scss */
 .results-texts .item-list ul li a:before {
   content: "\00D7";
   color: #666;
