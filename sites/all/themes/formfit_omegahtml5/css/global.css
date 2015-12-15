@@ -830,10 +830,10 @@ footer.section-footer .region-footer-six .twitter {
   width: auto;
   margin-right: 5px;
 }
-/* line 758, ../scss/global.scss */
-.field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a {
+/* line 757, ../scss/global.scss */
+.field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item {
   width: 30px;
-  height: 19px;
+  height: 25px;
   display: block;
   text-align: center;
   background-color: #ff787f;
@@ -841,21 +841,22 @@ footer.section-footer .region-footer-six .twitter {
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  padding: 10px 5px;
+  padding: 8px 5px;
   font-family: "open_sansregular";
   font-size: 13px;
   text-decoration: none;
   text-transform: uppercase;
+  cursor: pointer;
 }
 /* line 774, ../scss/global.scss */
-.field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a:hover, .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a:focus, .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a:active, .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a.active {
+.field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item:hover, .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item:focus, .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item:active, .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item.active {
   background-color: #9cb6b9;
 }
 /* line 777, ../scss/global.scss */
-.field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a:hover + div.field-name-title {
+.field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item:hover + div.field-name-title {
   display: inline-block;
 }
-/* line 783, ../scss/global.scss */
+/* line 782, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-title {
   display: none;
   position: absolute;
@@ -867,7 +868,7 @@ footer.section-footer .region-footer-six .twitter {
   font-size: 9px;
   font-weight: normal;
 }
-/* line 794, ../scss/global.scss */
+/* line 793, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-title:before {
   content: "";
   position: absolute;
@@ -879,7 +880,7 @@ footer.section-footer .region-footer-six .twitter {
   border-color: transparent transparent #ff5757 transparent;
 }
 
-/* line 809, ../scss/global.scss */
+/* line 808, ../scss/global.scss */
 .commerce-product-field-commerce-price .field-items {
   margin-left: 50px;
   font-size: 24px;
@@ -887,16 +888,16 @@ footer.section-footer .region-footer-six .twitter {
   color: #ff5757;
 }
 
-/* line 818, ../scss/global.scss */
+/* line 817, ../scss/global.scss */
 .field-name-field-linea .field-label {
   margin-bottom: 10px;
 }
-/* line 823, ../scss/global.scss */
+/* line 822, ../scss/global.scss */
 .field-name-field-linea .field-items .field-item .field {
   padding-bottom: 0;
   border-bottom: none !important;
 }
-/* line 826, ../scss/global.scss */
+/* line 825, ../scss/global.scss */
 .field-name-field-linea .field-items .field-item .field a {
   color: #ff5757;
   text-decoration: none;
@@ -905,27 +906,27 @@ footer.section-footer .region-footer-six .twitter {
   font-size: 13px;
 }
 
-/* line 838, ../scss/global.scss */
+/* line 837, ../scss/global.scss */
 .form-type-commerce-fancy-attributes-ajax {
   overflow: hidden;
   border-bottom: 1px solid #e0e0e0;
 }
-/* line 841, ../scss/global.scss */
+/* line 840, ../scss/global.scss */
 .form-type-commerce-fancy-attributes-ajax .form-item {
   float: left;
 }
-/* line 844, ../scss/global.scss */
+/* line 843, ../scss/global.scss */
 .form-type-commerce-fancy-attributes-ajax .form-item .description .field {
   border-bottom: none;
   padding-bottom: 0;
 }
 
-/* line 852, ../scss/global.scss */
+/* line 851, ../scss/global.scss */
 .front #first-time {
   display: none;
 }
 
-/* line 857, ../scss/global.scss */
+/* line 856, ../scss/global.scss */
 .region-content h1 {
   padding-bottom: 15px;
   margin-bottom: 8px;
@@ -937,7 +938,7 @@ footer.section-footer .region-footer-six .twitter {
   color: #666;
   border-bottom: 1px solid #dddddd;
 }
-/* line 868, ../scss/global.scss */
+/* line 867, ../scss/global.scss */
 .region-content h1:after {
   content: '';
   display: block;
@@ -953,7 +954,7 @@ footer.section-footer .region-footer-six .twitter {
   width: 10%;
   margin-top: 15px;
 }
-/* line 883, ../scss/global.scss */
+/* line 882, ../scss/global.scss */
 .region-content .node-page {
   font-family: "open_sansregular";
   font-size: 14px;
@@ -962,15 +963,15 @@ footer.section-footer .region-footer-six .twitter {
   margin-bottom: 47px;
 }
 
-/* line 892, ../scss/global.scss */
+/* line 891, ../scss/global.scss */
 .block-bloque-lineas-block {
   padding: 21px 0;
 }
-/* line 895, ../scss/global.scss */
+/* line 894, ../scss/global.scss */
 .block-bloque-lineas-block ul li {
   margin: 0;
 }
-/* line 897, ../scss/global.scss */
+/* line 896, ../scss/global.scss */
 .block-bloque-lineas-block ul li a {
   text-decoration: none;
   color: #666;
@@ -978,7 +979,7 @@ footer.section-footer .region-footer-six .twitter {
   font-size: 13px;
 }
 
-/* line 907, ../scss/global.scss */
+/* line 906, ../scss/global.scss */
 .text-block-sidebar-first {
   text-decoration: none;
   color: #666;
@@ -986,58 +987,58 @@ footer.section-footer .region-footer-six .twitter {
   font-size: 13px;
   margin: 20px 0;
 }
-/* line 913, ../scss/global.scss */
+/* line 912, ../scss/global.scss */
 .text-block-sidebar-first a {
   color: #fb5757;
   text-decoration: none;
 }
 
-/* line 919, ../scss/global.scss */
+/* line 918, ../scss/global.scss */
 .node-webform {
   min-height: 340px;
 }
-/* line 921, ../scss/global.scss */
+/* line 920, ../scss/global.scss */
 .node-webform footer {
   display: none;
 }
-/* line 925, ../scss/global.scss */
+/* line 924, ../scss/global.scss */
 .node-webform form .webform-component-email, .node-webform form .webform-component-textfield {
   float: left;
   width: calc(50% - 2px);
 }
-/* line 928, ../scss/global.scss */
+/* line 927, ../scss/global.scss */
 .node-webform form .webform-component-email .form-text, .node-webform form .webform-component-textfield .form-text {
   width: 100%;
 }
-/* line 932, ../scss/global.scss */
+/* line 931, ../scss/global.scss */
 .node-webform form .webform-component-email {
   margin-left: 4px;
 }
-/* line 935, ../scss/global.scss */
+/* line 934, ../scss/global.scss */
 .node-webform form .form-actions {
   clear: both;
   text-align: right;
 }
-/* line 938, ../scss/global.scss */
+/* line 937, ../scss/global.scss */
 .node-webform form .form-actions input[type="submit"] {
   font-size: 14px;
   padding: 10px 20px;
 }
-/* line 943, ../scss/global.scss */
+/* line 942, ../scss/global.scss */
 .node-webform form .webform-component-textarea {
   margin-top: 0;
 }
-/* line 945, ../scss/global.scss */
+/* line 944, ../scss/global.scss */
 .node-webform form .webform-component-textarea .form-textarea-wrapper textarea {
   height: 200px;
 }
 
-/* line 955, ../scss/global.scss */
+/* line 954, ../scss/global.scss */
 #properties-compare-table thead tr th {
   text-align: center;
   padding: 20px;
 }
-/* line 963, ../scss/global.scss */
+/* line 962, ../scss/global.scss */
 #properties-compare-table tbody tr td {
   background-color: #f6f6f6;
   font-family: "open_sansregular";
@@ -1048,36 +1049,36 @@ footer.section-footer .region-footer-six .twitter {
   text-align: center;
   padding: 20px;
 }
-/* line 973, ../scss/global.scss */
+/* line 972, ../scss/global.scss */
 #properties-compare-table tbody tr td form .form-submit {
   font-size: 13px;
   padding: 18px 22px;
 }
-/* line 979, ../scss/global.scss */
+/* line 978, ../scss/global.scss */
 #properties-compare-table tbody tr td:nth-child(1) {
   background-color: #E9E9E9;
 }
 
-/* line 987, ../scss/global.scss */
+/* line 986, ../scss/global.scss */
 .menu-no-title {
   margin-top: 45px;
 }
 
-/* line 991, ../scss/global.scss */
+/* line 990, ../scss/global.scss */
 .cloud-zoom-gallery-thumbs {
   margin-top: 6px;
 }
 
-/* line 996, ../scss/global.scss */
+/* line 995, ../scss/global.scss */
 .cloud-zoom-gallery-thumbs a:nth-child(2), .cloud-zoom-gallery-thumbs a:nth-child(3) {
   margin: 6px 3px;
 }
 
-/* line 1001, ../scss/global.scss */
+/* line 1000, ../scss/global.scss */
 .grid-9.region-pre-postscript {
   float: right;
 }
-/* line 1003, ../scss/global.scss */
+/* line 1002, ../scss/global.scss */
 .grid-9.region-pre-postscript .block-sharethis {
   position: absolute;
   margin-top: -50px;

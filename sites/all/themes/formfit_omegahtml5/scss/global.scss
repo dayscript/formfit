@@ -755,28 +755,27 @@ footer.section-footer {
           width: auto;
           margin-right: 5px;
           .field-item {
-            a {
-              width: 30px;
-              height: 19px;
-              display: block;
-              text-align: center;
-              background-color: #ff787f;
-              color: white;
-              -moz-border-radius: 100%;
-              -webkit-border-radius: 100%;
-              border-radius: 100%;
-              padding: 10px 5px;
-              font-family: "open_sansregular";
-              font-size: 13px;
-              text-decoration: none;
-              text-transform: uppercase;
-            }
-            a:hover, a:focus, a:active, a.active {
-              background-color: #9cb6b9;
-            }
-            a:hover + div.field-name-title {
-              display: inline-block;
-            }
+            width: 30px;
+            height: 25px;
+            display: block;
+            text-align: center;
+            background-color: #ff787f;
+            color: white;
+            -moz-border-radius: 100%;
+            -webkit-border-radius: 100%;
+            border-radius: 100%;
+            padding: 8px 5px;
+            font-family: "open_sansregular";
+            font-size: 13px;
+            text-decoration: none;
+            text-transform: uppercase;
+            cursor: pointer;
+          }
+          .field-item:hover, .field-item:focus, .field-item:active, .field-item.active {
+            background-color: #9cb6b9;
+          }
+          .field-item:hover + div.field-name-title {
+            display: inline-block;
           }
         }
       }
