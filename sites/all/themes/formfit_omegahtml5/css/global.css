@@ -768,11 +768,15 @@ footer.section-footer .region-footer-six .twitter {
   padding: 0 0 20px;
 }
 /* line 705, ../scss/global.scss */
+.node-product-type-full .group-right .field-name-field-product {
+  display: none;
+}
+/* line 708, ../scss/global.scss */
 .node-product-type-full .group-right .commerce-product-field-field-vote {
   border-bottom: none;
   padding-bottom: 0;
 }
-/* line 710, ../scss/global.scss */
+/* line 713, ../scss/global.scss */
 .node-product-type-full .group-right form label {
   color: #999;
   font-family: "open_sansregular";
@@ -781,7 +785,7 @@ footer.section-footer .region-footer-six .twitter {
   margin-right: 70px;
 }
 
-/* line 721, ../scss/global.scss */
+/* line 724, ../scss/global.scss */
 .zone-breadcrumb-wrapper {
   background-color: #e9e9e9;
   padding: 20px 0;
@@ -790,43 +794,43 @@ footer.section-footer .region-footer-six .twitter {
   font-size: 13px;
   font-family: "open_sansregular";
 }
-/* line 728, ../scss/global.scss */
+/* line 731, ../scss/global.scss */
 .zone-breadcrumb-wrapper .easy-breadcrumb_segment-separator {
   color: #c5bcbc;
   margin: 0 10px;
 }
-/* line 732, ../scss/global.scss */
+/* line 735, ../scss/global.scss */
 .zone-breadcrumb-wrapper a {
   color: #c5bcbc;
   text-decoration: none;
 }
 
-/* line 739, ../scss/global.scss */
+/* line 742, ../scss/global.scss */
 .field-name-field-servicios .field {
   border-bottom: none !important;
 }
-/* line 742, ../scss/global.scss */
+/* line 745, ../scss/global.scss */
 .field-name-field-servicios .field-label {
   margin-bottom: 10px;
 }
-/* line 745, ../scss/global.scss */
+/* line 748, ../scss/global.scss */
 .field-name-field-servicios .field-items {
   overflow: hidden;
 }
-/* line 747, ../scss/global.scss */
+/* line 750, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item {
   float: left;
 }
-/* line 749, ../scss/global.scss */
+/* line 752, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-field-apocope {
   padding-bottom: 0;
 }
-/* line 751, ../scss/global.scss */
+/* line 754, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items {
   width: auto;
   margin-right: 5px;
 }
-/* line 755, ../scss/global.scss */
+/* line 758, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a {
   width: 30px;
   height: 19px;
@@ -843,15 +847,15 @@ footer.section-footer .region-footer-six .twitter {
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 771, ../scss/global.scss */
+/* line 774, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a:hover, .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a:focus, .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a:active, .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a.active {
   background-color: #9cb6b9;
 }
-/* line 774, ../scss/global.scss */
+/* line 777, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-field-apocope .field-items .field-item a:hover + div.field-name-title {
   display: inline-block;
 }
-/* line 780, ../scss/global.scss */
+/* line 783, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-title {
   display: none;
   position: absolute;
@@ -863,7 +867,7 @@ footer.section-footer .region-footer-six .twitter {
   font-size: 9px;
   font-weight: normal;
 }
-/* line 791, ../scss/global.scss */
+/* line 794, ../scss/global.scss */
 .field-name-field-servicios .field-items .field-item .field-name-title:before {
   content: "";
   position: absolute;
@@ -875,7 +879,7 @@ footer.section-footer .region-footer-six .twitter {
   border-color: transparent transparent #ff5757 transparent;
 }
 
-/* line 806, ../scss/global.scss */
+/* line 809, ../scss/global.scss */
 .commerce-product-field-commerce-price .field-items {
   margin-left: 50px;
   font-size: 24px;
@@ -883,16 +887,16 @@ footer.section-footer .region-footer-six .twitter {
   color: #ff5757;
 }
 
-/* line 815, ../scss/global.scss */
+/* line 818, ../scss/global.scss */
 .field-name-field-linea .field-label {
   margin-bottom: 10px;
 }
-/* line 820, ../scss/global.scss */
+/* line 823, ../scss/global.scss */
 .field-name-field-linea .field-items .field-item .field {
   padding-bottom: 0;
   border-bottom: none !important;
 }
-/* line 823, ../scss/global.scss */
+/* line 826, ../scss/global.scss */
 .field-name-field-linea .field-items .field-item .field a {
   color: #ff5757;
   text-decoration: none;
@@ -901,27 +905,27 @@ footer.section-footer .region-footer-six .twitter {
   font-size: 13px;
 }
 
-/* line 835, ../scss/global.scss */
+/* line 838, ../scss/global.scss */
 .form-type-commerce-fancy-attributes-ajax {
   overflow: hidden;
   border-bottom: 1px solid #e0e0e0;
 }
-/* line 838, ../scss/global.scss */
+/* line 841, ../scss/global.scss */
 .form-type-commerce-fancy-attributes-ajax .form-item {
   float: left;
 }
-/* line 841, ../scss/global.scss */
+/* line 844, ../scss/global.scss */
 .form-type-commerce-fancy-attributes-ajax .form-item .description .field {
   border-bottom: none;
   padding-bottom: 0;
 }
 
-/* line 849, ../scss/global.scss */
+/* line 852, ../scss/global.scss */
 .front #first-time {
   display: none;
 }
 
-/* line 854, ../scss/global.scss */
+/* line 857, ../scss/global.scss */
 .region-content h1 {
   padding-bottom: 15px;
   margin-bottom: 8px;
@@ -933,7 +937,7 @@ footer.section-footer .region-footer-six .twitter {
   color: #666;
   border-bottom: 1px solid #dddddd;
 }
-/* line 865, ../scss/global.scss */
+/* line 868, ../scss/global.scss */
 .region-content h1:after {
   content: '';
   display: block;
@@ -949,7 +953,7 @@ footer.section-footer .region-footer-six .twitter {
   width: 10%;
   margin-top: 15px;
 }
-/* line 880, ../scss/global.scss */
+/* line 883, ../scss/global.scss */
 .region-content .node-page {
   font-family: "open_sansregular";
   font-size: 14px;
@@ -958,15 +962,15 @@ footer.section-footer .region-footer-six .twitter {
   margin-bottom: 47px;
 }
 
-/* line 889, ../scss/global.scss */
+/* line 892, ../scss/global.scss */
 .block-bloque-lineas-block {
   padding: 21px 0;
 }
-/* line 892, ../scss/global.scss */
+/* line 895, ../scss/global.scss */
 .block-bloque-lineas-block ul li {
   margin: 0;
 }
-/* line 894, ../scss/global.scss */
+/* line 897, ../scss/global.scss */
 .block-bloque-lineas-block ul li a {
   text-decoration: none;
   color: #666;
@@ -974,7 +978,7 @@ footer.section-footer .region-footer-six .twitter {
   font-size: 13px;
 }
 
-/* line 904, ../scss/global.scss */
+/* line 907, ../scss/global.scss */
 .text-block-sidebar-first {
   text-decoration: none;
   color: #666;
@@ -982,58 +986,58 @@ footer.section-footer .region-footer-six .twitter {
   font-size: 13px;
   margin: 20px 0;
 }
-/* line 910, ../scss/global.scss */
+/* line 913, ../scss/global.scss */
 .text-block-sidebar-first a {
   color: #fb5757;
   text-decoration: none;
 }
 
-/* line 916, ../scss/global.scss */
+/* line 919, ../scss/global.scss */
 .node-webform {
   min-height: 340px;
 }
-/* line 918, ../scss/global.scss */
+/* line 921, ../scss/global.scss */
 .node-webform footer {
   display: none;
 }
-/* line 922, ../scss/global.scss */
+/* line 925, ../scss/global.scss */
 .node-webform form .webform-component-email, .node-webform form .webform-component-textfield {
   float: left;
   width: calc(50% - 2px);
 }
-/* line 925, ../scss/global.scss */
+/* line 928, ../scss/global.scss */
 .node-webform form .webform-component-email .form-text, .node-webform form .webform-component-textfield .form-text {
   width: 100%;
 }
-/* line 929, ../scss/global.scss */
+/* line 932, ../scss/global.scss */
 .node-webform form .webform-component-email {
   margin-left: 4px;
 }
-/* line 932, ../scss/global.scss */
+/* line 935, ../scss/global.scss */
 .node-webform form .form-actions {
   clear: both;
   text-align: right;
 }
-/* line 935, ../scss/global.scss */
+/* line 938, ../scss/global.scss */
 .node-webform form .form-actions input[type="submit"] {
   font-size: 14px;
   padding: 10px 20px;
 }
-/* line 940, ../scss/global.scss */
+/* line 943, ../scss/global.scss */
 .node-webform form .webform-component-textarea {
   margin-top: 0;
 }
-/* line 942, ../scss/global.scss */
+/* line 945, ../scss/global.scss */
 .node-webform form .webform-component-textarea .form-textarea-wrapper textarea {
   height: 200px;
 }
 
-/* line 952, ../scss/global.scss */
+/* line 955, ../scss/global.scss */
 #properties-compare-table thead tr th {
   text-align: center;
   padding: 20px;
 }
-/* line 960, ../scss/global.scss */
+/* line 963, ../scss/global.scss */
 #properties-compare-table tbody tr td {
   background-color: #f6f6f6;
   font-family: "open_sansregular";
@@ -1044,36 +1048,36 @@ footer.section-footer .region-footer-six .twitter {
   text-align: center;
   padding: 20px;
 }
-/* line 970, ../scss/global.scss */
+/* line 973, ../scss/global.scss */
 #properties-compare-table tbody tr td form .form-submit {
   font-size: 13px;
   padding: 18px 22px;
 }
-/* line 976, ../scss/global.scss */
+/* line 979, ../scss/global.scss */
 #properties-compare-table tbody tr td:nth-child(1) {
   background-color: #E9E9E9;
 }
 
-/* line 984, ../scss/global.scss */
+/* line 987, ../scss/global.scss */
 .menu-no-title {
   margin-top: 45px;
 }
 
-/* line 988, ../scss/global.scss */
+/* line 991, ../scss/global.scss */
 .cloud-zoom-gallery-thumbs {
   margin-top: 6px;
 }
 
-/* line 993, ../scss/global.scss */
+/* line 996, ../scss/global.scss */
 .cloud-zoom-gallery-thumbs a:nth-child(2), .cloud-zoom-gallery-thumbs a:nth-child(3) {
   margin: 6px 3px;
 }
 
-/* line 998, ../scss/global.scss */
+/* line 1001, ../scss/global.scss */
 .grid-9.region-pre-postscript {
   float: right;
 }
-/* line 1000, ../scss/global.scss */
+/* line 1003, ../scss/global.scss */
 .grid-9.region-pre-postscript .block-sharethis {
   position: absolute;
   margin-top: -50px;
