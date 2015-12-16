@@ -1085,11 +1085,13 @@ footer.section-footer {
       display: inline;
       margin-right: 5px;
       padding: 4px;
+      font-weight: normal;
       a {
         background: transparent;
         display: inherit;
         color: white;
         font-weight: normal;
+        font-family: "open_sansregular";
       }
       a:hover, a:focus {
         color: white;
@@ -1098,6 +1100,11 @@ footer.section-footer {
     li.pager-current {
       padding: 4px 12px;
       background-color: #FF5757;
+      font-weight: normal;
+    }
+    li.pager-first, li.pager-previous, li.pager-next, li.pager-last {
+      padding-right: 8px;
+      padding-left: 8px;
     }
     li.pager-next {
       width: auto;
