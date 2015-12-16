@@ -1068,7 +1068,6 @@ footer.section-footer {
     border: none;
     margin-top: 20px;
     li, li.pager-next, li.pager-last {
-      background-image: none;
       display: inline-block;
       list-style-type: none;
       float: none;
@@ -1083,12 +1082,29 @@ footer.section-footer {
       width: 32px;
       height: 32px;
       padding: 0;
+      display: inline;
+      margin-right: 5px;
+      padding: 4px;
       a {
         background: transparent;
+        display: inherit;
+        color: white;
+        font-weight: normal;
+      }
+      a:hover, a:focus {
+        color: white;
       }
     }
     li.pager-current {
-      padding: 5px;
+      padding: 4px 12px;
+      background-color: #FF5757;
+    }
+    li.pager-next {
+      width: auto;
+      right: 0;
+    }
+    li:hover, li:focus {
+      background-color: #FF5757;
     }
   }
 }

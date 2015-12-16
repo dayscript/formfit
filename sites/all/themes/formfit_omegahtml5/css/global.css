@@ -1152,7 +1152,6 @@ footer.section-footer .region-footer-six .twitter {
 }
 /* line 1070, ../scss/global.scss */
 .item-list .pager li, .item-list .pager li.pager-next, .item-list .pager li.pager-last {
-  background-image: none;
   display: inline-block;
   list-style-type: none;
   float: none;
@@ -1167,12 +1166,32 @@ footer.section-footer .region-footer-six .twitter {
   width: 32px;
   height: 32px;
   padding: 0;
+  display: inline;
+  margin-right: 5px;
+  padding: 4px;
 }
-/* line 1086, ../scss/global.scss */
+/* line 1088, ../scss/global.scss */
 .item-list .pager li a, .item-list .pager li.pager-next a, .item-list .pager li.pager-last a {
   background: transparent;
+  display: inherit;
+  color: white;
+  font-weight: normal;
 }
-/* line 1090, ../scss/global.scss */
+/* line 1094, ../scss/global.scss */
+.item-list .pager li a:hover, .item-list .pager li a:focus, .item-list .pager li.pager-next a:hover, .item-list .pager li.pager-next a:focus, .item-list .pager li.pager-last a:hover, .item-list .pager li.pager-last a:focus {
+  color: white;
+}
+/* line 1098, ../scss/global.scss */
 .item-list .pager li.pager-current {
-  padding: 5px;
+  padding: 4px 12px;
+  background-color: #FF5757;
+}
+/* line 1102, ../scss/global.scss */
+.item-list .pager li.pager-next {
+  width: auto;
+  right: 0;
+}
+/* line 1106, ../scss/global.scss */
+.item-list .pager li:hover, .item-list .pager li:focus {
+  background-color: #FF5757;
 }
