@@ -718,6 +718,7 @@ footer.section-footer .region-footer-six .twitter {
 .node-product-type-full {
   background-color: #f8f8f8;
   border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
 }
 /* line 655, ../scss/global.scss */
 .node-product-type-full .group-header {
