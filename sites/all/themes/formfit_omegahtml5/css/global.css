@@ -630,11 +630,11 @@ footer.section-footer .region-footer-six .twitter {
 
 /* line 568, ../scss/global.scss */
 .all-products .views-row:nth-child(2), .all-products .views-row:nth-child(5), .all-products .views-row:nth-child(8) {
-  margin: 0 43px;
+  margin: 0 20px;
 }
 /* line 571, ../scss/global.scss */
 .all-products .views-row:nth-child(4), .all-products .views-row:nth-child(5), .all-products .views-row:nth-child(6) {
-  margin-top: 56px;
+  margin-top: 30px;
   margin-bottom: 56px;
 }
 
