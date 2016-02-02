@@ -1,13 +1,19 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 /* line 4, ../scss/global.scss */
-body, a, p, ul, ol, li, img, span, strong, em {
+body, p, ul, ol, li, img, span, strong, em {
   font-family: "open_sansregular";
   font-size: 14px;
   line-height: 22px;
   color: #666;
 }
-
+a{
+  font-family: "open_sansregular";
+  font-size: 14px;
+  line-height: 22px;
+  color: #990000;
+  text-decoration: none;
+}
 /* line 10, ../scss/global.scss */
 body {
   background-color: #f6f6f6;
