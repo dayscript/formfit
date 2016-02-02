@@ -10,8 +10,8 @@ body, p, ul, ol, li, img, span, strong, em {
 a{
   font-family: "open_sansregular";
   font-size: 14px;
-  line-height: 22px;
-  color: #990000;
+  line-height: 24px;
+  color: #E84D3B;
   text-decoration: none;
 }
 /* line 10, ../scss/global.scss */
