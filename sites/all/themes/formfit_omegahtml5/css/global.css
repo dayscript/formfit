@@ -3,8 +3,9 @@
 /* line 4, ../scss/global.scss */
 body, a, p, ul, ol, li, img, span, strong, em {
   font-family: "open_sansregular";
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #666;
 }
 
 /* line 10, ../scss/global.scss */
