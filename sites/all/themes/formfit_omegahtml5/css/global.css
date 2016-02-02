@@ -640,11 +640,11 @@ footer.section-footer .region-footer-six .twitter {
 
 /* line 578, ../scss/global.scss */
 .all-products-home .views-row:nth-child(2), .all-products-home .views-row:nth-child(6) {
-  margin: 0 40px;
+  margin: 0 20px;
 }
 /* line 581, ../scss/global.scss */
 .all-products-home .views-row:nth-child(3), .all-products-home .views-row:nth-child(7) {
-  margin-right: 40px;
+  margin-right: 20px;
 }
 /* line 584, ../scss/global.scss */
 .all-products-home .views-row:nth-child(5), .all-products-home .views-row:nth-child(6), .all-products-home .views-row:nth-child(7), .all-products-home .views-row:nth-child(8) {
