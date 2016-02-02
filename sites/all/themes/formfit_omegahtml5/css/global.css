@@ -759,8 +759,8 @@ footer.section-footer .region-footer-six .twitter {
 }
 /* line 689, ../scss/global.scss */
 .node-product-type-full .group-left, .node-product-type-full .group-right {
-  padding: 5px;
-  width: calc(50% - 11px);
+  padding: 15px;
+  width: calc(45%);
   height: 692px;
   margin-bottom: 20px;
   display: inline-block;
