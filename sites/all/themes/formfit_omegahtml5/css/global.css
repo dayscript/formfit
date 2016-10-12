@@ -1211,3 +1211,14 @@ footer.section-footer .region-footer-six .twitter {
 .item-list .pager li:hover, .item-list .pager li:focus {
   background-color: #FF5757;
 }
+
+#edit-submitted-zona{
+    padding: 0 !important;
+    height: 2.8em;
+    color: #938888;
+        width: 173px;
+}
+
+.webform-component--correo-zona{
+  display: none;
+}
